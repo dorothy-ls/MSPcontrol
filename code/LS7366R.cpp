@@ -96,7 +96,6 @@ void LS7366R::Handler()
 //    count <<= 8;
 //    count |= SPI.transfer(0x00);
     DL_GPIO_setPins(si_port,leftSelect);
-    leftValue = (count1[0] << 24) + (count1[1] << 16) + (count1[2] << 8) + count1[3];
 
     temp = RD | OTR;
     DL_GPIO_clearPins(si_port,rightSelect);
@@ -113,6 +112,7 @@ void LS7366R::Handler()
 //    count <<= 8;
 //    count |= SPI.transfer(0x00);
     DL_GPIO_setPins(si_port,rightSelect);
+    leftValue = (count1[0] << 24) + (count1[1] << 16) + (count1[2] << 8) + count1[3];
     rightValue = (count2[0] << 24) + (count2[1] << 16) + (count2[2] << 8) + count2[3];
 }
 

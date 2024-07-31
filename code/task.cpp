@@ -277,14 +277,14 @@ void task_handler()
             chassis.state = CHASSIS_STOP;
         }break;
         case 1: { //Ò£¿Ø
-//            float thresh = 0;
-//            if(remote.vertical < thresh && remote.vertical > -thresh){
-//                chassis.v_set = 0;
-//            }else chassis.v_set = remote.vertical * 0.1;
-//            if(remote.vertical < thresh && remote.vertical > -thresh){
-//                chassis.w_set = 0;
-//            }else chassis.w_set = remote.horizontal * (-0.1);
-//            chassis.state = CHASSIS_RUN;
+            float thresh = 0;
+            if(remote.vertical < thresh && remote.vertical > -thresh){
+                chassis.v_set = 0;
+            }else chassis.v_set = remote.vertical * 0.1;
+            if(remote.vertical < thresh && remote.vertical > -thresh){
+                chassis.w_set = 0;
+            }else chassis.w_set = remote.horizontal * (-0.1);
+            chassis.state = CHASSIS_RUN;
         }break;
         case 2: { //Î»ÖÃ¿ØÖÆÆ÷²âÊÔ¾ØÐÎ
 //            const float l = 0.3;
