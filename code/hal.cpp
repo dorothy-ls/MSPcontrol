@@ -1,6 +1,6 @@
 #include "hal.h"
 //HAL_SPI_Transmit(hspi, &temp, 1, 0xffff);
-void SPI_transmitData(SPI_Regs *hspi, uint8_t *data, uint8_t dataLength)
+void SPI_transmitData(SPI_Regs *hspi, uint8_t *data, uint16_t dataLength)
 {
     int i = 0;
     for (i = 0; i < dataLength; i++) {
@@ -11,7 +11,7 @@ void SPI_transmitData(SPI_Regs *hspi, uint8_t *data, uint8_t dataLength)
     while (DL_SPI_isBusy(hspi));
 }
 //HAL_SPI_Receive(hspi, &temp, 1, 0xffff);
-void SPI_receiveData(SPI_Regs *hspi, uint8_t *data, uint8_t dataLength)
+void SPI_receiveData(SPI_Regs *hspi, uint8_t *data, uint16_t dataLength)
 {
     int i = 0;
     for (i = 0; i < dataLength; i++) {
@@ -65,7 +65,7 @@ void spi_read_8bit_registers(SPI_Regs *hspi, uint8_t reg, uint8_t *data, uint16_
     DL_SPI_transmitData8(hspi,reg);
     while (DL_SPI_isBusy(hspi));
     for (int i = 0; i< len; i++) {
-        DL_SPI_transmitData8(hspi,0);
+        DL_SPI_transmitData8(hspi,0xff);
         while (DL_SPI_isBusy(hspi));
         while (!DL_SPI_isRXFIFOEmpty(hspi))
             data[i] = DL_SPI_receiveData8(hspi);
@@ -75,9 +75,9 @@ void spi_read_8bit_registers(SPI_Regs *hspi, uint8_t reg, uint8_t *data, uint16_
 uint8_t spi_read_8bit_register(SPI_Regs *hspi, uint8_t reg){
     DL_SPI_transmitData8(hspi,reg);
     while (DL_SPI_isBusy(hspi));
-    DL_SPI_transmitData8(hspi,0);
+    DL_SPI_transmitData8(hspi,0xff);
     while (DL_SPI_isBusy(hspi));
-    uint8_t data = 0;
+    uint8_t data;
     while (!DL_SPI_isRXFIFOEmpty(hspi))
         data = DL_SPI_receiveData8(hspi);
     return data;

@@ -1,6 +1,6 @@
 #include "N20_Motor.h"
 
-#define ENCODER_FREQ 1000
+#define ENCODER_FREQ 100
 void N20_Motor::Handler() //systick IRQ
 {
     measure_parameter();//1ms获取一次反馈数据

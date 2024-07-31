@@ -146,21 +146,6 @@ extern "C" {
 
 
 
-
-/* Defines for I2C_0 */
-#define I2C_0_INST                                                          I2C1
-#define I2C_0_INST_IRQHandler                                    I2C1_IRQHandler
-#define I2C_0_INST_INT_IRQN                                        I2C1_INT_IRQn
-#define GPIO_I2C_0_SDA_PORT                                                GPIOB
-#define GPIO_I2C_0_SDA_PIN                                         DL_GPIO_PIN_3
-#define GPIO_I2C_0_IOMUX_SDA                                     (IOMUX_PINCM16)
-#define GPIO_I2C_0_IOMUX_SDA_FUNC                      IOMUX_PINCM16_PF_I2C1_SDA
-#define GPIO_I2C_0_SCL_PORT                                                GPIOB
-#define GPIO_I2C_0_SCL_PIN                                         DL_GPIO_PIN_2
-#define GPIO_I2C_0_IOMUX_SCL                                     (IOMUX_PINCM15)
-#define GPIO_I2C_0_IOMUX_SCL_FUNC                      IOMUX_PINCM15_PF_I2C1_SCL
-
-
 /* Defines for UART_0 */
 #define UART_0_INST                                                        UART0
 #define UART_0_INST_IRQHandler                                  UART0_IRQHandler
@@ -292,7 +277,6 @@ void SYSCFG_DL_PWM_MOTOR0_init(void);
 void SYSCFG_DL_TIM_CCD_init(void);
 void SYSCFG_DL_PWM_MOTOR1_init(void);
 void SYSCFG_DL_PWM_BUZZER_init(void);
-void SYSCFG_DL_I2C_0_init(void);
 void SYSCFG_DL_UART_0_init(void);
 void SYSCFG_DL_SPI_IMU_init(void);
 void SYSCFG_DL_SPI_ENCODER_init(void);

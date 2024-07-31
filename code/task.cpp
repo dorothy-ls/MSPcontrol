@@ -238,7 +238,7 @@ void loop()
 
         UART_Transmit(UART_0_INST, (uint8_t *)&left_motor.intensity, 4);
         UART_Transmit(UART_0_INST, (uint8_t *)&left_motor.v, 4);
-        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.ang2, 4);
+        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.ang, 4);
         UART_Transmit(UART_0_INST, (uint8_t *)&chassis.x_line, 4);
         UART_Transmit(UART_0_INST, (uint8_t *)&chassis.y_line, 4);
         UART_Transmit(UART_0_INST, end_flag, 2);
@@ -269,13 +269,14 @@ void loop()
 void task_handler()
 {
     if(init_flag && imu.state == IMU_RUN)
-    {ls7366r.Handler();
+    {
+    if(utick % 10 == 0){
+    ls7366r.Handler();
     left_encoder.Handler();
     right_encoder.Handler();
-    //if(utick % 5 == 0){
     left_motor.Handler();
     right_motor.Handler();
-    //}
+    }
     remote.Handler();
     ccd.Handler();
     imu.Handler();
@@ -335,8 +336,8 @@ void task_handler()
 //            controller.state = 1;
 //            chassis.state = CHASSIS_RUN;
 
-//            chassis.w_set = 0.02;
-//            chassis.state = CHASSIS_RUN;
+            chassis.w_set = 0.1;
+            chassis.state = CHASSIS_RUN;
         } break;
         case 3: {
 //            controller.x_set = remote.x;

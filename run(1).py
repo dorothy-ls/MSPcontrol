@@ -70,8 +70,8 @@ def recv():
                     # ang = temp[2]
                     xline = temp[2]
                     yline = temp[3]
-                    print(f"{intensity[0]},{v};")
-                    # print(f"{ang2}")
+                    # print(f"{intensity[0]},{v};")
+                    print(f"{ang2}")
                     if(np.abs(x - x_array[-1]) + np.abs(y - y_array[-1]) > 0.002):
                         update_flag2 = True
                         x_array.append(x)
