@@ -120,7 +120,7 @@ void TIM_CCD_INST_IRQHandler(void)
 //²âÊÔ²¿·ÖÒµÎñÂß¼­
 #ifdef TEST
 
-#define USE_REMOTE
+//#define USE_REMOTE
 
 #define UART1_BUF_LEN 100
 #define v_th 9
@@ -238,9 +238,9 @@ void loop()
 
         UART_Transmit(UART_0_INST, (uint8_t *)&left_motor.intensity, 4);
         UART_Transmit(UART_0_INST, (uint8_t *)&left_motor.v, 4);
-        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.ang, 4);
-        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.x_line, 4);
         UART_Transmit(UART_0_INST, (uint8_t *)&chassis.ang2, 4);
+        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.x_line, 4);
+        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.y_line, 4);
         UART_Transmit(UART_0_INST, end_flag, 2);
         UART_Transmit(UART_0_INST, temp_rx, 2);
         ccd.sample_complete = false;
@@ -268,12 +268,14 @@ void loop()
 
 void task_handler()
 {
-    if(init_flag)
+    if(init_flag && imu.state == IMU_RUN)
     {ls7366r.Handler();
     left_encoder.Handler();
     right_encoder.Handler();
+    //if(utick % 5 == 0){
     left_motor.Handler();
     right_motor.Handler();
+    //}
     remote.Handler();
     ccd.Handler();
     imu.Handler();
@@ -284,8 +286,23 @@ void task_handler()
 
 
     controller.Handler();
-    pid_controller.Handler();}
+    pid_controller.Handler();
 
+
+    //controller.state = 1;
+                const float l = 0.3;
+                static float x_array[] = {0, l, l, 0};
+                static float y_array[] = {0, 0, -l, -l};
+                static int array_len = 4, index = 0;
+
+              if(controller.reached == true){
+                  if(++index >= array_len) index = 0;
+                  controller.x_set = x_array[index];
+                  controller.y_set = y_array[index];
+                  controller.reached = false;
+              }
+                controller.state = 1;
+                chassis.state = CHASSIS_RUN;
 
 #ifdef USE_REMOTE //Ò£¿ØÆ÷
     switch (remote.mode) {
@@ -296,10 +313,10 @@ void task_handler()
             float thresh = 0;
             if(remote.vertical < thresh && remote.vertical > -thresh){
                 chassis.v_set = 0;
-            }else chassis.v_set = remote.vertical * 0.1;
+            }else chassis.v_set = remote.vertical * 0.2;
             if(remote.vertical < thresh && remote.vertical > -thresh){
                 chassis.w_set = 0;
-            }else chassis.w_set = remote.horizontal * (-0.1);
+            }else chassis.w_set = remote.horizontal * (-0.2);
             chassis.state = CHASSIS_RUN;
         }break;
         case 2: { //Î»ÖÃ¿ØÖÆÆ÷²âÊÔ¾ØÐÎ
@@ -317,8 +334,9 @@ void task_handler()
 ////          }
 //            controller.state = 1;
 //            chassis.state = CHASSIS_RUN;
-            chassis.w_set = 0.02;
-            chassis.state = CHASSIS_RUN;
+
+//            chassis.w_set = 0.02;
+//            chassis.state = CHASSIS_RUN;
         } break;
         case 3: {
 //            controller.x_set = remote.x;
@@ -328,9 +346,14 @@ void task_handler()
 
         }break;
     }
-#else
-
 #endif
+    }else{
+        chassis.state = CHASSIS_STOP;
+        chassis.Handler();
+        left_motor.Handler();
+        right_motor.Handler();
+
+    }
 
 }
 

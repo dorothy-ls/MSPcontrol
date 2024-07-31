@@ -1,7 +1,7 @@
 #include "it.h"
 
-unsigned int utick = 0;//滴答定时器中断计数
-unsigned int counter = 0;
+uint32_t utick = 0;//滴答定时器中断计数
+uint32_t counter = 0;
 
 
 void SysTick_Handler(void)

@@ -66,12 +66,12 @@ def recv():
                     temp = np.frombuffer(data[4:-2], dtype=np.float32)
                     intensity = np.frombuffer(data[:4], dtype=np.int32)
                     v = temp[0]
-                    ang2 = temp[3]
+                    ang2 = temp[1]
                     # ang = temp[2]
-                    # xline = temp[3]
-                    # yline = temp[4]
-                    # print(f"{intensity[0]},{v};")
-                    print(f"{ang2}")
+                    xline = temp[2]
+                    yline = temp[3]
+                    print(f"{intensity[0]},{v};")
+                    # print(f"{ang2}")
                     if(np.abs(x - x_array[-1]) + np.abs(y - y_array[-1]) > 0.002):
                         update_flag2 = True
                         x_array.append(x)

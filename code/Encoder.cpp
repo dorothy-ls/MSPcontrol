@@ -4,7 +4,7 @@
 
 //systickÖÐ¶Ïµ÷ÓÃ
 void Encoder::Handler() {
-    pulse += *CNT - prev_cnt + carry_flag * CNT_OVERFLOW;
+    pulse += *CNT - prev_cnt;
     carry_flag = 0;
     prev_cnt = *CNT;
 }

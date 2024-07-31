@@ -1,5 +1,6 @@
 #include "N20_Motor.h"
 
+#define ENCODER_FREQ 1000
 void N20_Motor::Handler() //systick IRQ
 {
     measure_parameter();//1ms获取一次反馈数据
@@ -11,7 +12,7 @@ void N20_Motor::measure_parameter()//获取当前车轮线速度和角度
     float inc = -(float)encoder->pulse / this->reduction_rate * 360;//脉冲数量转化为角度（degree）
     inc_pulse = encoder->pulse;
     encoder->pulse = 0;//读取一次encoder的pulse，随后清零，减小累计误差
-    this->v = inc / 180 * M_PI * MAIN_LOOP_FREQ * radius;//角速度转化为线速度
+    this->v = inc / 180 * M_PI *  ENCODER_FREQ * radius;//角速度转化为线速度
     this->ang += inc;
     if(this->ang >= 360){
         this->ang -= (int)(this->ang / 360) * 360;

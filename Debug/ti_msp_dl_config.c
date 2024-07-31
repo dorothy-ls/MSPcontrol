@@ -59,6 +59,7 @@ SYSCONFIG_WEAK void SYSCFG_DL_init(void)
     SYSCFG_DL_TIM_CCD_init();
     SYSCFG_DL_PWM_MOTOR1_init();
     SYSCFG_DL_PWM_BUZZER_init();
+    SYSCFG_DL_I2C_0_init();
     SYSCFG_DL_UART_0_init();
     SYSCFG_DL_SPI_IMU_init();
     SYSCFG_DL_SPI_ENCODER_init();
@@ -111,6 +112,7 @@ SYSCONFIG_WEAK void SYSCFG_DL_initPower(void)
     DL_TimerG_reset(TIM_CCD_INST);
     DL_TimerA_reset(PWM_MOTOR1_INST);
     DL_TimerG_reset(PWM_BUZZER_INST);
+    DL_I2C_reset(I2C_0_INST);
     DL_UART_Main_reset(UART_0_INST);
     DL_SPI_reset(SPI_IMU_INST);
     DL_SPI_reset(SPI_ENCODER_INST);
@@ -125,6 +127,7 @@ SYSCONFIG_WEAK void SYSCFG_DL_initPower(void)
     DL_TimerG_enablePower(TIM_CCD_INST);
     DL_TimerA_enablePower(PWM_MOTOR1_INST);
     DL_TimerG_enablePower(PWM_BUZZER_INST);
+    DL_I2C_enablePower(I2C_0_INST);
     DL_UART_Main_enablePower(UART_0_INST);
     DL_SPI_enablePower(SPI_IMU_INST);
     DL_SPI_enablePower(SPI_ENCODER_INST);
@@ -153,6 +156,17 @@ SYSCONFIG_WEAK void SYSCFG_DL_GPIO_init(void)
     DL_GPIO_enableOutput(GPIO_PWM_MOTOR1_C1_PORT, GPIO_PWM_MOTOR1_C1_PIN);
     DL_GPIO_initPeripheralOutputFunction(GPIO_PWM_BUZZER_C1_IOMUX,GPIO_PWM_BUZZER_C1_IOMUX_FUNC);
     DL_GPIO_enableOutput(GPIO_PWM_BUZZER_C1_PORT, GPIO_PWM_BUZZER_C1_PIN);
+
+    DL_GPIO_initPeripheralInputFunctionFeatures(GPIO_I2C_0_IOMUX_SDA,
+        GPIO_I2C_0_IOMUX_SDA_FUNC, DL_GPIO_INVERSION_DISABLE,
+        DL_GPIO_RESISTOR_NONE, DL_GPIO_HYSTERESIS_DISABLE,
+        DL_GPIO_WAKEUP_DISABLE);
+    DL_GPIO_initPeripheralInputFunctionFeatures(GPIO_I2C_0_IOMUX_SCL,
+        GPIO_I2C_0_IOMUX_SCL_FUNC, DL_GPIO_INVERSION_DISABLE,
+        DL_GPIO_RESISTOR_NONE, DL_GPIO_HYSTERESIS_DISABLE,
+        DL_GPIO_WAKEUP_DISABLE);
+    DL_GPIO_enableHiZ(GPIO_I2C_0_IOMUX_SDA);
+    DL_GPIO_enableHiZ(GPIO_I2C_0_IOMUX_SCL);
 
     DL_GPIO_initPeripheralOutputFunction(
         GPIO_UART_0_IOMUX_TX, GPIO_UART_0_IOMUX_TX_FUNC);
@@ -419,6 +433,24 @@ SYSCONFIG_WEAK void SYSCFG_DL_PWM_BUZZER_init(void) {
 
 }
 
+
+static const DL_I2C_ClockConfig gI2C_0ClockConfig = {
+    .clockSel = DL_I2C_CLOCK_BUSCLK,
+    .divideRatio = DL_I2C_CLOCK_DIVIDE_1,
+};
+
+SYSCONFIG_WEAK void SYSCFG_DL_I2C_0_init(void) {
+
+    DL_I2C_setClockConfig(I2C_0_INST,
+        (DL_I2C_ClockConfig *) &gI2C_0ClockConfig);
+    DL_I2C_setAnalogGlitchFilterPulseWidth(I2C_0_INST,
+        DL_I2C_ANALOG_GLITCH_FILTER_WIDTH_50NS);
+    DL_I2C_enableAnalogGlitchFilter(I2C_0_INST);
+
+
+
+
+}
 
 
 static const DL_UART_Main_ClockConfig gUART_0ClockConfig = {

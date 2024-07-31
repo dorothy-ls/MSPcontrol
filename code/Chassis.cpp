@@ -145,9 +145,9 @@ void Chassis::Handler() {
             x = 0; y = 0;
         }  break;
         case CHASSIS_RUN:{
-            float output1 = (v_set - w_set) * 58327;
-            float output2 = (v_set + w_set) * 58327;
-            float thresh = 404;
+            float output1 = (v_set - w_set) * 14686.8;
+            float output2 = (v_set + w_set) * 14686.8;
+            float thresh = 101;
             if(output1 > 0) output1 += thresh;
             else if(output1 < 0) output1 -= thresh;
             if(output2 > 0) output2 += thresh;
