@@ -9,7 +9,7 @@ void Encoder::Handler() {
     prev_cnt = *CNT;
 }
 
-Encoder::Encoder(uint16_t* CNT_ADD) {
+Encoder::Encoder(long* CNT_ADD) {
     CNT = CNT_ADD;
 }
 

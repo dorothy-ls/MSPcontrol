@@ -135,8 +135,8 @@ volatile bool gCheckADC = false;
 volatile uint8_t signal_en_flag = 0;
 
 LS7366R ls7366r(SPI_ENCODER_INST,GPIO_ENCODER_PORT,GPIO_ENCODER_SI_L_PIN,GPIO_ENCODER_SI_R_PIN);
-Encoder left_encoder(&LEFT_CNT);
-Encoder right_encoder(&RIGHT_CNT);
+Encoder left_encoder(&(ls7366r.leftValue));
+Encoder right_encoder(&(ls7366r.rightValue));
 void LEFT_QEI_Handler();//软件编码器TIM溢出回调函数实现
 void RIGHT_QEI_Handler();//软件编码器TIM溢出回调函数实现
 void test_power();
