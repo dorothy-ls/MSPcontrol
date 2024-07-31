@@ -133,6 +133,7 @@ volatile uint16_t power_vin = 0;
 volatile float vin = 12;
 volatile bool gCheckADC = false;
 volatile uint8_t signal_en_flag = 0;
+uint8_t init_flag = 0;
 
 LS7366R ls7366r(SPI_ENCODER_INST,GPIO_ENCODER_PORT,GPIO_ENCODER_SI_L_PIN,GPIO_ENCODER_SI_R_PIN);
 Encoder left_encoder(&(ls7366r.leftValue));
@@ -148,13 +149,13 @@ void UART_Transmit(UART_Regs *uart,uint8_t *data, uint16_t len);
 
 N20_Motor right_motor(PWM_MOTOR0_INST, GPIO_PWM_MOTOR0_C3_IDX, GPIO_PWM_MOTOR0_C2_IDX,
                      &right_encoder,
-                     210 * 2 * 7,
+                     150 * 4 * 7,
                      33.4 / 2 / 1000 / 435 * 432,
                      0
 );
 N20_Motor left_motor(PWM_MOTOR1_INST, GPIO_PWM_MOTOR1_C0_IDX, GPIO_PWM_MOTOR1_C1_IDX,
                      &left_encoder,
-                     210 * 2 * 7,
+                     150 * 4 * 7,
                      33.4 / 2 / 1000 / 435 * 432,
                      0
                      );
@@ -195,8 +196,6 @@ void setup()
     delay_ms(10);
     ls7366r.init(MDR0_CONF,MDR1_CONF);
     delay_ms(10);
-    ls7366r.init(MDR0_CONF,MDR1_CONF);
-    delay_ms(10);
 
 
     right_motor.init();
@@ -207,8 +206,6 @@ void setup()
 
 
 
-    register_LEFT_QEI_callback(LEFT_QEI_Handler);//注册软件QEI回调
-    register_RIGHT_QEI_callback(RIGHT_QEI_Handler);//注册软件QEI回调
 
     DL_GPIO_setPins(GPIO_LEDS_PORT, GPIO_LEDS_USER_LED_1_PIN);
 
@@ -227,7 +224,7 @@ void setup()
 //    }
 //    UART_Transmit(UART_0_INST,temp_rx,128);
     //UART_Transmit(UART_0_INST, (uint8_t *)ccd.data, 128 * 2);
-
+    init_flag = 1;
 }
 
 void loop()
@@ -239,8 +236,8 @@ void loop()
         UART_Transmit(UART_0_INST, (uint8_t *)ccd.data, 128 * 2);
         UART_Transmit(UART_0_INST, end_flag, 2);
 
-        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.x, 4);
-        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.y, 4);
+        UART_Transmit(UART_0_INST, (uint8_t *)&left_motor.intensity, 4);
+        UART_Transmit(UART_0_INST, (uint8_t *)&left_motor.v, 4);
         UART_Transmit(UART_0_INST, (uint8_t *)&chassis.ang, 4);
         UART_Transmit(UART_0_INST, (uint8_t *)&chassis.x_line, 4);
         UART_Transmit(UART_0_INST, (uint8_t *)&chassis.ang2, 4);
@@ -249,11 +246,30 @@ void loop()
         ccd.sample_complete = false;
     }
     test_power();
+//    for(int i = 0; i < 5000 ; i+=100)
+//    {
+//        left_motor.state = MOTOR_RUN;
+//        left_motor.intensity = i;
+//        delay_ms(200);
+//        UART_Transmit(UART_0_INST, start_flag, 2);
+//        UART_Transmit(UART_0_INST, (uint8_t *)ccd.data, 128 * 2);
+//        UART_Transmit(UART_0_INST, end_flag, 2);
+//
+//        UART_Transmit(UART_0_INST, (uint8_t *)&left_motor.intensity, 4);
+//        UART_Transmit(UART_0_INST, (uint8_t *)&left_motor.v, 4);
+//        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.ang, 4);
+//        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.x_line, 4);
+//        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.ang2, 4);
+//        UART_Transmit(UART_0_INST, end_flag, 2);
+//        UART_Transmit(UART_0_INST, temp_rx, 2);
+//        ccd.sample_complete = false;
+//    }
 }
 
 void task_handler()
 {
-    ls7366r.Handler();
+    if(init_flag)
+    {ls7366r.Handler();
     left_encoder.Handler();
     right_encoder.Handler();
     left_motor.Handler();
@@ -268,7 +284,7 @@ void task_handler()
 
 
     controller.Handler();
-    pid_controller.Handler();
+    pid_controller.Handler();}
 
 
 #ifdef USE_REMOTE //遥控器

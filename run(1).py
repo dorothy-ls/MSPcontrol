@@ -63,13 +63,15 @@ def recv():
             data = ser.read(5 * 4 + 2)
             if(len(data) == 5 * 4 + 2):
                 if(data[-2] == 255 and data[-1] == 255):
-                    temp = np.frombuffer(data[:-2], dtype=np.float32)
-                    x = temp[0]
-                    y = temp[1]
-                    ang = temp[2]
-                    xline = temp[3]
-                    yline = temp[4]
-                    print(f"x:{x} y:{y} ang:{ang} xline:{xline} ang2:{yline}")
+                    temp = np.frombuffer(data[4:-2], dtype=np.float32)
+                    intensity = np.frombuffer(data[:4], dtype=np.int32)
+                    v = temp[0]
+                    ang2 = temp[3]
+                    # ang = temp[2]
+                    # xline = temp[3]
+                    # yline = temp[4]
+                    # print(f"{intensity[0]},{v};")
+                    print(f"{ang2}")
                     if(np.abs(x - x_array[-1]) + np.abs(y - y_array[-1]) > 0.002):
                         update_flag2 = True
                         x_array.append(x)

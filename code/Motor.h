@@ -12,7 +12,7 @@ typedef enum{
 class Motor{
 public:
     motor_state state = MOTOR_STOP;
-    int16_t intensity = 0;//电流强度(有正负方向)
+    int32_t intensity = 0;//电流强度(有正负方向)
     float ang = 0;  // (degree)
     float v = 0;    // m/s
 
