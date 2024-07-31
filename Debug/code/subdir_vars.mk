@@ -12,6 +12,7 @@ CPP_SRCS += \
 ../code/Controller.cpp \
 ../code/Encoder.cpp \
 ../code/IMU.cpp \
+../code/LS7366R.cpp \
 ../code/N20_Motor.cpp \
 ../code/PID.cpp \
 ../code/PID_Controller.cpp \
@@ -30,6 +31,7 @@ OBJS += \
 ./code/Controller.o \
 ./code/Encoder.o \
 ./code/IMU.o \
+./code/LS7366R.o \
 ./code/N20_Motor.o \
 ./code/PID.o \
 ./code/PID_Controller.o \
@@ -48,6 +50,7 @@ CPP_DEPS += \
 ./code/Controller.d \
 ./code/Encoder.d \
 ./code/IMU.d \
+./code/LS7366R.d \
 ./code/N20_Motor.d \
 ./code/PID.d \
 ./code/PID_Controller.d \
@@ -66,6 +69,7 @@ OBJS__QUOTED += \
 "code\Controller.o" \
 "code\Encoder.o" \
 "code\IMU.o" \
+"code\LS7366R.o" \
 "code\N20_Motor.o" \
 "code\PID.o" \
 "code\PID_Controller.o" \
@@ -84,6 +88,7 @@ CPP_DEPS__QUOTED += \
 "code\Controller.d" \
 "code\Encoder.d" \
 "code\IMU.d" \
+"code\LS7366R.d" \
 "code\N20_Motor.d" \
 "code\PID.d" \
 "code\PID_Controller.d" \
@@ -102,6 +107,7 @@ CPP_SRCS__QUOTED += \
 "../code/Controller.cpp" \
 "../code/Encoder.cpp" \
 "../code/IMU.cpp" \
+"../code/LS7366R.cpp" \
 "../code/N20_Motor.cpp" \
 "../code/PID.cpp" \
 "../code/PID_Controller.cpp" \

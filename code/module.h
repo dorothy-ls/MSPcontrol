@@ -5,3 +5,4 @@
 #include "CCD.h"
 #include "IMU.h"
 #include "Buzzer.h"
+#include "LS7366R.h"

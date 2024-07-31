@@ -88,6 +88,7 @@ code/task.o: ../code/task.cpp F:/EDC/EDC_workspace/control/code/task.h \
  F:/EDC/EDC_workspace/control/code/hal.h \
  F:/EDC/EDC_workspace/control/code/it.h \
  F:/EDC/EDC_workspace/control/code/Buzzer.h \
+ F:/EDC/EDC_workspace/control/code/LS7366R.h \
  F:/EDC/EDC_workspace/control/code/device.h \
  F:/EDC/EDC_workspace/control/code/Chassis.h \
  F:/EDC/EDC_workspace/control/code/algorithm.h \
@@ -270,6 +271,8 @@ F:/EDC/EDC_workspace/control/code/hal.h:
 F:/EDC/EDC_workspace/control/code/it.h:
 
 F:/EDC/EDC_workspace/control/code/Buzzer.h:
+
+F:/EDC/EDC_workspace/control/code/LS7366R.h:
 
 F:/EDC/EDC_workspace/control/code/device.h:
 

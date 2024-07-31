@@ -88,6 +88,7 @@ code/IMU.o: ../code/IMU.cpp F:/EDC/EDC_workspace/control/code/IMU.h \
  F:/EDC/EDC_workspace/control/code/Remote.h \
  F:/EDC/EDC_workspace/control/code/CCD.h \
  F:/EDC/EDC_workspace/control/code/Buzzer.h \
+ F:/EDC/EDC_workspace/control/code/LS7366R.h \
  F:/EDC/EDC_workspace/control/code/imu660.h \
  F:/EDC/EDC_workspace/control/code/imu963ra.h
 
@@ -266,6 +267,8 @@ F:/EDC/EDC_workspace/control/code/Remote.h:
 F:/EDC/EDC_workspace/control/code/CCD.h:
 
 F:/EDC/EDC_workspace/control/code/Buzzer.h:
+
+F:/EDC/EDC_workspace/control/code/LS7366R.h:
 
 F:/EDC/EDC_workspace/control/code/imu660.h:
 

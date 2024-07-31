@@ -87,7 +87,8 @@ code/CCD.o: ../code/CCD.cpp F:/EDC/EDC_workspace/control/code/CCD.h \
  F:/EDC/EDC_workspace/control/code/Remote.h \
  F:/EDC/EDC_workspace/control/code/IMU.h \
  F:/EDC/EDC_workspace/control/code/hal.h \
- F:/EDC/EDC_workspace/control/code/Buzzer.h
+ F:/EDC/EDC_workspace/control/code/Buzzer.h \
+ F:/EDC/EDC_workspace/control/code/LS7366R.h
 
 F:/EDC/EDC_workspace/control/code/CCD.h:
 
@@ -264,3 +265,5 @@ F:/EDC/EDC_workspace/control/code/IMU.h:
 F:/EDC/EDC_workspace/control/code/hal.h:
 
 F:/EDC/EDC_workspace/control/code/Buzzer.h:
+
+F:/EDC/EDC_workspace/control/code/LS7366R.h:

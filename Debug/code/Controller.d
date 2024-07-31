@@ -91,6 +91,7 @@ code/Controller.o: ../code/Controller.cpp \
  F:/EDC/EDC_workspace/control/code/task.h \
  F:/EDC/EDC_workspace/control/code/QEI.h \
  F:/EDC/EDC_workspace/control/code/Buzzer.h \
+ F:/EDC/EDC_workspace/control/code/LS7366R.h \
  F:/EDC/EDC_workspace/control/code/algorithm.h \
  F:/EDC/EDC_workspace/control/code/PID.h
 
@@ -273,6 +274,8 @@ F:/EDC/EDC_workspace/control/code/task.h:
 F:/EDC/EDC_workspace/control/code/QEI.h:
 
 F:/EDC/EDC_workspace/control/code/Buzzer.h:
+
+F:/EDC/EDC_workspace/control/code/LS7366R.h:
 
 F:/EDC/EDC_workspace/control/code/algorithm.h:
 

@@ -165,7 +165,7 @@ void Chassis::Handler() {
             ang2 += imu->wz / MAIN_LOOP_FREQ;
             //ang = (ang1 + ang4) / 2;
             //ang = ang1 / 3525 * 3600;
-            ang = ang2 / 3540 * 3600; //TODO Д§аое§
+            ang = ang2; //TODO Д§аое§
            // ang = ang4;
             MOD(ang, 360);
 

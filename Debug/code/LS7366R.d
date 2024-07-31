@@ -1,9 +1,7 @@
 # FIXED
 
-code/Chassis.o: ../code/Chassis.cpp \
- F:/EDC/EDC_workspace/control/code/Chassis.h \
- F:/EDC/EDC_workspace/control/code/module.h \
- F:/EDC/EDC_workspace/control/code/Encoder.h \
+code/LS7366R.o: ../code/LS7366R.cpp \
+ F:/EDC/EDC_workspace/control/code/LS7366R.h \
  ti_msp_dl_config.h \
  C:/ti/mspm0_sdk_2_01_00_03/source/ti/devices/msp/msp.h \
  C:/ti/mspm0_sdk_2_01_00_03/source/ti/devices/DeviceFamily.h \
@@ -77,28 +75,23 @@ code/Chassis.o: ../code/Chassis.cpp \
  C:/ti/mspm0_sdk_2_01_00_03/source/ti/driverlib/dl_wwdt.h \
  C:/ti/mspm0_sdk_2_01_00_03/source/ti/driverlib/m0p/dl_interrupt.h \
  C:/ti/mspm0_sdk_2_01_00_03/source/ti/driverlib/m0p/dl_systick.h \
- F:/EDC/EDC_workspace/control/code/Motor.h \
- F:/EDC/EDC_workspace/control/code/N20_Motor.h \
+ F:/EDC/EDC_workspace/control/code/hal.h \
+ F:/EDC/EDC_workspace/control/code/it.h \
  F:/EDC/EDC_workspace/control/code/config.h \
  C:/ti/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/DSP/Include/arm_math.h \
  C:/ti/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include/cmsis_compiler.h \
+ F:/EDC/EDC_workspace/control/code/task.h \
+ F:/EDC/EDC_workspace/control/code/QEI.h \
+ F:/EDC/EDC_workspace/control/code/module.h \
+ F:/EDC/EDC_workspace/control/code/Encoder.h \
+ F:/EDC/EDC_workspace/control/code/Motor.h \
+ F:/EDC/EDC_workspace/control/code/N20_Motor.h \
  F:/EDC/EDC_workspace/control/code/Remote.h \
  F:/EDC/EDC_workspace/control/code/CCD.h \
  F:/EDC/EDC_workspace/control/code/IMU.h \
- F:/EDC/EDC_workspace/control/code/hal.h \
- F:/EDC/EDC_workspace/control/code/it.h \
- F:/EDC/EDC_workspace/control/code/task.h \
- F:/EDC/EDC_workspace/control/code/QEI.h \
- F:/EDC/EDC_workspace/control/code/Buzzer.h \
- F:/EDC/EDC_workspace/control/code/LS7366R.h \
- F:/EDC/EDC_workspace/control/code/algorithm.h \
- F:/EDC/EDC_workspace/control/code/PID.h
+ F:/EDC/EDC_workspace/control/code/Buzzer.h
 
-F:/EDC/EDC_workspace/control/code/Chassis.h:
-
-F:/EDC/EDC_workspace/control/code/module.h:
-
-F:/EDC/EDC_workspace/control/code/Encoder.h:
+F:/EDC/EDC_workspace/control/code/LS7366R.h:
 
 ti_msp_dl_config.h:
 
@@ -246,9 +239,9 @@ C:/ti/mspm0_sdk_2_01_00_03/source/ti/driverlib/m0p/dl_interrupt.h:
 
 C:/ti/mspm0_sdk_2_01_00_03/source/ti/driverlib/m0p/dl_systick.h:
 
-F:/EDC/EDC_workspace/control/code/Motor.h:
+F:/EDC/EDC_workspace/control/code/hal.h:
 
-F:/EDC/EDC_workspace/control/code/N20_Motor.h:
+F:/EDC/EDC_workspace/control/code/it.h:
 
 F:/EDC/EDC_workspace/control/code/config.h:
 
@@ -256,24 +249,22 @@ C:/ti/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/DSP/Include/arm_math.h:
 
 C:/ti/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include/cmsis_compiler.h:
 
+F:/EDC/EDC_workspace/control/code/task.h:
+
+F:/EDC/EDC_workspace/control/code/QEI.h:
+
+F:/EDC/EDC_workspace/control/code/module.h:
+
+F:/EDC/EDC_workspace/control/code/Encoder.h:
+
+F:/EDC/EDC_workspace/control/code/Motor.h:
+
+F:/EDC/EDC_workspace/control/code/N20_Motor.h:
+
 F:/EDC/EDC_workspace/control/code/Remote.h:
 
 F:/EDC/EDC_workspace/control/code/CCD.h:
 
 F:/EDC/EDC_workspace/control/code/IMU.h:
 
-F:/EDC/EDC_workspace/control/code/hal.h:
-
-F:/EDC/EDC_workspace/control/code/it.h:
-
-F:/EDC/EDC_workspace/control/code/task.h:
-
-F:/EDC/EDC_workspace/control/code/QEI.h:
-
 F:/EDC/EDC_workspace/control/code/Buzzer.h:
-
-F:/EDC/EDC_workspace/control/code/LS7366R.h:
-
-F:/EDC/EDC_workspace/control/code/algorithm.h:
-
-F:/EDC/EDC_workspace/control/code/PID.h:
