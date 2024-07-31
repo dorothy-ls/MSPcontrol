@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.obj"
   "CMakeFiles/control.elf.dir/code/Buzzer.cpp.obj"
   "CMakeFiles/control.elf.dir/code/CCD.cpp.obj"
   "CMakeFiles/control.elf.dir/code/Chassis.cpp.obj"

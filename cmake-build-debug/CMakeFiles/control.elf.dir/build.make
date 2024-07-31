@@ -76,9 +76,22 @@ include CMakeFiles/control.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/control.elf.dir/flags.make
 
+CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.obj: CMakeFiles/control.elf.dir/flags.make
+CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.obj: ../Debug/ti_msp_dl_config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.obj"
+	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\Debug\ti_msp_dl_config.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\Debug\ti_msp_dl_config.c
+
+CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.i"
+	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\asus\Desktop\contest2024\MSPcontrol\Debug\ti_msp_dl_config.c > CMakeFiles\control.elf.dir\Debug\ti_msp_dl_config.c.i
+
+CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.s"
+	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\asus\Desktop\contest2024\MSPcontrol\Debug\ti_msp_dl_config.c -o CMakeFiles\control.elf.dir\Debug\ti_msp_dl_config.c.s
+
 CMakeFiles/control.elf.dir/code/Buzzer.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/Buzzer.cpp.obj: ../code/Buzzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/control.elf.dir/code/Buzzer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/control.elf.dir/code/Buzzer.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\Buzzer.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\Buzzer.cpp
 
 CMakeFiles/control.elf.dir/code/Buzzer.cpp.i: cmake_force
@@ -91,7 +104,7 @@ CMakeFiles/control.elf.dir/code/Buzzer.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/CCD.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/CCD.cpp.obj: ../code/CCD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/control.elf.dir/code/CCD.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/control.elf.dir/code/CCD.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\CCD.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\CCD.cpp
 
 CMakeFiles/control.elf.dir/code/CCD.cpp.i: cmake_force
@@ -104,7 +117,7 @@ CMakeFiles/control.elf.dir/code/CCD.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/Chassis.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/Chassis.cpp.obj: ../code/Chassis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/control.elf.dir/code/Chassis.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/control.elf.dir/code/Chassis.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\Chassis.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\Chassis.cpp
 
 CMakeFiles/control.elf.dir/code/Chassis.cpp.i: cmake_force
@@ -117,7 +130,7 @@ CMakeFiles/control.elf.dir/code/Chassis.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/Controller.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/Controller.cpp.obj: ../code/Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/control.elf.dir/code/Controller.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/control.elf.dir/code/Controller.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\Controller.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\Controller.cpp
 
 CMakeFiles/control.elf.dir/code/Controller.cpp.i: cmake_force
@@ -130,7 +143,7 @@ CMakeFiles/control.elf.dir/code/Controller.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/Encoder.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/Encoder.cpp.obj: ../code/Encoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/control.elf.dir/code/Encoder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/control.elf.dir/code/Encoder.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\Encoder.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\Encoder.cpp
 
 CMakeFiles/control.elf.dir/code/Encoder.cpp.i: cmake_force
@@ -143,7 +156,7 @@ CMakeFiles/control.elf.dir/code/Encoder.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/IMU.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/IMU.cpp.obj: ../code/IMU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/control.elf.dir/code/IMU.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/control.elf.dir/code/IMU.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\IMU.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\IMU.cpp
 
 CMakeFiles/control.elf.dir/code/IMU.cpp.i: cmake_force
@@ -156,7 +169,7 @@ CMakeFiles/control.elf.dir/code/IMU.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/LS7366R.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/LS7366R.cpp.obj: ../code/LS7366R.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/control.elf.dir/code/LS7366R.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/control.elf.dir/code/LS7366R.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\LS7366R.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\LS7366R.cpp
 
 CMakeFiles/control.elf.dir/code/LS7366R.cpp.i: cmake_force
@@ -169,7 +182,7 @@ CMakeFiles/control.elf.dir/code/LS7366R.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/N20_Motor.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/N20_Motor.cpp.obj: ../code/N20_Motor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/control.elf.dir/code/N20_Motor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/control.elf.dir/code/N20_Motor.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\N20_Motor.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\N20_Motor.cpp
 
 CMakeFiles/control.elf.dir/code/N20_Motor.cpp.i: cmake_force
@@ -182,7 +195,7 @@ CMakeFiles/control.elf.dir/code/N20_Motor.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/PID.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/PID.cpp.obj: ../code/PID.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/control.elf.dir/code/PID.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/control.elf.dir/code/PID.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\PID.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\PID.cpp
 
 CMakeFiles/control.elf.dir/code/PID.cpp.i: cmake_force
@@ -195,7 +208,7 @@ CMakeFiles/control.elf.dir/code/PID.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/PID_Controller.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/PID_Controller.cpp.obj: ../code/PID_Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/control.elf.dir/code/PID_Controller.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/control.elf.dir/code/PID_Controller.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\PID_Controller.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\PID_Controller.cpp
 
 CMakeFiles/control.elf.dir/code/PID_Controller.cpp.i: cmake_force
@@ -208,7 +221,7 @@ CMakeFiles/control.elf.dir/code/PID_Controller.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/QEI.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/QEI.cpp.obj: ../code/QEI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/control.elf.dir/code/QEI.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/control.elf.dir/code/QEI.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\QEI.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\QEI.cpp
 
 CMakeFiles/control.elf.dir/code/QEI.cpp.i: cmake_force
@@ -221,7 +234,7 @@ CMakeFiles/control.elf.dir/code/QEI.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/Remote.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/Remote.cpp.obj: ../code/Remote.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/control.elf.dir/code/Remote.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/control.elf.dir/code/Remote.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\Remote.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\Remote.cpp
 
 CMakeFiles/control.elf.dir/code/Remote.cpp.i: cmake_force
@@ -234,7 +247,7 @@ CMakeFiles/control.elf.dir/code/Remote.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/Tracking.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/Tracking.cpp.obj: ../code/Tracking.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/control.elf.dir/code/Tracking.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/control.elf.dir/code/Tracking.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\Tracking.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\Tracking.cpp
 
 CMakeFiles/control.elf.dir/code/Tracking.cpp.i: cmake_force
@@ -247,7 +260,7 @@ CMakeFiles/control.elf.dir/code/Tracking.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/hal.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/hal.cpp.obj: ../code/hal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/control.elf.dir/code/hal.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/control.elf.dir/code/hal.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\hal.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\hal.cpp
 
 CMakeFiles/control.elf.dir/code/hal.cpp.i: cmake_force
@@ -260,7 +273,7 @@ CMakeFiles/control.elf.dir/code/hal.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/imu660.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/imu660.cpp.obj: ../code/imu660.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/control.elf.dir/code/imu660.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/control.elf.dir/code/imu660.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\imu660.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\imu660.cpp
 
 CMakeFiles/control.elf.dir/code/imu660.cpp.i: cmake_force
@@ -273,7 +286,7 @@ CMakeFiles/control.elf.dir/code/imu660.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/imu963ra.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/imu963ra.cpp.obj: ../code/imu963ra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/control.elf.dir/code/imu963ra.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/control.elf.dir/code/imu963ra.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\imu963ra.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\imu963ra.cpp
 
 CMakeFiles/control.elf.dir/code/imu963ra.cpp.i: cmake_force
@@ -286,7 +299,7 @@ CMakeFiles/control.elf.dir/code/imu963ra.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/it.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/it.cpp.obj: ../code/it.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/control.elf.dir/code/it.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/control.elf.dir/code/it.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\it.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\it.cpp
 
 CMakeFiles/control.elf.dir/code/it.cpp.i: cmake_force
@@ -299,7 +312,7 @@ CMakeFiles/control.elf.dir/code/it.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/code/task.cpp.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/code/task.cpp.obj: ../code/task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/control.elf.dir/code/task.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/control.elf.dir/code/task.cpp.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\control.elf.dir\code\task.cpp.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\code\task.cpp
 
 CMakeFiles/control.elf.dir/code/task.cpp.i: cmake_force
@@ -312,7 +325,7 @@ CMakeFiles/control.elf.dir/code/task.cpp.s: cmake_force
 
 CMakeFiles/control.elf.dir/control.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/control.c.obj: ../control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/control.elf.dir/control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/control.elf.dir/control.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\control.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\control.c
 
 CMakeFiles/control.elf.dir/control.c.i: cmake_force
@@ -325,7 +338,7 @@ CMakeFiles/control.elf.dir/control.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_abs_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_abs_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_f32.c.i: cmake_force
@@ -338,7 +351,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_abs_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_abs_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q15.c.i: cmake_force
@@ -351,7 +364,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_abs_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_abs_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q31.c.i: cmake_force
@@ -364,7 +377,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_abs_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_abs_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q7.c.i: cmake_force
@@ -377,7 +390,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_add_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_add_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_f32.c.i: cmake_force
@@ -390,7 +403,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_add_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_add_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q15.c.i: cmake_force
@@ -403,7 +416,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_add_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_add_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q31.c.i: cmake_force
@@ -416,7 +429,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_add_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_add_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q7.c.i: cmake_force
@@ -429,7 +442,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u16.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u16.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u16.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_and_u16.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_and_u16.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u16.c.i: cmake_force
@@ -442,7 +455,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u32.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_and_u32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_and_u32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u32.c.i: cmake_force
@@ -455,7 +468,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u8.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u8.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u8.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_and_u8.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_and_u8.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u8.c.i: cmake_force
@@ -468,7 +481,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_dot_prod_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_dot_prod_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_f32.c.i: cmake_force
@@ -481,7 +494,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_dot_prod_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_dot_prod_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q15.c.i: cmake_force
@@ -494,7 +507,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_dot_prod_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_dot_prod_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q31.c.i: cmake_force
@@ -507,7 +520,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_dot_prod_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_dot_prod_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q7.c.i: cmake_force
@@ -520,7 +533,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_mult_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_mult_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_f32.c.i: cmake_force
@@ -533,7 +546,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_mult_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_mult_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q15.c.i: cmake_force
@@ -546,7 +559,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_mult_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_mult_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q31.c.i: cmake_force
@@ -559,7 +572,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_mult_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_mult_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q7.c.i: cmake_force
@@ -572,7 +585,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_negate_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_negate_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_f32.c.i: cmake_force
@@ -585,7 +598,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_negate_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_negate_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q15.c.i: cmake_force
@@ -598,7 +611,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_negate_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_negate_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q31.c.i: cmake_force
@@ -611,7 +624,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_negate_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_negate_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q7.c.i: cmake_force
@@ -624,7 +637,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u16.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u16.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u16.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_not_u16.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_not_u16.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u16.c.i: cmake_force
@@ -637,7 +650,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u32.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_not_u32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_not_u32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u32.c.i: cmake_force
@@ -650,7 +663,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u8.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u8.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u8.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_not_u8.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_not_u8.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u8.c.i: cmake_force
@@ -663,7 +676,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_offset_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_offset_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_f32.c.i: cmake_force
@@ -676,7 +689,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_offset_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_offset_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q15.c.i: cmake_force
@@ -689,7 +702,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_offset_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_offset_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q31.c.i: cmake_force
@@ -702,7 +715,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_offset_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_offset_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q7.c.i: cmake_force
@@ -715,7 +728,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u16.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u16.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u16.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_or_u16.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_or_u16.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u16.c.i: cmake_force
@@ -728,7 +741,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u32.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_or_u32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_or_u32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u32.c.i: cmake_force
@@ -741,7 +754,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u8.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u8.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u8.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_or_u8.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_or_u8.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u8.c.i: cmake_force
@@ -754,7 +767,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_scale_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_scale_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_f32.c.i: cmake_force
@@ -767,7 +780,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_scale_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_scale_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q15.c.i: cmake_force
@@ -780,7 +793,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_scale_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_scale_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q31.c.i: cmake_force
@@ -793,7 +806,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_scale_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_scale_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q7.c.i: cmake_force
@@ -806,7 +819,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_shift_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_shift_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q15.c.i: cmake_force
@@ -819,7 +832,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_shift_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_shift_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q31.c.i: cmake_force
@@ -832,7 +845,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_shift_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_shift_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q7.c.i: cmake_force
@@ -845,7 +858,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_sub_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_sub_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_f32.c.i: cmake_force
@@ -858,7 +871,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_sub_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_sub_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q15.c.i: cmake_force
@@ -871,7 +884,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_sub_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_sub_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q31.c.i: cmake_force
@@ -884,7 +897,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_sub_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_sub_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q7.c.i: cmake_force
@@ -897,7 +910,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u16.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u16.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u16.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_xor_u16.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_xor_u16.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u16.c.i: cmake_force
@@ -910,7 +923,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u32.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_xor_u32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_xor_u32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u32.c.i: cmake_force
@@ -923,7 +936,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u8.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u8.c.obj: ../source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u8.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_xor_u8.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BasicMathFunctions\arm_xor_u8.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u8.c.i: cmake_force
@@ -936,7 +949,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\BayesFunctions\arm_gaussian_naive_bayes_predict_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\BayesFunctions\arm_gaussian_naive_bayes_predict_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c.i: cmake_force
@@ -949,7 +962,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BayesFunctions/ar
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_common_tables.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_common_tables.c.obj: ../source/third_party/CMSIS/DSP/Source/CommonTables/arm_common_tables.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_common_tables.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_common_tables.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\CommonTables\arm_common_tables.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\CommonTables\arm_common_tables.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_common_tables.c.i: cmake_force
@@ -962,7 +975,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_const_structs.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_const_structs.c.obj: ../source/third_party/CMSIS/DSP/Source/CommonTables/arm_const_structs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_const_structs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_const_structs.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\CommonTables\arm_const_structs.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\CommonTables\arm_const_structs.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_const_structs.c.i: cmake_force
@@ -975,7 +988,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_mve_tables.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_mve_tables.c.obj: ../source/third_party/CMSIS/DSP/Source/CommonTables/arm_mve_tables.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_mve_tables.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_mve_tables.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\CommonTables\arm_mve_tables.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\CommonTables\arm_mve_tables.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_mve_tables.c.i: cmake_force
@@ -988,7 +1001,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/CommonTables/arm_
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_conj_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_conj_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c.i: cmake_force
@@ -1001,7 +1014,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_conj_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_conj_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c.i: cmake_force
@@ -1014,7 +1027,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_conj_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_conj_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c.i: cmake_force
@@ -1027,7 +1040,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_dot_prod_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_dot_prod_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c.i: cmake_force
@@ -1040,7 +1053,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_dot_prod_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_dot_prod_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c.i: cmake_force
@@ -1053,7 +1066,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_dot_prod_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_dot_prod_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c.i: cmake_force
@@ -1066,7 +1079,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c.i: cmake_force
@@ -1079,7 +1092,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c.i: cmake_force
@@ -1092,7 +1105,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c.i: cmake_force
@@ -1105,7 +1118,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_squared_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_squared_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c.i: cmake_force
@@ -1118,7 +1131,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_squared_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_squared_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c.i: cmake_force
@@ -1131,7 +1144,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_squared_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mag_squared_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c.i: cmake_force
@@ -1144,7 +1157,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c.i: cmake_force
@@ -1157,7 +1170,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c.i: cmake_force
@@ -1170,7 +1183,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c.i: cmake_force
@@ -1183,7 +1196,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_real_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_real_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c.i: cmake_force
@@ -1196,7 +1209,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_real_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_real_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c.i: cmake_force
@@ -1209,7 +1222,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_real_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ComplexMathFunctions\arm_cmplx_mult_real_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c.i: cmake_force
@@ -1222,7 +1235,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ComplexMathFuncti
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_pid_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_pid_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_f32.c.i: cmake_force
@@ -1235,7 +1248,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_pid_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_pid_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q15.c.i: cmake_force
@@ -1248,7 +1261,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_pid_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_pid_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q31.c.i: cmake_force
@@ -1261,7 +1274,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_pid_reset_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_pid_reset_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_f32.c.i: cmake_force
@@ -1274,7 +1287,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_pid_reset_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_pid_reset_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q15.c.i: cmake_force
@@ -1287,7 +1300,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_pid_reset_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_pid_reset_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q31.c.i: cmake_force
@@ -1300,7 +1313,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_sin_cos_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_sin_cos_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_f32.c.i: cmake_force
@@ -1313,7 +1326,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_sin_cos_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\ControllerFunctions\arm_sin_cos_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_q31.c.i: cmake_force
@@ -1326,7 +1339,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/ControllerFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_boolean_distance.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_boolean_distance.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_boolean_distance.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_boolean_distance.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_boolean_distance.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_boolean_distance.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_boolean_distance.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_boolean_distance.c.i: cmake_force
@@ -1339,7 +1352,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_braycurtis_distance_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_braycurtis_distance_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_braycurtis_distance_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_braycurtis_distance_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_braycurtis_distance_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_braycurtis_distance_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_braycurtis_distance_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_braycurtis_distance_f32.c.i: cmake_force
@@ -1352,7 +1365,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_canberra_distance_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_canberra_distance_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_canberra_distance_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_canberra_distance_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_canberra_distance_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_canberra_distance_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_canberra_distance_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_canberra_distance_f32.c.i: cmake_force
@@ -1365,7 +1378,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_chebyshev_distance_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_chebyshev_distance_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_chebyshev_distance_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_chebyshev_distance_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_chebyshev_distance_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_chebyshev_distance_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_chebyshev_distance_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_chebyshev_distance_f32.c.i: cmake_force
@@ -1378,7 +1391,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_cityblock_distance_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_cityblock_distance_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_cityblock_distance_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_cityblock_distance_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_cityblock_distance_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_cityblock_distance_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_cityblock_distance_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_cityblock_distance_f32.c.i: cmake_force
@@ -1391,7 +1404,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_correlation_distance_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_correlation_distance_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_correlation_distance_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_correlation_distance_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_correlation_distance_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_correlation_distance_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_correlation_distance_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_correlation_distance_f32.c.i: cmake_force
@@ -1404,7 +1417,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_cosine_distance_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_cosine_distance_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_cosine_distance_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_cosine_distance_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_cosine_distance_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_cosine_distance_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_cosine_distance_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_cosine_distance_f32.c.i: cmake_force
@@ -1417,7 +1430,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_dice_distance.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_dice_distance.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_dice_distance.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_dice_distance.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_dice_distance.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_dice_distance.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_dice_distance.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_dice_distance.c.i: cmake_force
@@ -1430,7 +1443,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_euclidean_distance_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_euclidean_distance_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_euclidean_distance_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_euclidean_distance_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_euclidean_distance_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_euclidean_distance_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_euclidean_distance_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_euclidean_distance_f32.c.i: cmake_force
@@ -1443,7 +1456,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_hamming_distance.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_hamming_distance.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_hamming_distance.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_hamming_distance.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_hamming_distance.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_hamming_distance.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_hamming_distance.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_hamming_distance.c.i: cmake_force
@@ -1456,7 +1469,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_jaccard_distance.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_jaccard_distance.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_jaccard_distance.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_jaccard_distance.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_jaccard_distance.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_jaccard_distance.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_jaccard_distance.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_jaccard_distance.c.i: cmake_force
@@ -1469,7 +1482,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_jensenshannon_distance_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_jensenshannon_distance_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_jensenshannon_distance_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_jensenshannon_distance_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_jensenshannon_distance_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_jensenshannon_distance_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_jensenshannon_distance_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_jensenshannon_distance_f32.c.i: cmake_force
@@ -1482,7 +1495,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_kulsinski_distance.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_kulsinski_distance.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_kulsinski_distance.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_kulsinski_distance.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_kulsinski_distance.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_kulsinski_distance.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_kulsinski_distance.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_kulsinski_distance.c.i: cmake_force
@@ -1495,7 +1508,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_minkowski_distance_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_minkowski_distance_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_minkowski_distance_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_minkowski_distance_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_minkowski_distance_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_minkowski_distance_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_minkowski_distance_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_minkowski_distance_f32.c.i: cmake_force
@@ -1508,7 +1521,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_rogerstanimoto_distance.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_rogerstanimoto_distance.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_rogerstanimoto_distance.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_rogerstanimoto_distance.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_rogerstanimoto_distance.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_rogerstanimoto_distance.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_rogerstanimoto_distance.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_rogerstanimoto_distance.c.i: cmake_force
@@ -1521,7 +1534,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_russellrao_distance.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_russellrao_distance.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_russellrao_distance.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_russellrao_distance.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_russellrao_distance.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_russellrao_distance.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_russellrao_distance.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_russellrao_distance.c.i: cmake_force
@@ -1534,7 +1547,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_sokalmichener_distance.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_sokalmichener_distance.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_sokalmichener_distance.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_sokalmichener_distance.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_sokalmichener_distance.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_sokalmichener_distance.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_sokalmichener_distance.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_sokalmichener_distance.c.i: cmake_force
@@ -1547,7 +1560,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_sokalsneath_distance.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_sokalsneath_distance.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_sokalsneath_distance.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_sokalsneath_distance.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_sokalsneath_distance.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_sokalsneath_distance.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_sokalsneath_distance.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_sokalsneath_distance.c.i: cmake_force
@@ -1560,7 +1573,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_yule_distance.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_yule_distance.c.obj: ../source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_yule_distance.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_yule_distance.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_yule_distance.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_yule_distance.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\DistanceFunctions\arm_yule_distance.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions/arm_yule_distance.c.i: cmake_force
@@ -1573,7 +1586,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/DistanceFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_cos_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_cos_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_f32.c.i: cmake_force
@@ -1586,7 +1599,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_cos_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_cos_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q15.c.i: cmake_force
@@ -1599,7 +1612,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_cos_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_cos_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q31.c.i: cmake_force
@@ -1612,7 +1625,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_sin_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_sin_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_f32.c.i: cmake_force
@@ -1625,7 +1638,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_sin_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_sin_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q15.c.i: cmake_force
@@ -1638,7 +1651,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_sin_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_sin_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q31.c.i: cmake_force
@@ -1651,7 +1664,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_sqrt_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_sqrt_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q15.c.i: cmake_force
@@ -1664,7 +1677,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_sqrt_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_sqrt_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q31.c.i: cmake_force
@@ -1677,7 +1690,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_vexp_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_vexp_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_vexp_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_vexp_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_vexp_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_vexp_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_vexp_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_vexp_f32.c.i: cmake_force
@@ -1690,7 +1703,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_vlog_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_vlog_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_vlog_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_vlog_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_vlog_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_vlog_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FastMathFunctions\arm_vlog_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions/arm_vlog_f32.c.i: cmake_force
@@ -1703,7 +1716,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FastMathFunctions
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_32x64_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_32x64_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c.i: cmake_force
@@ -1716,7 +1729,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_32x64_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_32x64_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c.i: cmake_force
@@ -1729,7 +1742,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c.i: cmake_force
@@ -1742,7 +1755,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_fast_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_fast_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c.i: cmake_force
@@ -1755,7 +1768,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_fast_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_fast_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c.i: cmake_force
@@ -1768,7 +1781,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c.i: cmake_force
@@ -1781,7 +1794,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c.i: cmake_force
@@ -1794,7 +1807,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c.i: cmake_force
@@ -1807,7 +1820,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c.i: cmake_force
@@ -1820,7 +1833,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df1_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c.i: cmake_force
@@ -1833,7 +1846,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df2T_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df2T_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c.i: cmake_force
@@ -1846,7 +1859,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f64.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f64.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f64.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df2T_f64.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df2T_f64.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f64.c.i: cmake_force
@@ -1859,7 +1872,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df2T_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df2T_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c.i: cmake_force
@@ -1872,7 +1885,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f64.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f64.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f64.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df2T_init_f64.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_df2T_init_f64.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f64.c.i: cmake_force
@@ -1885,7 +1898,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_stereo_df2T_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_stereo_df2T_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_f32.c.i: cmake_force
@@ -1898,7 +1911,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_stereo_df2T_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_biquad_cascade_stereo_df2T_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_init_f32.c.i: cmake_force
@@ -1911,7 +1924,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_f32.c.i: cmake_force
@@ -1924,7 +1937,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_opt_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_opt_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_opt_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_opt_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_opt_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_fast_opt_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_fast_opt_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_opt_q15.c.i: cmake_force
@@ -1937,7 +1950,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_fast_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_fast_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q15.c.i: cmake_force
@@ -1950,7 +1963,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_fast_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_fast_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q31.c.i: cmake_force
@@ -1963,7 +1976,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_opt_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_opt_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q15.c.i: cmake_force
@@ -1976,7 +1989,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_opt_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_opt_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q7.c.i: cmake_force
@@ -1989,7 +2002,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_f32.c.i: cmake_force
@@ -2002,7 +2015,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_fast_opt_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_fast_opt_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c.i: cmake_force
@@ -2015,7 +2028,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_fast_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_fast_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q15.c.i: cmake_force
@@ -2028,7 +2041,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_fast_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_fast_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q31.c.i: cmake_force
@@ -2041,7 +2054,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_opt_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_opt_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q15.c.i: cmake_force
@@ -2054,7 +2067,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_opt_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_opt_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q7.c.i: cmake_force
@@ -2067,7 +2080,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q15.c.i: cmake_force
@@ -2080,7 +2093,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q31.c.i: cmake_force
@@ -2093,7 +2106,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_partial_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q7.c.i: cmake_force
@@ -2106,7 +2119,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q15.c.i: cmake_force
@@ -2119,7 +2132,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q31.c.i: cmake_force
@@ -2132,7 +2145,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_conv_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q7.c.i: cmake_force
@@ -2145,7 +2158,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_f32.c.i: cmake_force
@@ -2158,7 +2171,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_fast_opt_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_fast_opt_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c.i: cmake_force
@@ -2171,7 +2184,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_fast_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_fast_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q15.c.i: cmake_force
@@ -2184,7 +2197,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_fast_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_fast_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q31.c.i: cmake_force
@@ -2197,7 +2210,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_opt_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_opt_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q15.c.i: cmake_force
@@ -2210,7 +2223,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_opt_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_opt_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q7.c.i: cmake_force
@@ -2223,7 +2236,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q15.c.i: cmake_force
@@ -2236,7 +2249,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q31.c.i: cmake_force
@@ -2249,7 +2262,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_correlate_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q7.c.i: cmake_force
@@ -2262,7 +2275,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_f32.c.i: cmake_force
@@ -2275,7 +2288,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_fast_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_fast_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c.i: cmake_force
@@ -2288,7 +2301,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_fast_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_fast_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c.i: cmake_force
@@ -2301,7 +2314,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_f32.c.i: cmake_force
@@ -2314,7 +2327,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q15.c.i: cmake_force
@@ -2327,7 +2340,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q31.c.i: cmake_force
@@ -2340,7 +2353,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q15.c.i: cmake_force
@@ -2353,7 +2366,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_decimate_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q31.c.i: cmake_force
@@ -2366,7 +2379,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_f32.c.i: cmake_force
@@ -2379,7 +2392,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_fast_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_fast_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q15.c.i: cmake_force
@@ -2392,7 +2405,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_fast_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_fast_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q31.c.i: cmake_force
@@ -2405,7 +2418,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_f32.c.i: cmake_force
@@ -2418,7 +2431,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q15.c.i: cmake_force
@@ -2431,7 +2444,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q31.c.i: cmake_force
@@ -2444,7 +2457,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_init_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_init_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q7.c.i: cmake_force
@@ -2457,7 +2470,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_interpolate_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_interpolate_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_f32.c.i: cmake_force
@@ -2470,7 +2483,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_interpolate_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_interpolate_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c.i: cmake_force
@@ -2483,7 +2496,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_interpolate_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_interpolate_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c.i: cmake_force
@@ -2496,7 +2509,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_interpolate_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_interpolate_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c.i: cmake_force
@@ -2509,7 +2522,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_interpolate_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_interpolate_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q15.c.i: cmake_force
@@ -2522,7 +2535,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_interpolate_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_interpolate_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q31.c.i: cmake_force
@@ -2535,7 +2548,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_lattice_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_lattice_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_f32.c.i: cmake_force
@@ -2548,7 +2561,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_lattice_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_lattice_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_f32.c.i: cmake_force
@@ -2561,7 +2574,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_lattice_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_lattice_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q15.c.i: cmake_force
@@ -2574,7 +2587,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_lattice_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_lattice_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q31.c.i: cmake_force
@@ -2587,7 +2600,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_lattice_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_lattice_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q15.c.i: cmake_force
@@ -2600,7 +2613,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_lattice_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_lattice_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q31.c.i: cmake_force
@@ -2613,7 +2626,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q15.c.i: cmake_force
@@ -2626,7 +2639,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q31.c.i: cmake_force
@@ -2639,7 +2652,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q7.c.i: cmake_force
@@ -2652,7 +2665,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_f32.c.i: cmake_force
@@ -2665,7 +2678,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_f32.c.i: cmake_force
@@ -2678,7 +2691,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q15.c.i: cmake_force
@@ -2691,7 +2704,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q31.c.i: cmake_force
@@ -2704,7 +2717,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_init_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_init_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q7.c.i: cmake_force
@@ -2717,7 +2730,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q15.c.i: cmake_force
@@ -2730,7 +2743,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q31.c.i: cmake_force
@@ -2743,7 +2756,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_fir_sparse_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q7.c.i: cmake_force
@@ -2756,7 +2769,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_iir_lattice_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_iir_lattice_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_f32.c.i: cmake_force
@@ -2769,7 +2782,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_iir_lattice_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_iir_lattice_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_f32.c.i: cmake_force
@@ -2782,7 +2795,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_iir_lattice_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_iir_lattice_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q15.c.i: cmake_force
@@ -2795,7 +2808,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_iir_lattice_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_iir_lattice_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q31.c.i: cmake_force
@@ -2808,7 +2821,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_iir_lattice_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_iir_lattice_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q15.c.i: cmake_force
@@ -2821,7 +2834,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_iir_lattice_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_iir_lattice_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q31.c.i: cmake_force
@@ -2834,7 +2847,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_f32.c.i: cmake_force
@@ -2847,7 +2860,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_f32.c.i: cmake_force
@@ -2860,7 +2873,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q15.c.i: cmake_force
@@ -2873,7 +2886,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q31.c.i: cmake_force
@@ -2886,7 +2899,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_norm_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_norm_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_f32.c.i: cmake_force
@@ -2899,7 +2912,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_norm_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_norm_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_f32.c.i: cmake_force
@@ -2912,7 +2925,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_norm_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_norm_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q15.c.i: cmake_force
@@ -2925,7 +2938,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_norm_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_norm_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q31.c.i: cmake_force
@@ -2938,7 +2951,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_norm_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_norm_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q15.c.i: cmake_force
@@ -2951,7 +2964,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_norm_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_norm_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q31.c.i: cmake_force
@@ -2964,7 +2977,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q15.c.i: cmake_force
@@ -2977,7 +2990,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\FilteringFunctions\arm_lms_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q31.c.i: cmake_force
@@ -2990,7 +3003,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/FilteringFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_add_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_add_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_f32.c.i: cmake_force
@@ -3003,7 +3016,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_add_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_add_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q15.c.i: cmake_force
@@ -3016,7 +3029,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_add_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_add_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q31.c.i: cmake_force
@@ -3029,7 +3042,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_cmplx_mult_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_cmplx_mult_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_f32.c.i: cmake_force
@@ -3042,7 +3055,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_cmplx_mult_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_cmplx_mult_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q15.c.i: cmake_force
@@ -3055,7 +3068,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_cmplx_mult_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_cmplx_mult_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q31.c.i: cmake_force
@@ -3068,7 +3081,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_f32.c.i: cmake_force
@@ -3081,7 +3094,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q15.c.i: cmake_force
@@ -3094,7 +3107,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q31.c.i: cmake_force
@@ -3107,7 +3120,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_inverse_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_inverse_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f32.c.i: cmake_force
@@ -3120,7 +3133,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f64.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f64.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f64.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_inverse_f64.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_inverse_f64.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f64.c.i: cmake_force
@@ -3133,7 +3146,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_mult_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_mult_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_f32.c.i: cmake_force
@@ -3146,7 +3159,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_mult_fast_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_mult_fast_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q15.c.i: cmake_force
@@ -3159,7 +3172,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_mult_fast_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_mult_fast_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q31.c.i: cmake_force
@@ -3172,7 +3185,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_mult_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_mult_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q15.c.i: cmake_force
@@ -3185,7 +3198,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_mult_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_mult_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q31.c.i: cmake_force
@@ -3198,7 +3211,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_scale_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_scale_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_f32.c.i: cmake_force
@@ -3211,7 +3224,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_scale_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_scale_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q15.c.i: cmake_force
@@ -3224,7 +3237,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_scale_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_scale_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q31.c.i: cmake_force
@@ -3237,7 +3250,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_sub_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_sub_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_f32.c.i: cmake_force
@@ -3250,7 +3263,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_sub_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_sub_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q15.c.i: cmake_force
@@ -3263,7 +3276,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_sub_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_sub_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q31.c.i: cmake_force
@@ -3276,7 +3289,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_trans_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_trans_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_f32.c.i: cmake_force
@@ -3289,7 +3302,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_trans_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_trans_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q15.c.i: cmake_force
@@ -3302,7 +3315,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_trans_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\MatrixFunctions\arm_mat_trans_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q31.c.i: cmake_force
@@ -3315,7 +3328,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/MatrixFunctions/a
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_linear_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_linear_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_init_f32.c.i: cmake_force
@@ -3328,7 +3341,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_predict_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_predict_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_predict_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_predict_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_predict_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_linear_predict_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_linear_predict_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_predict_f32.c.i: cmake_force
@@ -3341,7 +3354,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_polynomial_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_polynomial_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_init_f32.c.i: cmake_force
@@ -3354,7 +3367,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_predict_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_predict_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_predict_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_predict_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_predict_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_polynomial_predict_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_polynomial_predict_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_predict_f32.c.i: cmake_force
@@ -3367,7 +3380,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_rbf_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_rbf_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_init_f32.c.i: cmake_force
@@ -3380,7 +3393,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_predict_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_predict_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_predict_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_predict_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_predict_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_rbf_predict_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_rbf_predict_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_predict_f32.c.i: cmake_force
@@ -3393,7 +3406,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_sigmoid_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_sigmoid_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_init_f32.c.i: cmake_force
@@ -3406,7 +3419,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_predict_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_predict_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_predict_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_predict_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_predict_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_sigmoid_predict_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SVMFunctions\arm_svm_sigmoid_predict_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_predict_f32.c.i: cmake_force
@@ -3419,7 +3432,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SVMFunctions/arm_
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_entropy_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_entropy_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.c.i: cmake_force
@@ -3432,7 +3445,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_entropy_f64.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_entropy_f64.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.c.i: cmake_force
@@ -3445,7 +3458,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_kullback_leibler_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_kullback_leibler_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.c.i: cmake_force
@@ -3458,7 +3471,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_kullback_leibler_f64.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_kullback_leibler_f64.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.c.i: cmake_force
@@ -3471,7 +3484,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_logsumexp_dot_prod_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_logsumexp_dot_prod_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.c.i: cmake_force
@@ -3484,7 +3497,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_logsumexp_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_logsumexp_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.c.i: cmake_force
@@ -3497,7 +3510,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_max_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_max_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.c.i: cmake_force
@@ -3510,7 +3523,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_max_no_idx_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_max_no_idx_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.c.i: cmake_force
@@ -3523,7 +3536,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_max_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_max_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.c.i: cmake_force
@@ -3536,7 +3549,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_max_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_max_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.c.i: cmake_force
@@ -3549,7 +3562,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_max_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_max_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.c.i: cmake_force
@@ -3562,7 +3575,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_mean_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_mean_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.c.i: cmake_force
@@ -3575,7 +3588,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_mean_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_mean_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.c.i: cmake_force
@@ -3588,7 +3601,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_mean_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_mean_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.c.i: cmake_force
@@ -3601,7 +3614,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_mean_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_mean_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.c.i: cmake_force
@@ -3614,7 +3627,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_min_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_min_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.c.i: cmake_force
@@ -3627,7 +3640,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_min_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_min_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.c.i: cmake_force
@@ -3640,7 +3653,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_min_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_min_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.c.i: cmake_force
@@ -3653,7 +3666,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_min_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_min_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.c.i: cmake_force
@@ -3666,7 +3679,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_power_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_power_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.c.i: cmake_force
@@ -3679,7 +3692,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_power_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_power_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.c.i: cmake_force
@@ -3692,7 +3705,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_power_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_power_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.c.i: cmake_force
@@ -3705,7 +3718,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_power_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_power_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.c.i: cmake_force
@@ -3718,7 +3731,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_rms_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_rms_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.c.i: cmake_force
@@ -3731,7 +3744,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_rms_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_rms_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.c.i: cmake_force
@@ -3744,7 +3757,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_rms_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_rms_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.c.i: cmake_force
@@ -3757,7 +3770,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_std_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_std_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.c.i: cmake_force
@@ -3770,7 +3783,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_std_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_std_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.c.i: cmake_force
@@ -3783,7 +3796,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_std_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_std_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.c.i: cmake_force
@@ -3796,7 +3809,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_var_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_var_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.c.i: cmake_force
@@ -3809,7 +3822,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_var_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_var_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.c.i: cmake_force
@@ -3822,7 +3835,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_var_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\StatisticsFunctions\arm_var_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.c.i: cmake_force
@@ -3835,7 +3848,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/StatisticsFunctio
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_barycenter_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_barycenter_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_barycenter_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_barycenter_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_barycenter_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_barycenter_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_barycenter_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_barycenter_f32.c.i: cmake_force
@@ -3848,7 +3861,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_bitonic_sort_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_bitonic_sort_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_bitonic_sort_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_bitonic_sort_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_bitonic_sort_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_bitonic_sort_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_bitonic_sort_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_bitonic_sort_f32.c.i: cmake_force
@@ -3861,7 +3874,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_bubble_sort_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_bubble_sort_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_bubble_sort_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_bubble_sort_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_bubble_sort_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_bubble_sort_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_bubble_sort_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_bubble_sort_f32.c.i: cmake_force
@@ -3874,7 +3887,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_copy_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_copy_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_f32.c.i: cmake_force
@@ -3887,7 +3900,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_copy_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_copy_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q15.c.i: cmake_force
@@ -3900,7 +3913,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_copy_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_copy_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q31.c.i: cmake_force
@@ -3913,7 +3926,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_copy_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_copy_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_copy_q7.c.i: cmake_force
@@ -3926,7 +3939,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_fill_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_fill_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_f32.c.i: cmake_force
@@ -3939,7 +3952,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_fill_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_fill_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q15.c.i: cmake_force
@@ -3952,7 +3965,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_fill_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_fill_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q31.c.i: cmake_force
@@ -3965,7 +3978,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_fill_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_fill_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_fill_q7.c.i: cmake_force
@@ -3978,7 +3991,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_float_to_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_float_to_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q15.c.i: cmake_force
@@ -3991,7 +4004,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_float_to_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_float_to_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q31.c.i: cmake_force
@@ -4004,7 +4017,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_float_to_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_float_to_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q7.c.i: cmake_force
@@ -4017,7 +4030,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_heap_sort_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_heap_sort_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_heap_sort_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_heap_sort_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_heap_sort_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_heap_sort_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_heap_sort_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_heap_sort_f32.c.i: cmake_force
@@ -4030,7 +4043,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_insertion_sort_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_insertion_sort_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_insertion_sort_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_insertion_sort_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_insertion_sort_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_insertion_sort_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_insertion_sort_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_insertion_sort_f32.c.i: cmake_force
@@ -4043,7 +4056,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_merge_sort_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_merge_sort_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_f32.c.i: cmake_force
@@ -4056,7 +4069,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_merge_sort_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_merge_sort_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_init_f32.c.i: cmake_force
@@ -4069,7 +4082,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_float.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_float.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_float.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_float.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_float.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q15_to_float.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q15_to_float.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_float.c.i: cmake_force
@@ -4082,7 +4095,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q15_to_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q15_to_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q31.c.i: cmake_force
@@ -4095,7 +4108,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q15_to_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q15_to_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q7.c.i: cmake_force
@@ -4108,7 +4121,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_float.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_float.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_float.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_float.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_float.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q31_to_float.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q31_to_float.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_float.c.i: cmake_force
@@ -4121,7 +4134,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q31_to_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q31_to_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q15.c.i: cmake_force
@@ -4134,7 +4147,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q7.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q7.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q7.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q31_to_q7.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q31_to_q7.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q7.c.i: cmake_force
@@ -4147,7 +4160,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_float.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_float.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_float.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_float.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_float.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q7_to_float.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q7_to_float.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_float.c.i: cmake_force
@@ -4160,7 +4173,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q7_to_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q7_to_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q15.c.i: cmake_force
@@ -4173,7 +4186,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q7_to_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_q7_to_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q31.c.i: cmake_force
@@ -4186,7 +4199,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_quick_sort_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_quick_sort_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_quick_sort_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_quick_sort_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_quick_sort_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_quick_sort_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_quick_sort_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_quick_sort_f32.c.i: cmake_force
@@ -4199,7 +4212,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_selection_sort_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_selection_sort_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_selection_sort_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_selection_sort_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_selection_sort_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_selection_sort_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_selection_sort_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_selection_sort_f32.c.i: cmake_force
@@ -4212,7 +4225,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_sort_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_sort_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_sort_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_sort_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_sort_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_sort_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_sort_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_sort_f32.c.i: cmake_force
@@ -4225,7 +4238,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_sort_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_sort_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_sort_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_sort_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_sort_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_sort_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_sort_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_sort_init_f32.c.i: cmake_force
@@ -4238,7 +4251,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_spline_interp_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_spline_interp_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_f32.c.i: cmake_force
@@ -4251,7 +4264,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_spline_interp_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_spline_interp_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_init_f32.c.i: cmake_force
@@ -4264,7 +4277,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_weighted_sum_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_weighted_sum_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_weighted_sum_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_weighted_sum_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_weighted_sum_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_weighted_sum_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\SupportFunctions\arm_weighted_sum_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/arm_weighted_sum_f32.c.i: cmake_force
@@ -4277,7 +4290,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/SupportFunctions/
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_bitreversal.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_bitreversal.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.c.i: cmake_force
@@ -4290,7 +4303,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_bitreversal2.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_bitreversal2.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.c.i: cmake_force
@@ -4303,7 +4316,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.c.i: cmake_force
@@ -4316,7 +4329,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_f64.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_f64.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.c.i: cmake_force
@@ -4329,7 +4342,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f32.c.i: cmake_force
@@ -4342,7 +4355,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f64.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f64.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f64.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_init_f64.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_init_f64.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f64.c.i: cmake_force
@@ -4355,7 +4368,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q15.c.i: cmake_force
@@ -4368,7 +4381,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q31.c.i: cmake_force
@@ -4381,7 +4394,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q15.c.i: cmake_force
@@ -4394,7 +4407,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q31.c.i: cmake_force
@@ -4407,7 +4420,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f32.c.i: cmake_force
@@ -4420,7 +4433,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_f32.c.i: cmake_force
@@ -4433,7 +4446,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q15.c.i: cmake_force
@@ -4446,7 +4459,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q31.c.i: cmake_force
@@ -4459,7 +4472,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q15.c.i: cmake_force
@@ -4472,7 +4485,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q31.c.i: cmake_force
@@ -4485,7 +4498,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f32.c.i: cmake_force
@@ -4498,7 +4511,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_f32.c.i: cmake_force
@@ -4511,7 +4524,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q15.c.i: cmake_force
@@ -4524,7 +4537,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q31.c.i: cmake_force
@@ -4537,7 +4550,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q15.c.i: cmake_force
@@ -4550,7 +4563,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q31.c.i: cmake_force
@@ -4563,7 +4576,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix8_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix8_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix8_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix8_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix8_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix8_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix8_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix8_f32.c.i: cmake_force
@@ -4576,7 +4589,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_dct4_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_dct4_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_f32.c.i: cmake_force
@@ -4589,7 +4602,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_f32.c.i: cmake_force
@@ -4602,7 +4615,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q15.c.i: cmake_force
@@ -4615,7 +4628,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q31.c.i: cmake_force
@@ -4628,7 +4641,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_dct4_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_dct4_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q15.c.i: cmake_force
@@ -4641,7 +4654,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_dct4_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_dct4_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q31.c.i: cmake_force
@@ -4654,7 +4667,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_f32.c.i: cmake_force
@@ -4667,7 +4680,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f32.c.i: cmake_force
@@ -4680,7 +4693,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f64.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f64.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f64.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_f64.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_f64.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f64.c.i: cmake_force
@@ -4693,7 +4706,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f32.c.i: cmake_force
@@ -4706,7 +4719,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f64.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f64.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f64.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_init_f64.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_init_f64.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f64.c.i: cmake_force
@@ -4719,7 +4732,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_f32.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_f32.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_f32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_f32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_f32.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_f32.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_f32.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_f32.c.i: cmake_force
@@ -4732,7 +4745,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q15.c.i: cmake_force
@@ -4745,7 +4758,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q31.c.i: cmake_force
@@ -4758,7 +4771,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q15.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q15.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q15.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q15.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_q15.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_q15.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q15.c.i: cmake_force
@@ -4771,7 +4784,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c.obj: ../source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_q31.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\CMSIS\DSP\Source\TransformFunctions\arm_rfft_q31.c
 
 CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c.i: cmake_force
@@ -4784,7 +4797,7 @@ CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/TransformFunction
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/boot_record.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/boot_record.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/boot_record.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/boot_record.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/boot_record.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\boot_record.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\boot_record.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/boot_record.c.i: cmake_force
@@ -4797,7 +4810,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/boot_rec
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/bootutil_misc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/bootutil_misc.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/bootutil_misc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/bootutil_misc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/bootutil_misc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\bootutil_misc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\bootutil_misc.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/bootutil_misc.c.i: cmake_force
@@ -4810,7 +4823,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/bootutil
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/bootutil_public.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/bootutil_public.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/bootutil_public.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/bootutil_public.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/bootutil_public.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\bootutil_public.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\bootutil_public.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/bootutil_public.c.i: cmake_force
@@ -4823,7 +4836,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/bootutil
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/caps.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/caps.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/caps.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/caps.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/caps.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\caps.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\caps.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/caps.c.i: cmake_force
@@ -4836,7 +4849,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/caps.c.s
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/encrypted.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/encrypted.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/encrypted.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/encrypted.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/encrypted.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\encrypted.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\encrypted.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/encrypted.c.i: cmake_force
@@ -4849,7 +4862,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/encrypte
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/fault_injection_hardening.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/fault_injection_hardening.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/fault_injection_hardening.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/fault_injection_hardening.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/fault_injection_hardening.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\fault_injection_hardening.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\fault_injection_hardening.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/fault_injection_hardening.c.i: cmake_force
@@ -4862,7 +4875,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/fault_in
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/fault_injection_hardening_delay_rng_mbedtls.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/fault_injection_hardening_delay_rng_mbedtls.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/fault_injection_hardening_delay_rng_mbedtls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/fault_injection_hardening_delay_rng_mbedtls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/fault_injection_hardening_delay_rng_mbedtls.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\fault_injection_hardening_delay_rng_mbedtls.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\fault_injection_hardening_delay_rng_mbedtls.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/fault_injection_hardening_delay_rng_mbedtls.c.i: cmake_force
@@ -4875,7 +4888,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/fault_in
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ec.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ec.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/image_ec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ec.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\image_ec.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\image_ec.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ec.c.i: cmake_force
@@ -4888,7 +4901,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ec
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ec256.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ec256.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/image_ec256.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ec256.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ec256.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\image_ec256.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\image_ec256.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ec256.c.i: cmake_force
@@ -4901,7 +4914,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ec
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ed25519.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ed25519.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/image_ed25519.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ed25519.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ed25519.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\image_ed25519.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\image_ed25519.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ed25519.c.i: cmake_force
@@ -4914,7 +4927,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_ed
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_rsa.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_rsa.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/image_rsa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_rsa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_rsa.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\image_rsa.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\image_rsa.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_rsa.c.i: cmake_force
@@ -4927,7 +4940,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_rs
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_validate.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_validate.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/image_validate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_validate.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_validate.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\image_validate.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\image_validate.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_validate.c.i: cmake_force
@@ -4940,7 +4953,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/image_va
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/loader.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/loader.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/loader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/loader.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/loader.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\loader.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\loader.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/loader.c.i: cmake_force
@@ -4953,7 +4966,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/loader.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_misc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_misc.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/swap_misc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_misc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_misc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\swap_misc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\swap_misc.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_misc.c.i: cmake_force
@@ -4966,7 +4979,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_mis
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_move.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_move.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/swap_move.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_move.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_move.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\swap_move.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\swap_move.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_move.c.i: cmake_force
@@ -4979,7 +4992,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_mov
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_scratch.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_scratch.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/swap_scratch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_scratch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_scratch.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\swap_scratch.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\swap_scratch.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_scratch.c.i: cmake_force
@@ -4992,7 +5005,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/swap_scr
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/tlv.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/tlv.c.obj: ../source/third_party/mcuboot/boot/bootutil/src/tlv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/tlv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/tlv.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\boot\bootutil\src\tlv.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\boot\bootutil\src\tlv.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/tlv.c.i: cmake_force
@@ -5005,7 +5018,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/boot/bootutil/src/tlv.c.s:
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/mbedtls-asn1/src/asn1parse.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/mbedtls-asn1/src/asn1parse.c.obj: ../source/third_party/mcuboot/ext/mbedtls-asn1/src/asn1parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/mbedtls-asn1/src/asn1parse.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/mbedtls-asn1/src/asn1parse.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\ext\mbedtls-asn1\src\asn1parse.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\ext\mbedtls-asn1\src\asn1parse.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/mbedtls-asn1/src/asn1parse.c.i: cmake_force
@@ -5018,7 +5031,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/mbedtls-asn1/src/asn1p
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/mbedtls-asn1/src/platform_util.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/mbedtls-asn1/src/platform_util.c.obj: ../source/third_party/mcuboot/ext/mbedtls-asn1/src/platform_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/mbedtls-asn1/src/platform_util.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/mbedtls-asn1/src/platform_util.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\ext\mbedtls-asn1\src\platform_util.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\ext\mbedtls-asn1\src\platform_util.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/mbedtls-asn1/src/platform_util.c.i: cmake_force
@@ -5031,7 +5044,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/mbedtls-asn1/src/platf
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/msp-crypto/msp_crypto.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/msp-crypto/msp_crypto.c.obj: ../source/third_party/mcuboot/ext/msp-crypto/msp_crypto.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/msp-crypto/msp_crypto.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/msp-crypto/msp_crypto.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\third_party\mcuboot\ext\msp-crypto\msp_crypto.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\third_party\mcuboot\ext\msp-crypto\msp_crypto.c
 
 CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/msp-crypto/msp_crypto.c.i: cmake_force
@@ -5044,7 +5057,7 @@ CMakeFiles/control.elf.dir/source/third_party/mcuboot/ext/msp-crypto/msp_crypto.
 
 CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x.c.obj: ../source/ti/boosterpacks/tcan114x/tcan114x.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\boosterpacks\tcan114x\tcan114x.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\boosterpacks\tcan114x\tcan114x.c
 
 CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x.c.i: cmake_force
@@ -5057,7 +5070,7 @@ CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x.c.s: cmake_f
 
 CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x_spi.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x_spi.c.obj: ../source/ti/boosterpacks/tcan114x/tcan114x_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x_spi.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\boosterpacks\tcan114x\tcan114x_spi.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\boosterpacks\tcan114x\tcan114x_spi.c
 
 CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x_spi.c.i: cmake_force
@@ -5070,7 +5083,7 @@ CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x_spi.c.s: cma
 
 CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x_wdt.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x_wdt.c.obj: ../source/ti/boosterpacks/tcan114x/tcan114x_wdt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x_wdt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x_wdt.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\boosterpacks\tcan114x\tcan114x_wdt.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\boosterpacks\tcan114x\tcan114x_wdt.c
 
 CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x_wdt.c.i: cmake_force
@@ -5083,7 +5096,7 @@ CMakeFiles/control.elf.dir/source/ti/boosterpacks/tcan114x/tcan114x_wdt.c.s: cma
 
 CMakeFiles/control.elf.dir/source/ti/comm_modules/uart/controller/uart_comm_controller.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/comm_modules/uart/controller/uart_comm_controller.c.obj: ../source/ti/comm_modules/uart/controller/uart_comm_controller.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object CMakeFiles/control.elf.dir/source/ti/comm_modules/uart/controller/uart_comm_controller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object CMakeFiles/control.elf.dir/source/ti/comm_modules/uart/controller/uart_comm_controller.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\comm_modules\uart\controller\uart_comm_controller.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\comm_modules\uart\controller\uart_comm_controller.c
 
 CMakeFiles/control.elf.dir/source/ti/comm_modules/uart/controller/uart_comm_controller.c.i: cmake_force
@@ -5096,7 +5109,7 @@ CMakeFiles/control.elf.dir/source/ti/comm_modules/uart/controller/uart_comm_cont
 
 CMakeFiles/control.elf.dir/source/ti/comm_modules/uart/target/uart_comm_target.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/comm_modules/uart/target/uart_comm_target.c.obj: ../source/ti/comm_modules/uart/target/uart_comm_target.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object CMakeFiles/control.elf.dir/source/ti/comm_modules/uart/target/uart_comm_target.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object CMakeFiles/control.elf.dir/source/ti/comm_modules/uart/target/uart_comm_target.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\comm_modules\uart\target\uart_comm_target.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\comm_modules\uart\target\uart_comm_target.c
 
 CMakeFiles/control.elf.dir/source/ti/comm_modules/uart/target/uart_comm_target.c.i: cmake_force
@@ -5109,7 +5122,7 @@ CMakeFiles/control.elf.dir/source/ti/comm_modules/uart/target/uart_comm_target.c
 
 CMakeFiles/control.elf.dir/source/ti/dali/dali_target_comm.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/dali/dali_target_comm.c.obj: ../source/ti/dali/dali_target_comm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object CMakeFiles/control.elf.dir/source/ti/dali/dali_target_comm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object CMakeFiles/control.elf.dir/source/ti/dali/dali_target_comm.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\dali\dali_target_comm.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\dali\dali_target_comm.c
 
 CMakeFiles/control.elf.dir/source/ti/dali/dali_target_comm.c.i: cmake_force
@@ -5122,7 +5135,7 @@ CMakeFiles/control.elf.dir/source/ti/dali/dali_target_comm.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/dali/dali_target_command.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/dali/dali_target_command.c.obj: ../source/ti/dali/dali_target_command.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object CMakeFiles/control.elf.dir/source/ti/dali/dali_target_command.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object CMakeFiles/control.elf.dir/source/ti/dali/dali_target_command.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\dali\dali_target_command.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\dali\dali_target_command.c
 
 CMakeFiles/control.elf.dir/source/ti/dali/dali_target_command.c.i: cmake_force
@@ -5135,7 +5148,7 @@ CMakeFiles/control.elf.dir/source/ti/dali/dali_target_command.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/dali/dali_target_led_command.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/dali/dali_target_led_command.c.obj: ../source/ti/dali/dali_target_led_command.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object CMakeFiles/control.elf.dir/source/ti/dali/dali_target_led_command.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object CMakeFiles/control.elf.dir/source/ti/dali/dali_target_led_command.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\dali\dali_target_led_command.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\dali\dali_target_led_command.c
 
 CMakeFiles/control.elf.dir/source/ti/dali/dali_target_led_command.c.i: cmake_force
@@ -5148,7 +5161,7 @@ CMakeFiles/control.elf.dir/source/ti/dali/dali_target_led_command.c.s: cmake_for
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0c110x_gcc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0c110x_gcc.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0c110x_gcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0c110x_gcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0c110x_gcc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0c110x_gcc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0c110x_gcc.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0c110x_gcc.c.i: cmake_force
@@ -5161,7 +5174,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g110x_gcc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g110x_gcc.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g110x_gcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g110x_gcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g110x_gcc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0g110x_gcc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0g110x_gcc.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g110x_gcc.c.i: cmake_force
@@ -5174,7 +5187,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g150x_gcc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g150x_gcc.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g150x_gcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g150x_gcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g150x_gcc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0g150x_gcc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0g150x_gcc.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g150x_gcc.c.i: cmake_force
@@ -5187,7 +5200,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g310x_gcc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g310x_gcc.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g310x_gcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g310x_gcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g310x_gcc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0g310x_gcc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0g310x_gcc.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g310x_gcc.c.i: cmake_force
@@ -5200,7 +5213,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g350x_gcc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g350x_gcc.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g350x_gcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g350x_gcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g350x_gcc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0g350x_gcc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0g350x_gcc.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0g350x_gcc.c.i: cmake_force
@@ -5213,7 +5226,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l110x_gcc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l110x_gcc.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l110x_gcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l110x_gcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l110x_gcc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0l110x_gcc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0l110x_gcc.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l110x_gcc.c.i: cmake_force
@@ -5226,7 +5239,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l122x_gcc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l122x_gcc.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l122x_gcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l122x_gcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l122x_gcc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0l122x_gcc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0l122x_gcc.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l122x_gcc.c.i: cmake_force
@@ -5239,7 +5252,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l130x_gcc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l130x_gcc.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l130x_gcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l130x_gcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l130x_gcc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0l130x_gcc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0l130x_gcc.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l130x_gcc.c.i: cmake_force
@@ -5252,7 +5265,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l134x_gcc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l134x_gcc.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l134x_gcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l134x_gcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l134x_gcc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0l134x_gcc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0l134x_gcc.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l134x_gcc.c.i: cmake_force
@@ -5265,7 +5278,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l222x_gcc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l222x_gcc.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l222x_gcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l222x_gcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l222x_gcc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0l222x_gcc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_mspm0l222x_gcc.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_mspm0l222x_gcc.c.i: cmake_force
@@ -5278,7 +5291,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_msps003fx_gcc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_msps003fx_gcc.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/gcc/startup_msps003fx_gcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_msps003fx_gcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_msps003fx_gcc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_msps003fx_gcc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\gcc\startup_msps003fx_gcc.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/startup_msps003fx_gcc.c.i: cmake_force
@@ -5291,7 +5304,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/gcc/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0c110x_iar.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0c110x_iar.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0c110x_iar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0c110x_iar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0c110x_iar.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0c110x_iar.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0c110x_iar.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0c110x_iar.c.i: cmake_force
@@ -5304,7 +5317,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g110x_iar.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g110x_iar.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g110x_iar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g110x_iar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g110x_iar.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0g110x_iar.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0g110x_iar.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g110x_iar.c.i: cmake_force
@@ -5317,7 +5330,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g150x_iar.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g150x_iar.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g150x_iar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g150x_iar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g150x_iar.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0g150x_iar.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0g150x_iar.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g150x_iar.c.i: cmake_force
@@ -5330,7 +5343,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g310x_iar.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g310x_iar.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g310x_iar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g310x_iar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g310x_iar.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0g310x_iar.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0g310x_iar.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g310x_iar.c.i: cmake_force
@@ -5343,7 +5356,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g350x_iar.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g350x_iar.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g350x_iar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g350x_iar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g350x_iar.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0g350x_iar.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0g350x_iar.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0g350x_iar.c.i: cmake_force
@@ -5356,7 +5369,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l110x_iar.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l110x_iar.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l110x_iar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l110x_iar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l110x_iar.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0l110x_iar.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0l110x_iar.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l110x_iar.c.i: cmake_force
@@ -5369,7 +5382,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l122x_iar.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l122x_iar.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l122x_iar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l122x_iar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l122x_iar.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0l122x_iar.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0l122x_iar.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l122x_iar.c.i: cmake_force
@@ -5382,7 +5395,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l130x_iar.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l130x_iar.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l130x_iar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l130x_iar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l130x_iar.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0l130x_iar.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0l130x_iar.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l130x_iar.c.i: cmake_force
@@ -5395,7 +5408,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l134x_iar.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l134x_iar.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l134x_iar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l134x_iar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l134x_iar.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0l134x_iar.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0l134x_iar.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l134x_iar.c.i: cmake_force
@@ -5408,7 +5421,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l222x_iar.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l222x_iar.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l222x_iar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l222x_iar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l222x_iar.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0l222x_iar.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\iar\startup_mspm0l222x_iar.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_mspm0l222x_iar.c.i: cmake_force
@@ -5421,7 +5434,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_msps003fx_iar.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_msps003fx_iar.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/iar/startup_msps003fx_iar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_msps003fx_iar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_msps003fx_iar.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\iar\startup_msps003fx_iar.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\iar\startup_msps003fx_iar.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/startup_msps003fx_iar.c.i: cmake_force
@@ -5434,62 +5447,62 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/iar/st
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0c110x_uvision.s.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0c110x_uvision.s.obj: ../source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0c110x_uvision.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0c110x_uvision.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0c110x_uvision.s.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0c110x_uvision.s.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0c110x_uvision.s
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g110x_uvision.s.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g110x_uvision.s.obj: ../source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g110x_uvision.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g110x_uvision.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g110x_uvision.s.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0g110x_uvision.s.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0g110x_uvision.s
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g150x_uvision.s.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g150x_uvision.s.obj: ../source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g150x_uvision.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g150x_uvision.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g150x_uvision.s.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0g150x_uvision.s.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0g150x_uvision.s
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g310x_uvision.s.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g310x_uvision.s.obj: ../source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g310x_uvision.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g310x_uvision.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g310x_uvision.s.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0g310x_uvision.s.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0g310x_uvision.s
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g350x_uvision.s.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g350x_uvision.s.obj: ../source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g350x_uvision.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g350x_uvision.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0g350x_uvision.s.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0g350x_uvision.s.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0g350x_uvision.s
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l110x_uvision.s.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l110x_uvision.s.obj: ../source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l110x_uvision.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l110x_uvision.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l110x_uvision.s.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0l110x_uvision.s.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0l110x_uvision.s
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l122x_uvision.s.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l122x_uvision.s.obj: ../source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l122x_uvision.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l122x_uvision.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l122x_uvision.s.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0l122x_uvision.s.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0l122x_uvision.s
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l130x_uvision.s.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l130x_uvision.s.obj: ../source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l130x_uvision.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l130x_uvision.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l130x_uvision.s.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0l130x_uvision.s.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0l130x_uvision.s
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l134x_uvision.s.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l134x_uvision.s.obj: ../source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l134x_uvision.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l134x_uvision.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l134x_uvision.s.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0l134x_uvision.s.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0l134x_uvision.s
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l222x_uvision.s.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l222x_uvision.s.obj: ../source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l222x_uvision.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l222x_uvision.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_mspm0l222x_uvision.s.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0l222x_uvision.s.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\keil\startup_mspm0l222x_uvision.s
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_msps003fx_uvision.s.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_msps003fx_uvision.s.obj: ../source/ti/devices/msp/m0p/startup_system_files/keil/startup_msps003fx_uvision.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_msps003fx_uvision.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building ASM object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/keil/startup_msps003fx_uvision.s.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\keil\startup_msps003fx_uvision.s.obj -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\keil\startup_msps003fx_uvision.s
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0c110x_ticlang.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0c110x_ticlang.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0c110x_ticlang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0c110x_ticlang.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0c110x_ticlang.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0c110x_ticlang.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0c110x_ticlang.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0c110x_ticlang.c.i: cmake_force
@@ -5502,7 +5515,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlan
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g110x_ticlang.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g110x_ticlang.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g110x_ticlang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g110x_ticlang.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g110x_ticlang.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0g110x_ticlang.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0g110x_ticlang.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g110x_ticlang.c.i: cmake_force
@@ -5515,7 +5528,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlan
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g150x_ticlang.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g150x_ticlang.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g150x_ticlang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g150x_ticlang.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g150x_ticlang.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0g150x_ticlang.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0g150x_ticlang.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g150x_ticlang.c.i: cmake_force
@@ -5528,7 +5541,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlan
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g310x_ticlang.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g310x_ticlang.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g310x_ticlang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g310x_ticlang.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g310x_ticlang.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0g310x_ticlang.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0g310x_ticlang.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g310x_ticlang.c.i: cmake_force
@@ -5541,7 +5554,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlan
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g350x_ticlang.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g350x_ticlang.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g350x_ticlang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g350x_ticlang.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g350x_ticlang.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0g350x_ticlang.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0g350x_ticlang.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0g350x_ticlang.c.i: cmake_force
@@ -5554,7 +5567,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlan
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l110x_ticlang.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l110x_ticlang.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l110x_ticlang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l110x_ticlang.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l110x_ticlang.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0l110x_ticlang.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0l110x_ticlang.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l110x_ticlang.c.i: cmake_force
@@ -5567,7 +5580,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlan
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l122x_ticlang.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l122x_ticlang.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l122x_ticlang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l122x_ticlang.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l122x_ticlang.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0l122x_ticlang.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0l122x_ticlang.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l122x_ticlang.c.i: cmake_force
@@ -5580,7 +5593,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlan
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l130x_ticlang.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l130x_ticlang.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l130x_ticlang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l130x_ticlang.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l130x_ticlang.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0l130x_ticlang.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0l130x_ticlang.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l130x_ticlang.c.i: cmake_force
@@ -5593,7 +5606,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlan
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l134x_ticlang.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l134x_ticlang.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l134x_ticlang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l134x_ticlang.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l134x_ticlang.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0l134x_ticlang.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0l134x_ticlang.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l134x_ticlang.c.i: cmake_force
@@ -5606,7 +5619,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlan
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l222x_ticlang.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l222x_ticlang.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l222x_ticlang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l222x_ticlang.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l222x_ticlang.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0l222x_ticlang.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_mspm0l222x_ticlang.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_mspm0l222x_ticlang.c.i: cmake_force
@@ -5619,7 +5632,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlan
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_msps003fx_ticlang.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_msps003fx_ticlang.c.obj: ../source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_msps003fx_ticlang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_msps003fx_ticlang.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building C object CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_msps003fx_ticlang.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_msps003fx_ticlang.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\devices\msp\m0p\startup_system_files\ticlang\startup_msps003fx_ticlang.c
 
 CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlang/startup_msps003fx_ticlang.c.i: cmake_force
@@ -5632,7 +5645,7 @@ CMakeFiles/control.elf.dir/source/ti/devices/msp/m0p/startup_system_files/ticlan
 
 CMakeFiles/control.elf.dir/source/ti/display/Display.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/display/Display.c.obj: ../source/ti/display/Display.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building C object CMakeFiles/control.elf.dir/source/ti/display/Display.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building C object CMakeFiles/control.elf.dir/source/ti/display/Display.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\display\Display.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\display\Display.c
 
 CMakeFiles/control.elf.dir/source/ti/display/Display.c.i: cmake_force
@@ -5645,7 +5658,7 @@ CMakeFiles/control.elf.dir/source/ti/display/Display.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/display/DisplayUart.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/display/DisplayUart.c.obj: ../source/ti/display/DisplayUart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building C object CMakeFiles/control.elf.dir/source/ti/display/DisplayUart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building C object CMakeFiles/control.elf.dir/source/ti/display/DisplayUart.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\display\DisplayUart.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\display\DisplayUart.c
 
 CMakeFiles/control.elf.dir/source/ti/display/DisplayUart.c.i: cmake_force
@@ -5658,7 +5671,7 @@ CMakeFiles/control.elf.dir/source/ti/display/DisplayUart.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_adc12.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_adc12.c.obj: ../source/ti/driverlib/dl_adc12.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_adc12.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_adc12.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_adc12.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_adc12.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_adc12.c.i: cmake_force
@@ -5671,7 +5684,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_adc12.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_aes.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_aes.c.obj: ../source/ti/driverlib/dl_aes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_aes.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_aes.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_aes.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_aes.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_aes.c.i: cmake_force
@@ -5684,7 +5697,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_aes.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_aesadv.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_aesadv.c.obj: ../source/ti/driverlib/dl_aesadv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_aesadv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_aesadv.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_aesadv.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_aesadv.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_aesadv.c.i: cmake_force
@@ -5697,7 +5710,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_aesadv.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_common.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_common.c.obj: ../source/ti/driverlib/dl_common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_common.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_common.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_common.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_common.c.i: cmake_force
@@ -5710,7 +5723,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_common.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_crc.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_crc.c.obj: ../source/ti/driverlib/dl_crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_crc.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_crc.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_crc.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_crc.c.i: cmake_force
@@ -5723,7 +5736,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_crc.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_crcp.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_crcp.c.obj: ../source/ti/driverlib/dl_crcp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_crcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_crcp.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_crcp.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_crcp.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_crcp.c.i: cmake_force
@@ -5736,7 +5749,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_crcp.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_dac12.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_dac12.c.obj: ../source/ti/driverlib/dl_dac12.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_dac12.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_dac12.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_dac12.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_dac12.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_dac12.c.i: cmake_force
@@ -5749,7 +5762,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_dac12.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_dma.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_dma.c.obj: ../source/ti/driverlib/dl_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_dma.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_dma.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_dma.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_dma.c.i: cmake_force
@@ -5762,7 +5775,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_dma.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_flashctl.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_flashctl.c.obj: ../source/ti/driverlib/dl_flashctl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_flashctl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_flashctl.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_flashctl.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_flashctl.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_flashctl.c.i: cmake_force
@@ -5775,7 +5788,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_flashctl.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_i2c.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_i2c.c.obj: ../source/ti/driverlib/dl_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_i2c.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_i2c.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_i2c.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_i2c.c.i: cmake_force
@@ -5788,7 +5801,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_i2c.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_keystorectl.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_keystorectl.c.obj: ../source/ti/driverlib/dl_keystorectl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_keystorectl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_keystorectl.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_keystorectl.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_keystorectl.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_keystorectl.c.i: cmake_force
@@ -5801,7 +5814,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_keystorectl.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_lcd.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_lcd.c.obj: ../source/ti/driverlib/dl_lcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_lcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_lcd.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_lcd.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_lcd.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_lcd.c.i: cmake_force
@@ -5814,7 +5827,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_lcd.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_lfss.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_lfss.c.obj: ../source/ti/driverlib/dl_lfss.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_lfss.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_lfss.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_lfss.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_lfss.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_lfss.c.i: cmake_force
@@ -5827,7 +5840,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_lfss.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_mathacl.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_mathacl.c.obj: ../source/ti/driverlib/dl_mathacl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_mathacl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_mathacl.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_mathacl.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_mathacl.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_mathacl.c.i: cmake_force
@@ -5840,7 +5853,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_mathacl.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_mcan.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_mcan.c.obj: ../source/ti/driverlib/dl_mcan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_mcan.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_mcan.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_mcan.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_mcan.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_mcan.c.i: cmake_force
@@ -5853,7 +5866,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_mcan.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_opa.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_opa.c.obj: ../source/ti/driverlib/dl_opa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_opa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_opa.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_opa.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_opa.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_opa.c.i: cmake_force
@@ -5866,7 +5879,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_opa.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_rtc_common.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_rtc_common.c.obj: ../source/ti/driverlib/dl_rtc_common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_rtc_common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_rtc_common.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_rtc_common.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_rtc_common.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_rtc_common.c.i: cmake_force
@@ -5879,7 +5892,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_rtc_common.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_spi.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_spi.c.obj: ../source/ti/driverlib/dl_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_spi.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_spi.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_spi.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_spi.c.i: cmake_force
@@ -5892,7 +5905,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_spi.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_timer.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_timer.c.obj: ../source/ti/driverlib/dl_timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_timer.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_timer.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_timer.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_timer.c.i: cmake_force
@@ -5905,7 +5918,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_timer.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_trng.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_trng.c.obj: ../source/ti/driverlib/dl_trng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_trng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_trng.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_trng.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_trng.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_trng.c.i: cmake_force
@@ -5918,7 +5931,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_trng.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_uart.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_uart.c.obj: ../source/ti/driverlib/dl_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_458) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_uart.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_uart.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_uart.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_uart.c.i: cmake_force
@@ -5931,7 +5944,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_uart.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_vref.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_vref.c.obj: ../source/ti/driverlib/dl_vref.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_458) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_vref.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_459) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/dl_vref.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\dl_vref.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\dl_vref.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/dl_vref.c.i: cmake_force
@@ -5944,7 +5957,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/dl_vref.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/dl_interrupt.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/dl_interrupt.c.obj: ../source/ti/driverlib/m0p/dl_interrupt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_459) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/dl_interrupt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_460) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/dl_interrupt.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\m0p\dl_interrupt.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\m0p\dl_interrupt.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/dl_interrupt.c.i: cmake_force
@@ -5957,7 +5970,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/dl_interrupt.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.c.obj: ../source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_460) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_461) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\m0p\sysctl\dl_sysctl_mspm0c110x.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\m0p\sysctl\dl_sysctl_mspm0c110x.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.c.i: cmake_force
@@ -5970,7 +5983,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.c.obj: ../source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_461) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_462) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\m0p\sysctl\dl_sysctl_mspm0g1x0x_g3x0x.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\m0p\sysctl\dl_sysctl_mspm0g1x0x_g3x0x.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.c.i: cmake_force
@@ -5983,7 +5996,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.c.obj: ../source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_462) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_463) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\m0p\sysctl\dl_sysctl_mspm0l11xx_l13xx.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\m0p\sysctl\dl_sysctl_mspm0l11xx_l13xx.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.c.i: cmake_force
@@ -5996,7 +6009,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.c.obj: ../source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_463) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_464) "Building C object CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\driverlib\m0p\sysctl\dl_sysctl_mspm0l122x_l222x.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\driverlib\m0p\sysctl\dl_sysctl_mspm0l122x_l222x.c
 
 CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.c.i: cmake_force
@@ -6009,7 +6022,7 @@ CMakeFiles/control.elf.dir/source/ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l
 
 CMakeFiles/control.elf.dir/source/ti/drivers/ADC.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/ADC.c.obj: ../source/ti/drivers/ADC.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_464) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/ADC.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_465) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/ADC.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\ADC.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\ADC.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/ADC.c.i: cmake_force
@@ -6022,7 +6035,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/ADC.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/GPIO.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/GPIO.c.obj: ../source/ti/drivers/GPIO.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_465) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/GPIO.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_466) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/GPIO.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\GPIO.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\GPIO.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/GPIO.c.i: cmake_force
@@ -6035,7 +6048,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/GPIO.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/I2C.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/I2C.c.obj: ../source/ti/drivers/I2C.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_466) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/I2C.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/I2C.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\I2C.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\I2C.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/I2C.c.i: cmake_force
@@ -6048,7 +6061,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/I2C.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/I2CTarget.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/I2CTarget.c.obj: ../source/ti/drivers/I2CTarget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/I2CTarget.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/I2CTarget.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\I2CTarget.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\I2CTarget.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/I2CTarget.c.i: cmake_force
@@ -6061,7 +6074,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/I2CTarget.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/SPI.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/SPI.c.obj: ../source/ti/drivers/SPI.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/SPI.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/SPI.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\SPI.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\SPI.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/SPI.c.i: cmake_force
@@ -6074,7 +6087,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/SPI.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/UART.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/UART.c.obj: ../source/ti/drivers/UART.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/UART.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/UART.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\UART.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\UART.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/UART.c.i: cmake_force
@@ -6087,7 +6100,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/UART.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/adc/ADCMSPM0.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/adc/ADCMSPM0.c.obj: ../source/ti/drivers/adc/ADCMSPM0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/adc/ADCMSPM0.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/adc/ADCMSPM0.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\adc\ADCMSPM0.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\adc\ADCMSPM0.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/adc/ADCMSPM0.c.i: cmake_force
@@ -6100,7 +6113,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/adc/ADCMSPM0.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/dma/DMAMSPM0.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/dma/DMAMSPM0.c.obj: ../source/ti/drivers/dma/DMAMSPM0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/dma/DMAMSPM0.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_472) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/dma/DMAMSPM0.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\dma\DMAMSPM0.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\dma\DMAMSPM0.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/dma/DMAMSPM0.c.i: cmake_force
@@ -6113,7 +6126,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/dma/DMAMSPM0.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/gpio/GPIOMSPM0.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/gpio/GPIOMSPM0.c.obj: ../source/ti/drivers/gpio/GPIOMSPM0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_472) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/gpio/GPIOMSPM0.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_473) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/gpio/GPIOMSPM0.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\gpio\GPIOMSPM0.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\gpio\GPIOMSPM0.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/gpio/GPIOMSPM0.c.i: cmake_force
@@ -6126,7 +6139,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/gpio/GPIOMSPM0.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/i2c/I2CMSPM0.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/i2c/I2CMSPM0.c.obj: ../source/ti/drivers/i2c/I2CMSPM0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_473) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/i2c/I2CMSPM0.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_474) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/i2c/I2CMSPM0.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\i2c\I2CMSPM0.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\i2c\I2CMSPM0.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/i2c/I2CMSPM0.c.i: cmake_force
@@ -6139,7 +6152,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/i2c/I2CMSPM0.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/i2ctarget/I2CTargetMSPM0.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/i2ctarget/I2CTargetMSPM0.c.obj: ../source/ti/drivers/i2ctarget/I2CTargetMSPM0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_474) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/i2ctarget/I2CTargetMSPM0.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_475) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/i2ctarget/I2CTargetMSPM0.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\i2ctarget\I2CTargetMSPM0.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\i2ctarget\I2CTargetMSPM0.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/i2ctarget/I2CTargetMSPM0.c.i: cmake_force
@@ -6152,7 +6165,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/i2ctarget/I2CTargetMSPM0.c.s: cmake
 
 CMakeFiles/control.elf.dir/source/ti/drivers/spi/SPIMSPM0.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/spi/SPIMSPM0.c.obj: ../source/ti/drivers/spi/SPIMSPM0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_475) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/spi/SPIMSPM0.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_476) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/spi/SPIMSPM0.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\spi\SPIMSPM0.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\spi\SPIMSPM0.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/spi/SPIMSPM0.c.i: cmake_force
@@ -6165,7 +6178,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/spi/SPIMSPM0.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/uart/UARTMSPM0.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/uart/UARTMSPM0.c.obj: ../source/ti/drivers/uart/UARTMSPM0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_476) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/uart/UARTMSPM0.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_477) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/uart/UARTMSPM0.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\uart\UARTMSPM0.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\uart\UARTMSPM0.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/uart/UARTMSPM0.c.i: cmake_force
@@ -6178,7 +6191,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/uart/UARTMSPM0.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/utils/List.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/utils/List.c.obj: ../source/ti/drivers/utils/List.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_477) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/utils/List.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_478) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/utils/List.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\utils\List.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\utils\List.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/utils/List.c.i: cmake_force
@@ -6191,7 +6204,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/utils/List.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/utils/RingBuf.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/utils/RingBuf.c.obj: ../source/ti/drivers/utils/RingBuf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_478) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/utils/RingBuf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_479) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/utils/RingBuf.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\utils\RingBuf.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\utils\RingBuf.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/utils/RingBuf.c.i: cmake_force
@@ -6204,7 +6217,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/utils/RingBuf.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/drivers/utils/StructRingBuf.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/drivers/utils/StructRingBuf.c.obj: ../source/ti/drivers/utils/StructRingBuf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_479) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/utils/StructRingBuf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_480) "Building C object CMakeFiles/control.elf.dir/source/ti/drivers/utils/StructRingBuf.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\drivers\utils\StructRingBuf.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\drivers\utils\StructRingBuf.c
 
 CMakeFiles/control.elf.dir/source/ti/drivers/utils/StructRingBuf.c.i: cmake_force
@@ -6217,7 +6230,7 @@ CMakeFiles/control.elf.dir/source/ti/drivers/utils/StructRingBuf.c.s: cmake_forc
 
 CMakeFiles/control.elf.dir/source/ti/eeprom/emulation_type_a/eeprom_emulation_type_a.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/eeprom/emulation_type_a/eeprom_emulation_type_a.c.obj: ../source/ti/eeprom/emulation_type_a/eeprom_emulation_type_a.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_480) "Building C object CMakeFiles/control.elf.dir/source/ti/eeprom/emulation_type_a/eeprom_emulation_type_a.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_481) "Building C object CMakeFiles/control.elf.dir/source/ti/eeprom/emulation_type_a/eeprom_emulation_type_a.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\eeprom\emulation_type_a\eeprom_emulation_type_a.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\eeprom\emulation_type_a\eeprom_emulation_type_a.c
 
 CMakeFiles/control.elf.dir/source/ti/eeprom/emulation_type_a/eeprom_emulation_type_a.c.i: cmake_force
@@ -6230,7 +6243,7 @@ CMakeFiles/control.elf.dir/source/ti/eeprom/emulation_type_a/eeprom_emulation_ty
 
 CMakeFiles/control.elf.dir/source/ti/eeprom/emulation_type_b/eeprom_emulation_type_b.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/eeprom/emulation_type_b/eeprom_emulation_type_b.c.obj: ../source/ti/eeprom/emulation_type_b/eeprom_emulation_type_b.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_481) "Building C object CMakeFiles/control.elf.dir/source/ti/eeprom/emulation_type_b/eeprom_emulation_type_b.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_482) "Building C object CMakeFiles/control.elf.dir/source/ti/eeprom/emulation_type_b/eeprom_emulation_type_b.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\eeprom\emulation_type_b\eeprom_emulation_type_b.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\eeprom\emulation_type_b\eeprom_emulation_type_b.c
 
 CMakeFiles/control.elf.dir/source/ti/eeprom/emulation_type_b/eeprom_emulation_type_b.c.i: cmake_force
@@ -6243,7 +6256,7 @@ CMakeFiles/control.elf.dir/source/ti/eeprom/emulation_type_b/eeprom_emulation_ty
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M02_Defaults.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M02_Defaults.c.obj: ../source/ti/energy_metrology/modules/ADS131M/ADS131M02_Defaults.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_482) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M02_Defaults.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_483) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M02_Defaults.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\ADS131M\ADS131M02_Defaults.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\ADS131M\ADS131M02_Defaults.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M02_Defaults.c.i: cmake_force
@@ -6256,7 +6269,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M02_
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M03_Defaults.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M03_Defaults.c.obj: ../source/ti/energy_metrology/modules/ADS131M/ADS131M03_Defaults.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_483) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M03_Defaults.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_484) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M03_Defaults.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\ADS131M\ADS131M03_Defaults.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\ADS131M\ADS131M03_Defaults.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M03_Defaults.c.i: cmake_force
@@ -6269,7 +6282,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M03_
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M08_Defaults.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M08_Defaults.c.obj: ../source/ti/energy_metrology/modules/ADS131M/ADS131M08_Defaults.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_484) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M08_Defaults.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_485) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M08_Defaults.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\ADS131M\ADS131M08_Defaults.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\ADS131M\ADS131M08_Defaults.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M08_Defaults.c.i: cmake_force
@@ -6282,7 +6295,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M08_
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M0x.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M0x.c.obj: ../source/ti/energy_metrology/modules/ADS131M/ADS131M0x.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_485) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M0x.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_486) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M0x.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\ADS131M\ADS131M0x.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\ADS131M\ADS131M0x.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M0x.c.i: cmake_force
@@ -6295,7 +6308,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/ADS131M/ADS131M0x.
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/AMC131M/AMC131M03_Defaults.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/AMC131M/AMC131M03_Defaults.c.obj: ../source/ti/energy_metrology/modules/AMC131M/AMC131M03_Defaults.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_486) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/AMC131M/AMC131M03_Defaults.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_487) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/AMC131M/AMC131M03_Defaults.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\AMC131M\AMC131M03_Defaults.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\AMC131M\AMC131M03_Defaults.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/AMC131M/AMC131M03_Defaults.c.i: cmake_force
@@ -6308,7 +6321,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/AMC131M/AMC131M03_
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/AMC131M/AMC131M0x.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/AMC131M/AMC131M0x.c.obj: ../source/ti/energy_metrology/modules/AMC131M/AMC131M0x.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_487) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/AMC131M/AMC131M0x.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_488) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/AMC131M/AMC131M0x.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\AMC131M\AMC131M0x.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\AMC131M\AMC131M0x.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/AMC131M/AMC131M0x.c.i: cmake_force
@@ -6321,7 +6334,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/AMC131M/AMC131M0x.
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/DLT645/DLT645.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/DLT645/DLT645.c.obj: ../source/ti/energy_metrology/modules/DLT645/DLT645.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_488) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/DLT645/DLT645.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_489) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/DLT645/DLT645.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\DLT645\DLT645.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\DLT645\DLT645.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/DLT645/DLT645.c.i: cmake_force
@@ -6334,7 +6347,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/DLT645/DLT645.c.s:
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/hal/LP_MSPM0G3507/hal.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/hal/LP_MSPM0G3507/hal.c.obj: ../source/ti/energy_metrology/modules/hal/LP_MSPM0G3507/hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_489) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/hal/LP_MSPM0G3507/hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_490) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/hal/LP_MSPM0G3507/hal.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\hal\LP_MSPM0G3507\hal.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\hal\LP_MSPM0G3507\hal.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/hal/LP_MSPM0G3507/hal.c.i: cmake_force
@@ -6347,7 +6360,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/hal/LP_MSPM0G3507/
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_background.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_background.c.obj: ../source/ti/energy_metrology/modules/metrology/metrology_background.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_490) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_491) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_background.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\metrology\metrology_background.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\metrology\metrology_background.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_background.c.i: cmake_force
@@ -6360,7 +6373,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrolog
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_calculations.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_calculations.c.obj: ../source/ti/energy_metrology/modules/metrology/metrology_calculations.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_491) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_calculations.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_492) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_calculations.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\metrology\metrology_calculations.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\metrology\metrology_calculations.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_calculations.c.i: cmake_force
@@ -6373,7 +6386,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrolog
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_calibration.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_calibration.c.obj: ../source/ti/energy_metrology/modules/metrology/metrology_calibration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_492) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_calibration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_493) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_calibration.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\metrology\metrology_calibration.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\metrology\metrology_calibration.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_calibration.c.i: cmake_force
@@ -6386,7 +6399,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrolog
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_fir_table.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_fir_table.c.obj: ../source/ti/energy_metrology/modules/metrology/metrology_fir_table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_493) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_fir_table.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_494) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_fir_table.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\metrology\metrology_fir_table.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\metrology\metrology_fir_table.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_fir_table.c.i: cmake_force
@@ -6399,7 +6412,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrolog
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_foreground.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_foreground.c.obj: ../source/ti/energy_metrology/modules/metrology/metrology_foreground.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_494) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_foreground.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_495) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_foreground.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\metrology\metrology_foreground.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\metrology\metrology_foreground.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_foreground.c.i: cmake_force
@@ -6412,7 +6425,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrolog
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_readings.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_readings.c.obj: ../source/ti/energy_metrology/modules/metrology/metrology_readings.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_495) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_readings.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_496) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_readings.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\metrology\metrology_readings.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\metrology\metrology_readings.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_readings.c.i: cmake_force
@@ -6425,7 +6438,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrolog
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_setup.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_setup.c.obj: ../source/ti/energy_metrology/modules/metrology/metrology_setup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_496) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_setup.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_497) "Building C object CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_setup.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\energy_metrology\modules\metrology\metrology_setup.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\energy_metrology\modules\metrology\metrology_setup.c
 
 CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrology_setup.c.i: cmake_force
@@ -6438,7 +6451,7 @@ CMakeFiles/control.elf.dir/source/ti/energy_metrology/modules/metrology/metrolog
 
 CMakeFiles/control.elf.dir/source/ti/gui_composer/jsmn/jsmn.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/gui_composer/jsmn/jsmn.c.obj: ../source/ti/gui_composer/jsmn/jsmn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_497) "Building C object CMakeFiles/control.elf.dir/source/ti/gui_composer/jsmn/jsmn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_498) "Building C object CMakeFiles/control.elf.dir/source/ti/gui_composer/jsmn/jsmn.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\gui_composer\jsmn\jsmn.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\gui_composer\jsmn\jsmn.c
 
 CMakeFiles/control.elf.dir/source/ti/gui_composer/jsmn/jsmn.c.i: cmake_force
@@ -6451,7 +6464,7 @@ CMakeFiles/control.elf.dir/source/ti/gui_composer/jsmn/jsmn.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/gui_composer/mpack/mpack.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/gui_composer/mpack/mpack.c.obj: ../source/ti/gui_composer/mpack/mpack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_498) "Building C object CMakeFiles/control.elf.dir/source/ti/gui_composer/mpack/mpack.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_499) "Building C object CMakeFiles/control.elf.dir/source/ti/gui_composer/mpack/mpack.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\gui_composer\mpack\mpack.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\gui_composer\mpack\mpack.c
 
 CMakeFiles/control.elf.dir/source/ti/gui_composer/mpack/mpack.c.i: cmake_force
@@ -6464,7 +6477,7 @@ CMakeFiles/control.elf.dir/source/ti/gui_composer/mpack/mpack.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNasin_acos.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNasin_acos.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNasin_acos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_499) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNasin_acos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_500) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNasin_acos.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNasin_acos.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNasin_acos.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNasin_acos.c.i: cmake_force
@@ -6477,7 +6490,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNasin_acos.c.s: cma
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNatan2.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNatan2.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNatan2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_500) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNatan2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_501) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNatan2.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNatan2.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNatan2.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNatan2.c.i: cmake_force
@@ -6490,7 +6503,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNatan2.c.s: cmake_f
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNdiv.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNdiv.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNdiv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_501) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNdiv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_502) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNdiv.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNdiv.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNdiv.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNdiv.c.i: cmake_force
@@ -6503,7 +6516,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNdiv.c.s: cmake_for
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNexp.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNexp.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNexp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_502) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNexp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_503) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNexp.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNexp.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNexp.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNexp.c.i: cmake_force
@@ -6516,7 +6529,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNexp.c.s: cmake_for
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNfrac.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNfrac.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNfrac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_503) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNfrac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_504) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNfrac.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNfrac.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNfrac.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNfrac.c.i: cmake_force
@@ -6529,7 +6542,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNfrac.c.s: cmake_fo
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNlog.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNlog.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNlog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_504) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNlog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_505) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNlog.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNlog.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNlog.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNlog.c.i: cmake_force
@@ -6542,7 +6555,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNlog.c.s: cmake_for
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNmpy.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNmpy.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNmpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_505) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNmpy.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_506) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNmpy.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNmpy.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNmpy.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNmpy.c.i: cmake_force
@@ -6555,7 +6568,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNmpy.c.s: cmake_for
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNmpyIQX.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNmpyIQX.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNmpyIQX.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_506) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNmpyIQX.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_507) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNmpyIQX.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNmpyIQX.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNmpyIQX.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNmpyIQX.c.i: cmake_force
@@ -6568,7 +6581,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNmpyIQX.c.s: cmake_
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrepeat.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrepeat.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNrepeat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_507) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrepeat.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_508) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrepeat.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNrepeat.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNrepeat.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrepeat.c.i: cmake_force
@@ -6581,7 +6594,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrepeat.c.s: cmake_
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrmpy.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrmpy.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNrmpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_508) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrmpy.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_509) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrmpy.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNrmpy.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNrmpy.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrmpy.c.i: cmake_force
@@ -6594,7 +6607,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrmpy.c.s: cmake_fo
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrsmpy.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrsmpy.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNrsmpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_509) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrsmpy.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_510) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrsmpy.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNrsmpy.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNrsmpy.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrsmpy.c.i: cmake_force
@@ -6607,7 +6620,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNrsmpy.c.s: cmake_f
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNsin_cos.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNsin_cos.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNsin_cos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_510) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNsin_cos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_511) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNsin_cos.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNsin_cos.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNsin_cos.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNsin_cos.c.i: cmake_force
@@ -6620,7 +6633,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNsin_cos.c.s: cmake
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNsqrt.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNsqrt.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNsqrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_511) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNsqrt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_512) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNsqrt.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNsqrt.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNsqrt.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNsqrt.c.i: cmake_force
@@ -6633,7 +6646,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNsqrt.c.s: cmake_fo
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtables.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtables.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNtables.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_512) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtables.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_513) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtables.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNtables.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNtables.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtables.c.i: cmake_force
@@ -6646,7 +6659,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtables.c.s: cmake_
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtoF.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtoF.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNtoF.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_513) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtoF.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_514) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtoF.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNtoF.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNtoF.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtoF.c.i: cmake_force
@@ -6659,7 +6672,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtoF.c.s: cmake_for
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtoa.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtoa.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNtoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_514) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtoa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_515) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtoa.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNtoa.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNtoa.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtoa.c.i: cmake_force
@@ -6672,7 +6685,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNtoa.c.s: cmake_for
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNversion.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNversion.c.obj: ../source/ti/iqmath/_IQNfunctions/_IQNversion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_515) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNversion.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_516) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNversion.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_IQNversion.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_IQNversion.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNversion.c.i: cmake_force
@@ -6685,7 +6698,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_IQNversion.c.s: cmake
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_atoIQN.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_atoIQN.c.obj: ../source/ti/iqmath/_IQNfunctions/_atoIQN.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_516) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_atoIQN.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_517) "Building C object CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_atoIQN.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\iqmath\_IQNfunctions\_atoIQN.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\iqmath\_IQNfunctions\_atoIQN.c
 
 CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_atoIQN.c.i: cmake_force
@@ -6698,7 +6711,7 @@ CMakeFiles/control.elf.dir/source/ti/iqmath/_IQNfunctions/_atoIQN.c.s: cmake_for
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/LP_MSPM0G3507/hal.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/LP_MSPM0G3507/hal.c.obj: ../source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/LP_MSPM0G3507/hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_517) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/LP_MSPM0G3507/hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_518) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/LP_MSPM0G3507/hal.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensored_trap_hall\modules\hal\LP_MSPM0G3507\hal.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensored_trap_hall\modules\hal\LP_MSPM0G3507\hal.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/LP_MSPM0G3507/hal.c.i: cmake_force
@@ -6711,7 +6724,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modul
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/LP_MSPM0L1306/hal.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/LP_MSPM0L1306/hal.c.obj: ../source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/LP_MSPM0L1306/hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_518) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/LP_MSPM0L1306/hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_519) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/LP_MSPM0L1306/hal.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensored_trap_hall\modules\hal\LP_MSPM0L1306\hal.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensored_trap_hall\modules\hal\LP_MSPM0L1306\hal.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/LP_MSPM0L1306/hal.c.i: cmake_force
@@ -6724,7 +6737,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modul
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/MSPM0G1507/hal.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/MSPM0G1507/hal.c.obj: ../source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/MSPM0G1507/hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_519) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/MSPM0G1507/hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_520) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/MSPM0G1507/hal.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensored_trap_hall\modules\hal\MSPM0G1507\hal.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensored_trap_hall\modules\hal\MSPM0G1507\hal.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hal/MSPM0G1507/hal.c.i: cmake_force
@@ -6737,7 +6750,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modul
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hall_trap/hall_trap.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hall_trap/hall_trap.c.obj: ../source/ti/motor_control_bldc_sensored_trap_hall/modules/hall_trap/hall_trap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_520) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hall_trap/hall_trap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_521) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hall_trap/hall_trap.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensored_trap_hall\modules\hall_trap\hall_trap.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensored_trap_hall\modules\hall_trap\hall_trap.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/hall_trap/hall_trap.c.i: cmake_force
@@ -6750,7 +6763,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modul
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8300/drv8300.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8300/drv8300.c.obj: ../source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8300/drv8300.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_521) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8300/drv8300.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_522) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8300/drv8300.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8300\drv8300.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8300\drv8300.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8300/drv8300.c.i: cmake_force
@@ -6763,7 +6776,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modul
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8311/drv8311.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8311/drv8311.c.obj: ../source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8311/drv8311.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_522) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8311/drv8311.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_523) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8311/drv8311.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8311\drv8311.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8311\drv8311.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8311/drv8311.c.i: cmake_force
@@ -6776,7 +6789,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modul
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8316/drv8316.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8316/drv8316.c.obj: ../source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8316/drv8316.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_523) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8316/drv8316.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_524) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8316/drv8316.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8316\drv8316.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8316\drv8316.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8316/drv8316.c.i: cmake_force
@@ -6789,7 +6802,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modul
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8317/drv8317.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8317/drv8317.c.obj: ../source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8317/drv8317.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_524) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8317/drv8317.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_525) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8317/drv8317.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8317\drv8317.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8317\drv8317.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8317/drv8317.c.i: cmake_force
@@ -6802,7 +6815,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modul
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8323/drv8323.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8323/drv8323.c.obj: ../source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8323/drv8323.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_525) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8323/drv8323.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_526) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8323/drv8323.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8323\drv8323.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8323\drv8323.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8323/drv8323.c.i: cmake_force
@@ -6815,7 +6828,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modul
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8328/drv8328.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8328/drv8328.c.obj: ../source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8328/drv8328.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_526) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8328/drv8328.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_527) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8328/drv8328.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8328\drv8328.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8328\drv8328.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8328/drv8328.c.i: cmake_force
@@ -6828,7 +6841,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modul
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8329/drv8329.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8329/drv8329.c.obj: ../source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8329/drv8329.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_527) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8329/drv8329.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_528) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8329/drv8329.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8329\drv8329.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8329\drv8329.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8329/drv8329.c.i: cmake_force
@@ -6841,7 +6854,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modul
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8353/drv8353.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8353/drv8353.c.obj: ../source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8353/drv8353.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_528) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8353/drv8353.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_529) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8353/drv8353.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8353\drv8353.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensored_trap_hall\modules\motor_driver\drv8353\drv8353.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modules/motor_driver/drv8353/drv8353.c.i: cmake_force
@@ -6854,7 +6867,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensored_trap_hall/modul
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNdiv_mathacl.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNdiv_mathacl.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNdiv_mathacl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_529) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNdiv_mathacl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_530) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNdiv_mathacl.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\IQmath\_IQNfunctions\_IQNdiv_mathacl.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\IQmath\_IQNfunctions\_IQNdiv_mathacl.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNdiv_mathacl.c.i: cmake_force
@@ -6867,7 +6880,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/I
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNmpy_mathacl.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNmpy_mathacl.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNmpy_mathacl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_530) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNmpy_mathacl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_531) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNmpy_mathacl.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\IQmath\_IQNfunctions\_IQNmpy_mathacl.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\IQmath\_IQNfunctions\_IQNmpy_mathacl.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNmpy_mathacl.c.i: cmake_force
@@ -6880,7 +6893,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/I
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNsqrt_mathacl.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNsqrt_mathacl.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNsqrt_mathacl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_531) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNsqrt_mathacl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_532) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNsqrt_mathacl.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\IQmath\_IQNfunctions\_IQNsqrt_mathacl.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\IQmath\_IQNfunctions\_IQNsqrt_mathacl.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/_IQNfunctions/_IQNsqrt_mathacl.c.i: cmake_force
@@ -6893,7 +6906,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/I
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/source/iqNum.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/source/iqNum.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/source/iqNum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_532) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/source/iqNum.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_533) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/source/iqNum.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\IQmath\source\iqNum.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\IQmath\source\iqNum.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/source/iqNum.c.i: cmake_force
@@ -6906,7 +6919,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/I
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/source/iqTrig.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/source/iqTrig.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/source/iqTrig.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_533) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/source/iqTrig.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_534) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/source/iqTrig.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\IQmath\source\iqTrig.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\IQmath\source\iqTrig.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/IQmath/source/iqTrig.c.i: cmake_force
@@ -6919,7 +6932,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/I
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/appUserInputsConfig.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/appUserInputsConfig.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/appUserInputsConfig.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_534) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/appUserInputsConfig.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_535) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/appUserInputsConfig.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\appLib\appInterface\source\appUserInputsConfig.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\appLib\appInterface\source\appUserInputsConfig.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/appUserInputsConfig.c.i: cmake_force
@@ -6932,7 +6945,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/a
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/services.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/services.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/services.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_535) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/services.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_536) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/services.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\appLib\appInterface\source\services.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\appLib\appInterface\source\services.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/services.c.i: cmake_force
@@ -6945,7 +6958,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/a
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/servicesHAL.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/servicesHAL.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/servicesHAL.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_536) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/servicesHAL.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_537) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/servicesHAL.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\appLib\appInterface\source\servicesHAL.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\appLib\appInterface\source\servicesHAL.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/appInterface/source/servicesHAL.c.i: cmake_force
@@ -6958,7 +6971,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/a
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/DRV8316/source/drv8316ConfigTables.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/DRV8316/source/drv8316ConfigTables.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/DRV8316/source/drv8316ConfigTables.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_537) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/DRV8316/source/drv8316ConfigTables.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_538) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/DRV8316/source/drv8316ConfigTables.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\appLib\configTables\DRV8316\source\drv8316ConfigTables.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\appLib\configTables\DRV8316\source\drv8316ConfigTables.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/DRV8316/source/drv8316ConfigTables.c.i: cmake_force
@@ -6971,7 +6984,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/a
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/DRV8323/source/drv8323ConfigTables.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/DRV8323/source/drv8323ConfigTables.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/DRV8323/source/drv8323ConfigTables.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_538) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/DRV8323/source/drv8323ConfigTables.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_539) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/DRV8323/source/drv8323ConfigTables.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\appLib\configTables\DRV8323\source\drv8323ConfigTables.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\appLib\configTables\DRV8323\source\drv8323ConfigTables.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/DRV8323/source/drv8323ConfigTables.c.i: cmake_force
@@ -6984,7 +6997,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/a
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/source/configTables.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/source/configTables.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/source/configTables.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_539) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/source/configTables.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_540) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/source/configTables.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\appLib\configTables\source\configTables.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\appLib\configTables\source\configTables.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/appLib/configTables/source/configTables.c.i: cmake_force
@@ -6997,7 +7010,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/a
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/commInterface/uart_comm/source/uart_comm.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/commInterface/uart_comm/source/uart_comm.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/commInterface/uart_comm/source/uart_comm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_540) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/commInterface/uart_comm/source/uart_comm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_541) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/commInterface/uart_comm/source/uart_comm.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\commInterface\uart_comm\source\uart_comm.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\commInterface\uart_comm\source\uart_comm.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/commInterface/uart_comm/source/uart_comm.c.i: cmake_force
@@ -7010,7 +7023,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/focHALInterface.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/focHALInterface.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/focHALInterface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_541) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/focHALInterface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_542) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/focHALInterface.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\controllerInterface\source\focHALInterface.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\controllerInterface\source\focHALInterface.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/focHALInterface.c.i: cmake_force
@@ -7023,7 +7036,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/focPeriphInit.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/focPeriphInit.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/focPeriphInit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_542) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/focPeriphInit.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_543) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/focPeriphInit.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\controllerInterface\source\focPeriphInit.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\controllerInterface\source\focPeriphInit.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/focPeriphInit.c.i: cmake_force
@@ -7036,7 +7049,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/measure.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/measure.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/measure.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_543) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/measure.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_544) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/measure.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\controllerInterface\source\measure.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\controllerInterface\source\measure.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/controllerInterface/source/measure.c.i: cmake_force
@@ -7049,7 +7062,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/CUSTOM/source/custom.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/CUSTOM/source/custom.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/CUSTOM/source/custom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_544) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/CUSTOM/source/custom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_545) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/CUSTOM/source/custom.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\CUSTOM\source\custom.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\CUSTOM\source\custom.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/CUSTOM/source/custom.c.i: cmake_force
@@ -7062,7 +7075,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8316/source/drv8316.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8316/source/drv8316.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8316/source/drv8316.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_545) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8316/source/drv8316.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_546) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8316/source/drv8316.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\DRV8316\source\drv8316.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\DRV8316\source\drv8316.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8316/source/drv8316.c.i: cmake_force
@@ -7075,7 +7088,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8316/source/drv8316_spi_hal.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8316/source/drv8316_spi_hal.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8316/source/drv8316_spi_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_546) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8316/source/drv8316_spi_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_547) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8316/source/drv8316_spi_hal.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\DRV8316\source\drv8316_spi_hal.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\DRV8316\source\drv8316_spi_hal.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8316/source/drv8316_spi_hal.c.i: cmake_force
@@ -7088,7 +7101,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8323/source/drv8323.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8323/source/drv8323.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8323/source/drv8323.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_547) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8323/source/drv8323.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_548) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8323/source/drv8323.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\DRV8323\source\drv8323.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\DRV8323\source\drv8323.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8323/source/drv8323.c.i: cmake_force
@@ -7101,7 +7114,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8323/source/drv8323_spi_hal.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8323/source/drv8323_spi_hal.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8323/source/drv8323_spi_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_548) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8323/source/drv8323_spi_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_549) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8323/source/drv8323_spi_hal.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\DRV8323\source\drv8323_spi_hal.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\DRV8323\source\drv8323_spi_hal.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8323/source/drv8323_spi_hal.c.i: cmake_force
@@ -7114,7 +7127,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8329/source/drv8329.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8329/source/drv8329.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8329/source/drv8329.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_549) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8329/source/drv8329.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_550) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8329/source/drv8329.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\DRV8329\source\drv8329.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\DRV8329\source\drv8329.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8329/source/drv8329.c.i: cmake_force
@@ -7127,7 +7140,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8329/source/drv8329_hal.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8329/source/drv8329_hal.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8329/source/drv8329_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_550) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8329/source/drv8329_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_551) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8329/source/drv8329_hal.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\DRV8329\source\drv8329_hal.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\DRV8329\source\drv8329_hal.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/DRV8329/source/drv8329_hal.c.i: cmake_force
@@ -7140,7 +7153,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/TIDA010250/source/tida010250.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/TIDA010250/source/tida010250.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/TIDA010250/source/tida010250.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_551) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/TIDA010250/source/tida010250.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_552) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/TIDA010250/source/tida010250.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\TIDA010250\source\tida010250.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\gateDriverLib\TIDA010250\source\tida010250.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/gateDriverLib/TIDA010250/source/tida010250.c.i: cmake_force
@@ -7153,7 +7166,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/custom_focHalInterface.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/custom_focHalInterface.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/custom_focHalInterface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_552) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/custom_focHalInterface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_553) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/custom_focHalInterface.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\source\custom_focHalInterface.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\source\custom_focHalInterface.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/custom_focHalInterface.c.i: cmake_force
@@ -7166,7 +7179,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8316_focHalInterface.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8316_focHalInterface.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8316_focHalInterface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_553) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8316_focHalInterface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_554) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8316_focHalInterface.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\source\drv8316_focHalInterface.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\source\drv8316_focHalInterface.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8316_focHalInterface.c.i: cmake_force
@@ -7179,7 +7192,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8323_focHalInterface.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8323_focHalInterface.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8323_focHalInterface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_554) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8323_focHalInterface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_555) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8323_focHalInterface.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\source\drv8323_focHalInterface.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\source\drv8323_focHalInterface.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8323_focHalInterface.c.i: cmake_force
@@ -7192,7 +7205,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8329_focHalInterface.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8329_focHalInterface.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8329_focHalInterface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_555) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8329_focHalInterface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_556) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8329_focHalInterface.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\source\drv8329_focHalInterface.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\source\drv8329_focHalInterface.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/drv8329_focHalInterface.c.i: cmake_force
@@ -7205,7 +7218,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/tida010250_focHalInterface.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/tida010250_focHalInterface.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/tida010250_focHalInterface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_556) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/tida010250_focHalInterface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_557) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/tida010250_focHalInterface.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\source\tida010250_focHalInterface.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\source\tida010250_focHalInterface.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/tida010250_focHalInterface.c.i: cmake_force
@@ -7218,7 +7231,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/tida010265_focHalInterface.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/tida010265_focHalInterface.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/tida010265_focHalInterface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_557) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/tida010265_focHalInterface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_558) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/tida010265_focHalInterface.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\source\tida010265_focHalInterface.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\hal\LP_MSPM0G3507\gateDriverInterface\source\tida010265_focHalInterface.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/hal/LP_MSPM0G3507/gateDriverInterface/source/tida010265_focHalInterface.c.i: cmake_force
@@ -7231,7 +7244,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/h
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/motorControlLib/source/mcLib.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/motorControlLib/source/mcLib.c.obj: ../source/ti/motor_control_bldc_sensorless_foc/modules/motorControlLib/source/mcLib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_558) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/motorControlLib/source/mcLib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_559) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/motorControlLib/source/mcLib.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_bldc_sensorless_foc\modules\motorControlLib\source\mcLib.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_bldc_sensorless_foc\modules\motorControlLib\source\mcLib.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/motorControlLib/source/mcLib.c.i: cmake_force
@@ -7244,7 +7257,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_bldc_sensorless_foc/modules/m
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_brushed/modules/hal/MSPM0L1306/hal.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_brushed/modules/hal/MSPM0L1306/hal.c.obj: ../source/ti/motor_control_brushed/modules/hal/MSPM0L1306/hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_559) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_brushed/modules/hal/MSPM0L1306/hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_560) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_brushed/modules/hal/MSPM0L1306/hal.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_brushed\modules\hal\MSPM0L1306\hal.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_brushed\modules\hal\MSPM0L1306\hal.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_brushed/modules/hal/MSPM0L1306/hal.c.i: cmake_force
@@ -7257,7 +7270,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_brushed/modules/hal/MSPM0L130
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_brushed/modules/motor_driver/drv8706-q1/drv8706-q1.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_brushed/modules/motor_driver/drv8706-q1/drv8706-q1.c.obj: ../source/ti/motor_control_brushed/modules/motor_driver/drv8706-q1/drv8706-q1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_560) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_brushed/modules/motor_driver/drv8706-q1/drv8706-q1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_561) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_brushed/modules/motor_driver/drv8706-q1/drv8706-q1.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_brushed\modules\motor_driver\drv8706-q1\drv8706-q1.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_brushed\modules\motor_driver\drv8706-q1\drv8706-q1.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_brushed/modules/motor_driver/drv8706-q1/drv8706-q1.c.i: cmake_force
@@ -7270,7 +7283,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_brushed/modules/motor_driver/
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/hal/MSPM0L1306/hal.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/hal/MSPM0L1306/hal.c.obj: ../source/ti/motor_control_stepper/modules/hal/MSPM0L1306/hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_561) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/hal/MSPM0L1306/hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_562) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/hal/MSPM0L1306/hal.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_stepper\modules\hal\MSPM0L1306\hal.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_stepper\modules\hal\MSPM0L1306\hal.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/hal/MSPM0L1306/hal.c.i: cmake_force
@@ -7283,7 +7296,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/hal/MSPM0L130
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/motor_driver/drv8411a/drv8411a.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/motor_driver/drv8411a/drv8411a.c.obj: ../source/ti/motor_control_stepper/modules/motor_driver/drv8411a/drv8411a.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_562) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/motor_driver/drv8411a/drv8411a.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_563) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/motor_driver/drv8411a/drv8411a.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_stepper\modules\motor_driver\drv8411a\drv8411a.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_stepper\modules\motor_driver\drv8411a\drv8411a.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/motor_driver/drv8411a/drv8411a.c.i: cmake_force
@@ -7296,7 +7309,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/motor_driver/
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/motor_driver/drv8889-q1/drv8889-q1.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/motor_driver/drv8889-q1/drv8889-q1.c.obj: ../source/ti/motor_control_stepper/modules/motor_driver/drv8889-q1/drv8889-q1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_563) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/motor_driver/drv8889-q1/drv8889-q1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_564) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/motor_driver/drv8889-q1/drv8889-q1.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_stepper\modules\motor_driver\drv8889-q1\drv8889-q1.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_stepper\modules\motor_driver\drv8889-q1\drv8889-q1.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/motor_driver/drv8889-q1/drv8889-q1.c.i: cmake_force
@@ -7309,7 +7322,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/motor_driver/
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/stepper_library/stepper.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/stepper_library/stepper.c.obj: ../source/ti/motor_control_stepper/modules/stepper_library/stepper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_564) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/stepper_library/stepper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_565) "Building C object CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/stepper_library/stepper.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\motor_control_stepper\modules\stepper_library\stepper.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\motor_control_stepper\modules\stepper_library\stepper.c
 
 CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/stepper_library/stepper.c.i: cmake_force
@@ -7322,7 +7335,7 @@ CMakeFiles/control.elf.dir/source/ti/motor_control_stepper/modules/stepper_libra
 
 CMakeFiles/control.elf.dir/source/ti/pmbus/pmbus.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/pmbus/pmbus.c.obj: ../source/ti/pmbus/pmbus.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_565) "Building C object CMakeFiles/control.elf.dir/source/ti/pmbus/pmbus.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_566) "Building C object CMakeFiles/control.elf.dir/source/ti/pmbus/pmbus.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\pmbus\pmbus.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\pmbus\pmbus.c
 
 CMakeFiles/control.elf.dir/source/ti/pmbus/pmbus.c.i: cmake_force
@@ -7335,7 +7348,7 @@ CMakeFiles/control.elf.dir/source/ti/pmbus/pmbus.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/Mtx.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/Mtx.c.obj: ../source/ti/posix/freertos/Mtx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_566) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/Mtx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_567) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/Mtx.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\Mtx.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\Mtx.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/Mtx.c.i: cmake_force
@@ -7348,7 +7361,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/Mtx.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/PTLS.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/PTLS.c.obj: ../source/ti/posix/freertos/PTLS.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_567) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/PTLS.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_568) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/PTLS.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\PTLS.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\PTLS.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/PTLS.c.i: cmake_force
@@ -7361,7 +7374,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/PTLS.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/aeabi_portable.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/aeabi_portable.c.obj: ../source/ti/posix/freertos/aeabi_portable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_568) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/aeabi_portable.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_569) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/aeabi_portable.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\aeabi_portable.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\aeabi_portable.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/aeabi_portable.c.i: cmake_force
@@ -7374,7 +7387,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/aeabi_portable.c.s: cmake_fo
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/clock.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/clock.c.obj: ../source/ti/posix/freertos/clock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_569) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/clock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_570) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/clock.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\clock.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\clock.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/clock.c.i: cmake_force
@@ -7387,7 +7400,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/clock.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/memory.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/memory.c.obj: ../source/ti/posix/freertos/memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_570) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/memory.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_571) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/memory.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\memory.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\memory.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/memory.c.i: cmake_force
@@ -7400,7 +7413,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/memory.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/mqueue.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/mqueue.c.obj: ../source/ti/posix/freertos/mqueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_571) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/mqueue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_572) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/mqueue.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\mqueue.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\mqueue.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/mqueue.c.i: cmake_force
@@ -7413,7 +7426,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/mqueue.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread.c.obj: ../source/ti/posix/freertos/pthread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_572) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_573) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\pthread.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\pthread.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread.c.i: cmake_force
@@ -7426,7 +7439,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_barrier.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_barrier.c.obj: ../source/ti/posix/freertos/pthread_barrier.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_573) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_barrier.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_574) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_barrier.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\pthread_barrier.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\pthread_barrier.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_barrier.c.i: cmake_force
@@ -7439,7 +7452,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_barrier.c.s: cmake_f
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_cond.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_cond.c.obj: ../source/ti/posix/freertos/pthread_cond.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_574) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_cond.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_575) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_cond.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\pthread_cond.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\pthread_cond.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_cond.c.i: cmake_force
@@ -7452,7 +7465,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_cond.c.s: cmake_forc
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_mutex.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_mutex.c.obj: ../source/ti/posix/freertos/pthread_mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_575) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_576) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_mutex.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\pthread_mutex.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\pthread_mutex.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_mutex.c.i: cmake_force
@@ -7465,7 +7478,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_mutex.c.s: cmake_for
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_rwlock.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_rwlock.c.obj: ../source/ti/posix/freertos/pthread_rwlock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_576) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_rwlock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_577) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_rwlock.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\pthread_rwlock.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\pthread_rwlock.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_rwlock.c.i: cmake_force
@@ -7478,7 +7491,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/pthread_rwlock.c.s: cmake_fo
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/reent.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/reent.c.obj: ../source/ti/posix/freertos/reent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_577) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/reent.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_578) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/reent.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\reent.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\reent.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/reent.c.i: cmake_force
@@ -7491,7 +7504,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/reent.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/sched.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/sched.c.obj: ../source/ti/posix/freertos/sched.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_578) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/sched.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_579) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/sched.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\sched.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\sched.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/sched.c.i: cmake_force
@@ -7504,7 +7517,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/sched.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/semaphore.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/semaphore.c.obj: ../source/ti/posix/freertos/semaphore.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_579) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/semaphore.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_580) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/semaphore.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\semaphore.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\semaphore.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/semaphore.c.i: cmake_force
@@ -7517,7 +7530,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/semaphore.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/sleep.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/sleep.c.obj: ../source/ti/posix/freertos/sleep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_580) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/sleep.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_581) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/sleep.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\sleep.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\sleep.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/sleep.c.i: cmake_force
@@ -7530,7 +7543,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/sleep.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/timer.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/timer.c.obj: ../source/ti/posix/freertos/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_581) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_582) "Building C object CMakeFiles/control.elf.dir/source/ti/posix/freertos/timer.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\posix\freertos\timer.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\posix\freertos\timer.c
 
 CMakeFiles/control.elf.dir/source/ti/posix/freertos/timer.c.i: cmake_force
@@ -7543,7 +7556,7 @@ CMakeFiles/control.elf.dir/source/ti/posix/freertos/timer.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/sasi_smoke_detector/app/main.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/sasi_smoke_detector/app/main.c.obj: ../source/ti/sasi_smoke_detector/app/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_582) "Building C object CMakeFiles/control.elf.dir/source/ti/sasi_smoke_detector/app/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_583) "Building C object CMakeFiles/control.elf.dir/source/ti/sasi_smoke_detector/app/main.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\sasi_smoke_detector\app\main.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\sasi_smoke_detector\app\main.c
 
 CMakeFiles/control.elf.dir/source/ti/sasi_smoke_detector/app/main.c.i: cmake_force
@@ -7556,7 +7569,7 @@ CMakeFiles/control.elf.dir/source/ti/sasi_smoke_detector/app/main.c.s: cmake_for
 
 CMakeFiles/control.elf.dir/source/ti/sasi_smoke_detector/app/sasi_app.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/sasi_smoke_detector/app/sasi_app.c.obj: ../source/ti/sasi_smoke_detector/app/sasi_app.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_583) "Building C object CMakeFiles/control.elf.dir/source/ti/sasi_smoke_detector/app/sasi_app.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_584) "Building C object CMakeFiles/control.elf.dir/source/ti/sasi_smoke_detector/app/sasi_app.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\sasi_smoke_detector\app\sasi_app.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\sasi_smoke_detector\app\sasi_app.c
 
 CMakeFiles/control.elf.dir/source/ti/sasi_smoke_detector/app/sasi_app.c.i: cmake_force
@@ -7569,7 +7582,7 @@ CMakeFiles/control.elf.dir/source/ti/sasi_smoke_detector/app/sasi_app.c.s: cmake
 
 CMakeFiles/control.elf.dir/source/ti/smbus/smbus.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/smbus/smbus.c.obj: ../source/ti/smbus/smbus.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_584) "Building C object CMakeFiles/control.elf.dir/source/ti/smbus/smbus.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_585) "Building C object CMakeFiles/control.elf.dir/source/ti/smbus/smbus.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\smbus\smbus.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\smbus\smbus.c
 
 CMakeFiles/control.elf.dir/source/ti/smbus/smbus.c.i: cmake_force
@@ -7582,7 +7595,7 @@ CMakeFiles/control.elf.dir/source/ti/smbus/smbus.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/smbus/smbus_nwk.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/smbus/smbus_nwk.c.obj: ../source/ti/smbus/smbus_nwk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_585) "Building C object CMakeFiles/control.elf.dir/source/ti/smbus/smbus_nwk.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_586) "Building C object CMakeFiles/control.elf.dir/source/ti/smbus/smbus_nwk.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\smbus\smbus_nwk.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\smbus\smbus_nwk.c
 
 CMakeFiles/control.elf.dir/source/ti/smbus/smbus_nwk.c.i: cmake_force
@@ -7595,7 +7608,7 @@ CMakeFiles/control.elf.dir/source/ti/smbus/smbus_nwk.c.s: cmake_force
 
 CMakeFiles/control.elf.dir/source/ti/smbus/smbus_phy.c.obj: CMakeFiles/control.elf.dir/flags.make
 CMakeFiles/control.elf.dir/source/ti/smbus/smbus_phy.c.obj: ../source/ti/smbus/smbus_phy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_586) "Building C object CMakeFiles/control.elf.dir/source/ti/smbus/smbus_phy.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_587) "Building C object CMakeFiles/control.elf.dir/source/ti/smbus/smbus_phy.c.obj"
 	G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\control.elf.dir\source\ti\smbus\smbus_phy.c.obj   -c C:\Users\asus\Desktop\contest2024\MSPcontrol\source\ti\smbus\smbus_phy.c
 
 CMakeFiles/control.elf.dir/source/ti/smbus/smbus_phy.c.i: cmake_force
@@ -7608,6 +7621,7 @@ CMakeFiles/control.elf.dir/source/ti/smbus/smbus_phy.c.s: cmake_force
 
 # Object files for target control.elf
 control_elf_OBJECTS = \
+"CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.obj" \
 "CMakeFiles/control.elf.dir/code/Buzzer.cpp.obj" \
 "CMakeFiles/control.elf.dir/code/CCD.cpp.obj" \
 "CMakeFiles/control.elf.dir/code/Chassis.cpp.obj" \
@@ -8198,6 +8212,7 @@ control_elf_OBJECTS = \
 # External object files for target control.elf
 control_elf_EXTERNAL_OBJECTS =
 
+control.elf: CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.obj
 control.elf: CMakeFiles/control.elf.dir/code/Buzzer.cpp.obj
 control.elf: CMakeFiles/control.elf.dir/code/CCD.cpp.obj
 control.elf: CMakeFiles/control.elf.dir/code/Chassis.cpp.obj
@@ -8787,7 +8802,7 @@ control.elf: CMakeFiles/control.elf.dir/source/ti/smbus/smbus_phy.c.obj
 control.elf: CMakeFiles/control.elf.dir/build.make
 control.elf: CMakeFiles/control.elf.dir/objects1.rsp
 control.elf: CMakeFiles/control.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_587) "Linking CXX executable control.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\asus\Desktop\contest2024\MSPcontrol\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_588) "Linking CXX executable control.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\control.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/asus/Desktop/contest2024/MSPcontrol/cmake-build-debug/control.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/asus/Desktop/contest2024/MSPcontrol/cmake-build-debug/control.bin"

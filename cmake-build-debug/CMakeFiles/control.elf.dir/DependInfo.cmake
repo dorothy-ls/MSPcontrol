@@ -20,13 +20,6 @@ set(CMAKE_DEPENDS_CHECK_ASM
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_ASM
-  "DEBUG"
-  "STM32F407xx"
-  "USE_HAL_DRIVER"
-  )
-
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../source/third_party/CMSIS/Core/Include"
@@ -36,6 +29,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Debug"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/asus/Desktop/contest2024/MSPcontrol/Debug/ti_msp_dl_config.c" "C:/Users/asus/Desktop/contest2024/MSPcontrol/cmake-build-debug/CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.obj"
   "C:/Users/asus/Desktop/contest2024/MSPcontrol/control.c" "C:/Users/asus/Desktop/contest2024/MSPcontrol/cmake-build-debug/CMakeFiles/control.elf.dir/control.c.obj"
   "C:/Users/asus/Desktop/contest2024/MSPcontrol/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_f32.c" "C:/Users/asus/Desktop/contest2024/MSPcontrol/cmake-build-debug/CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_f32.c.obj"
   "C:/Users/asus/Desktop/contest2024/MSPcontrol/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q15.c" "C:/Users/asus/Desktop/contest2024/MSPcontrol/cmake-build-debug/CMakeFiles/control.elf.dir/source/third_party/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q15.c.obj"
@@ -596,13 +590,6 @@ set(CMAKE_DEPENDS_CHECK_C
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_C
-  "DEBUG"
-  "STM32F407xx"
-  "USE_HAL_DRIVER"
-  )
-
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../source/third_party/CMSIS/Core/Include"
@@ -632,13 +619,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/asus/Desktop/contest2024/MSPcontrol/code/task.cpp" "C:/Users/asus/Desktop/contest2024/MSPcontrol/cmake-build-debug/CMakeFiles/control.elf.dir/code/task.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "DEBUG"
-  "STM32F407xx"
-  "USE_HAL_DRIVER"
-  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

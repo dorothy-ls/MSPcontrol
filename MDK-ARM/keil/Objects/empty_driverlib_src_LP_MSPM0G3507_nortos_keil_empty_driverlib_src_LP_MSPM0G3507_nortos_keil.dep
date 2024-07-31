@@ -44,7 +44,7 @@ F (../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.h)(0x66631CE7)()
 F (../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE7)()
 F (../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.h)(0x66631CE7)()
 F (../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.h)(0x66631CE7)()
-F (../ti/driverlib/dl_adc12.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_adc12.o -MD)
+F (../ti/driverlib/dl_adc12.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_adc12.o -MD)
 I (..\..\source\ti\driverlib\dl_adc12.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5CEB78EA)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
@@ -88,7 +88,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_factoryregion.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_core.h)(0x66631CE6)
-F (../ti/driverlib/dl_aes.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_aes.o -MD)
+F (../ti/driverlib/dl_aes.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_aes.o -MD)
 I (..\..\source\ti\driverlib\dl_aes.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5CEB78E8)
@@ -130,7 +130,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_aesadv.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_aesadv.o -MD)
+F (../ti/driverlib/dl_aesadv.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_aesadv.o -MD)
 I (..\..\source\ti\driverlib\dl_aesadv.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5CEB78E8)
@@ -172,7 +172,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_common.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_common.o -MD)
+F (../ti/driverlib/dl_common.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_common.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
@@ -212,7 +212,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_cpuss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
-F (../ti/driverlib/dl_crc.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_crc.o -MD)
+F (../ti/driverlib/dl_crc.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_crc.o -MD)
 I (..\..\source\ti\driverlib\dl_crc.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -253,7 +253,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_crcp.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_crcp.o -MD)
+F (../ti/driverlib/dl_crcp.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_crcp.o -MD)
 I (..\..\source\ti\driverlib\dl_crcp.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -294,7 +294,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_dac12.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_dac12.o -MD)
+F (../ti/driverlib/dl_dac12.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_dac12.o -MD)
 I (..\..\source\ti\driverlib\dl_dac12.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -335,7 +335,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_dma.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_dma.o -MD)
+F (../ti/driverlib/dl_dma.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_dma.o -MD)
 I (..\..\source\ti\driverlib\dl_dma.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -376,7 +376,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_flashctl.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_flashctl.o -MD)
+F (../ti/driverlib/dl_flashctl.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_flashctl.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
@@ -421,7 +421,7 @@ I (..\..\source\ti\driverlib\m0p\dl_factoryregion.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_core.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\sysctl\dl_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
-F (../ti/driverlib/dl_i2c.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_i2c.o -MD)
+F (../ti/driverlib/dl_i2c.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_i2c.o -MD)
 I (..\..\source\ti\driverlib\dl_i2c.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -462,7 +462,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_keystorectl.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_keystorectl.o -MD)
+F (../ti/driverlib/dl_keystorectl.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_keystorectl.o -MD)
 I (..\..\source\ti\driverlib\dl_keystorectl.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -503,7 +503,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_lcd.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_lcd.o -MD)
+F (../ti/driverlib/dl_lcd.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_lcd.o -MD)
 I (..\..\source\ti\driverlib\dl_lcd.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -544,7 +544,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_lfss.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_lfss.o -MD)
+F (../ti/driverlib/dl_lfss.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_lfss.o -MD)
 I (..\..\source\ti\driverlib\dl_lfss.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -585,7 +585,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_mathacl.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_mathacl.o -MD)
+F (../ti/driverlib/dl_mathacl.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_mathacl.o -MD)
 I (..\..\source\ti\driverlib\dl_mathacl.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -626,7 +626,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_mcan.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_mcan.o -MD)
+F (../ti/driverlib/dl_mcan.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_mcan.o -MD)
 I (..\..\source\ti\driverlib\dl_mcan.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -667,7 +667,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_opa.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_opa.o -MD)
+F (../ti/driverlib/dl_opa.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_opa.o -MD)
 I (..\..\source\ti\driverlib\dl_opa.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -708,7 +708,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_rtc_common.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_rtc_common.o -MD)
+F (../ti/driverlib/dl_rtc_common.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_rtc_common.o -MD)
 I (..\..\source\ti\driverlib\dl_rtc_common.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -749,7 +749,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_spi.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_spi.o -MD)
+F (../ti/driverlib/dl_spi.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_spi.o -MD)
 I (..\..\source\ti\driverlib\dl_spi.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -790,7 +790,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_timer.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_timer.o -MD)
+F (../ti/driverlib/dl_timer.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_timer.o -MD)
 I (..\..\source\ti\driverlib\dl_timera.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -833,7 +833,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_timerg.h)(0x66631CE6)
-F (../ti/driverlib/dl_trng.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_trng.o -MD)
+F (../ti/driverlib/dl_trng.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_trng.o -MD)
 I (..\..\source\ti\driverlib\dl_trng.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -874,7 +874,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/dl_uart.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_uart.o -MD)
+F (../ti/driverlib/dl_uart.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_uart.o -MD)
 I (..\..\source\ti\driverlib\dl_uart_extend.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_uart.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
@@ -917,7 +917,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_uart_main.h)(0x66631CE6)
-F (../ti/driverlib/dl_vref.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_vref.o -MD)
+F (../ti/driverlib/dl_vref.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_vref.o -MD)
 I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5CEB78EC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
@@ -958,7 +958,7 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/m0p/dl_interrupt.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_interrupt.o -MD)
+F (../ti/driverlib/m0p/dl_interrupt.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_interrupt.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
@@ -998,10 +998,10 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_cpuss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_debugss.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
-F (../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_sysctl_mspm0c110x.o -MD)
+F (../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0c110x.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_sysctl_mspm0c110x.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
-F (../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_sysctl_mspm0g1x0x_g3x0x.o -MD)
+F (../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0g1x0x_g3x0x.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_sysctl_mspm0g1x0x_g3x0x.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_core.h)(0x66631CE6)
@@ -1043,16 +1043,16 @@ I (..\..\source\ti\devices\msp\peripherals\m0p\hw_sysctl.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\peripherals\m0p\sysctl\hw_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\sysctl\dl_sysctl_mspm0g1x0x_g3x0x.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_common.h)(0x66631CE6)
-F (../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_sysctl_mspm0l11xx_l13xx.o -MD)
+F (../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l11xx_l13xx.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_sysctl_mspm0l11xx_l13xx.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
-F (../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_sysctl_mspm0l122x_l222x.o -MD)
+F (../ti/driverlib/m0p/sysctl/dl_sysctl_mspm0l122x_l222x.c)(0x66631CE7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/dl_sysctl_mspm0l122x_l222x.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5CEB78E8)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 F (../empty.syscfg)(0x66631CE7)()
 F (startup_mspm0g350x_uvision.s)(0x66631CE7)(--cpu Cortex-M0+ -g --pd "__MICROLIB SETA 1"-I.\RTE\_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:\Users\asus\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\DSP\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 528"--pd "_RTE_ SETA 1"--pd "__MSPM0G3507__ SETA 1"--list .\startup_mspm0g350x_uvision.lst--xref -o .\objects\startup_mspm0g350x_uvision.o--depend .\objects\startup_mspm0g350x_uvision.d)
-F (..\..\Debug\ti_msp_dl_config.c)(0x66A99DA9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/ti_msp_dl_config.o -MD)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+F (..\..\Debug\ti_msp_dl_config.c)(0x66AA20D1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/ti_msp_dl_config.o -MD)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -1135,10 +1135,10 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-F (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)()
+F (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)()
 F (..\..\code\config.h)(0x66A99DA9)()
-F (..\..\control.c)(0x66A9DD22)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/control.o -MD)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+F (..\..\control.c)(0x66AA1D5B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/control.o -MD)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -1221,11 +1221,19 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\task.h)(0x66A9C1B4)
-F (..\..\code\task.cpp)(0x66A9DCBD)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/task.o -MD)
-I (..\..\code\task.h)(0x66A9C1B4)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\code\task.h)(0x66AA0E75)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\config.h)(0x66A99DA9)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
+I (..\..\source\third_party\CMSIS\DSP\Include\arm_math.h)(0x66631CE6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\float.h)(0x5CEB78E8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5CEB78DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEB78EA)
+F (..\..\code\task.cpp)(0x66AA2F4A)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/task.o -MD)
+I (..\..\code\task.h)(0x66AA0E75)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -1319,7 +1327,7 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
+I (..\..\code\it.h)(0x66AA1001)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -1336,7 +1344,7 @@ I (..\..\code\Motor.h)(0x66A99DA9)
 I (..\..\code\N20_Motor.h)(0x66A9D36F)
 I (..\..\code\Remote.h)(0x66A9B8BD)
 I (..\..\code\CCD.h)(0x66A9BC21)
-I (..\..\code\IMU.h)(0x66A99DA9)
+I (..\..\code\IMU.h)(0x66AA2F47)
 I (..\..\code\Buzzer.h)(0x66A9B8B4)
 I (..\..\code\LS7366R.h)(0x66A9CB25)
 I (..\..\code\device.h)(0x66A99DA9)
@@ -1345,9 +1353,9 @@ I (..\..\code\algorithm.h)(0x66A99DA9)
 I (..\..\code\PID.h)(0x66A99DA9)
 I (..\..\code\Controller.h)(0x66A996BA)
 I (..\..\code\PID_Controller.h)(0x66A996BA)
-F (..\..\code\hal.cpp)(0x66A9C08A)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/hal.o -MD)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+F (..\..\code\hal.cpp)(0x66AA2285)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/hal.o -MD)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -1441,8 +1449,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -1453,10 +1461,10 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEB78EA)
-F (..\..\code\hal.h)(0x66A9C00E)()
-F (..\..\code\it.cpp)(0x66A9DC4B)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/it.o -MD)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+F (..\..\code\hal.h)(0x66AA16C4)()
+F (..\..\code\it.cpp)(0x66AA1D5B)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/it.o -MD)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -1550,11 +1558,22 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\task.h)(0x66A9C1B4)
-F (..\..\code\Encoder.cpp)(0x66A9D2C4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/encoder.o -MD)
+I (..\..\code\task.h)(0x66AA0E75)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\code\config.h)(0x66A99DA9)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
+I (..\..\source\third_party\CMSIS\DSP\Include\arm_math.h)(0x66631CE6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\float.h)(0x5CEB78DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\float.h)(0x5CEB78E8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits.h)(0x5CEB78DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5CEB78DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEB78DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEB78EA)
+F (..\..\code\Encoder.cpp)(0x66A9D2C4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/encoder.o -MD)
 I (..\..\code\Encoder.h)(0x66A9D010)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -1648,8 +1667,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -1660,10 +1679,10 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEB78EA)
-F (..\..\code\IMU.cpp)(0x66A9B9DF)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/imu.o -MD)
-I (..\..\code\IMU.h)(0x66A99DA9)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+F (..\..\code\IMU.cpp)(0x66A9B9DF)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/imu.o -MD)
+I (..\..\code\IMU.h)(0x66AA2F47)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -1757,8 +1776,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -1771,10 +1790,10 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEB78EA)
 I (..\..\code\imu660.h)(0x66A9B9BD)
 I (..\..\code\imu963ra.h)(0x66A99DA9)
-F (..\..\code\imu660.cpp)(0x66A99DA9)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/imu660.o -MD)
+F (..\..\code\imu660.cpp)(0x66A99DA9)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/imu660.o -MD)
 I (..\..\code\imu660.h)(0x66A9B9BD)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -1868,8 +1887,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -1881,10 +1900,10 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEB78EA)
 I (..\..\code\imu660_config.h)(0x66A99DA9)
-F (..\..\code\imu963ra.cpp)(0x66A99DA9)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/imu963ra.o -MD)
+F (..\..\code\imu963ra.cpp)(0x66A99DA9)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/imu963ra.o -MD)
 I (..\..\code\imu963ra.h)(0x66A99DA9)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -1978,8 +1997,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -1990,10 +2009,10 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEB78EA)
-F (..\..\code\LS7366R.cpp)(0x66A9CB25)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/ls7366r.o -MD)
+F (..\..\code\LS7366R.cpp)(0x66AA1975)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/ls7366r.o -MD)
 I (..\..\code\LS7366R.h)(0x66A9CB25)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -2087,8 +2106,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -2100,10 +2119,10 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEB78EA)
 F (..\..\code\module.h)(0x66A99DA9)()
-F (..\..\code\N20_Motor.cpp)(0x66A9D36F)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/n20_motor.o -MD)
+F (..\..\code\N20_Motor.cpp)(0x66A9D36F)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/n20_motor.o -MD)
 I (..\..\code\N20_Motor.h)(0x66A9D36F)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -2197,8 +2216,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -2211,10 +2230,10 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEB78EA)
 I (..\..\code\Encoder.h)(0x66A9D010)
 I (..\..\code\Motor.h)(0x66A99DA9)
-F (..\..\code\Remote.cpp)(0x66A99DA9)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/remote.o -MD)
+F (..\..\code\Remote.cpp)(0x66A99DA9)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/remote.o -MD)
 I (..\..\code\Remote.h)(0x66A9B8BD)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -2308,8 +2327,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -2320,10 +2339,10 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEB78EA)
-F (..\..\code\Buzzer.cpp)(0x66A99DA9)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/buzzer.o -MD)
+F (..\..\code\Buzzer.cpp)(0x66A99DA9)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/buzzer.o -MD)
 I (..\..\code\Buzzer.h)(0x66A9B8B4)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -2417,8 +2436,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -2429,10 +2448,10 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEB78EA)
-F (..\..\code\CCD.cpp)(0x66A9BC21)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/ccd.o -MD)
+F (..\..\code\CCD.cpp)(0x66A9BC21)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/ccd.o -MD)
 I (..\..\code\CCD.h)(0x66A9BC21)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -2526,8 +2545,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -2538,12 +2557,12 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5CEB78EA)
-F (..\..\code\Chassis.cpp)(0x66A996BA)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/chassis.o -MD)
+F (..\..\code\Chassis.cpp)(0x66A996BA)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/chassis.o -MD)
 I (..\..\code\Chassis.h)(0x66A996BA)
 I (..\..\code\module.h)(0x66A99DA9)
 I (..\..\code\Encoder.h)(0x66A9D010)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -2637,8 +2656,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -2653,18 +2672,18 @@ I (..\..\code\Motor.h)(0x66A99DA9)
 I (..\..\code\N20_Motor.h)(0x66A9D36F)
 I (..\..\code\Remote.h)(0x66A9B8BD)
 I (..\..\code\CCD.h)(0x66A9BC21)
-I (..\..\code\IMU.h)(0x66A99DA9)
+I (..\..\code\IMU.h)(0x66AA2F47)
 I (..\..\code\Buzzer.h)(0x66A9B8B4)
 I (..\..\code\LS7366R.h)(0x66A9CB25)
 I (..\..\code\algorithm.h)(0x66A99DA9)
 I (..\..\code\PID.h)(0x66A99DA9)
-F (..\..\code\Controller.cpp)(0x66A996BA)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/controller.o -MD)
+F (..\..\code\Controller.cpp)(0x66A996BA)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/controller.o -MD)
 I (..\..\code\Controller.h)(0x66A996BA)
 I (..\..\code\Chassis.h)(0x66A996BA)
 I (..\..\code\module.h)(0x66A99DA9)
 I (..\..\code\Encoder.h)(0x66A9D010)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -2758,8 +2777,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -2774,19 +2793,19 @@ I (..\..\code\Motor.h)(0x66A99DA9)
 I (..\..\code\N20_Motor.h)(0x66A9D36F)
 I (..\..\code\Remote.h)(0x66A9B8BD)
 I (..\..\code\CCD.h)(0x66A9BC21)
-I (..\..\code\IMU.h)(0x66A99DA9)
+I (..\..\code\IMU.h)(0x66AA2F47)
 I (..\..\code\Buzzer.h)(0x66A9B8B4)
 I (..\..\code\LS7366R.h)(0x66A9CB25)
 I (..\..\code\algorithm.h)(0x66A99DA9)
 I (..\..\code\PID.h)(0x66A99DA9)
 F (..\..\code\device.h)(0x66A99DA9)()
-F (..\..\code\PID_Controller.cpp)(0x66A996BA)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/pid_controller.o -MD)
+F (..\..\code\PID_Controller.cpp)(0x66A996BA)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/pid_controller.o -MD)
 I (..\..\code\PID_Controller.h)(0x66A996BA)
 I (..\..\code\Chassis.h)(0x66A996BA)
 I (..\..\code\module.h)(0x66A99DA9)
 I (..\..\code\Encoder.h)(0x66A9D010)
-I (..\..\code\hal.h)(0x66A9C00E)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\code\hal.h)(0x66AA16C4)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)
@@ -2880,8 +2899,8 @@ I (..\..\source\ti\driverlib\dl_vref.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\dl_wwdt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_interrupt.h)(0x66631CE6)
 I (..\..\source\ti\driverlib\m0p\dl_systick.h)(0x66631CE6)
-I (..\..\code\it.h)(0x66A9C127)
-I (..\..\code\task.h)(0x66A9C1B4)
+I (..\..\code\it.h)(0x66AA1001)
+I (..\..\code\task.h)(0x66AA0E75)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5CEB78E8)
@@ -2896,13 +2915,13 @@ I (..\..\code\Motor.h)(0x66A99DA9)
 I (..\..\code\N20_Motor.h)(0x66A9D36F)
 I (..\..\code\Remote.h)(0x66A9B8BD)
 I (..\..\code\CCD.h)(0x66A9BC21)
-I (..\..\code\IMU.h)(0x66A99DA9)
+I (..\..\code\IMU.h)(0x66AA2F47)
 I (..\..\code\Buzzer.h)(0x66A9B8B4)
 I (..\..\code\LS7366R.h)(0x66A9CB25)
 I (..\..\code\algorithm.h)(0x66A99DA9)
 I (..\..\code\PID.h)(0x66A99DA9)
 F (..\..\code\algorithm.h)(0x66A99DA9)()
-F (..\..\code\PID.cpp)(0x66A99DA9)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/pid.o -MD)
+F (..\..\code\PID.cpp)(0x66A99DA9)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__MICROLIB -gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../../source/third_party/CMSIS/DSP/Include -I ../../Debug -I ../../code-I./RTE/_empty_driverlib_src_LP_MSPM0G3507_nortos_keil-IC:/Users/asus/AppData/Local/Arm/Packs/ARM/CMSIS/5.5.1/CMSIS/DSP/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="528" -D_RTE_ -D__MSPM0G3507__ -D__MSPM0G3507__-o ./objects/pid.o -MD)
 I (..\..\code\PID.h)(0x66A99DA9)
 I (..\..\code\config.h)(0x66A99DA9)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x5CEB78DC)
@@ -2928,7 +2947,7 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\float.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\float.h)(0x5CEB78E8)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits.h)(0x5CEB78DC)
 I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x5CEB78DC)
-I (..\..\Debug\ti_msp_dl_config.h)(0x66A99DA9)
+I (..\..\Debug\ti_msp_dl_config.h)(0x66AA073A)
 I (..\..\source\ti\devices\msp\msp.h)(0x66631CE6)
 I (..\..\source\ti\devices\DeviceFamily.h)(0x66631CE6)
 I (..\..\source\ti\devices\msp\m0p\mspm0g350x.h)(0x66631CE6)

@@ -26,29 +26,29 @@ void LS7366R::init(unsigned char mdr0_conf, unsigned char mdr1_conf)
     //SPI.transfer(WR | MDR0);
     //SPI.transfer(mdr0_conf);
 
-    SPI_transmitData(spi_inst, &temp, 1);
-    SPI_transmitData(spi_inst, &mdr0_conf, 1);
+    HAL_SPI_Transmit(spi_inst, &temp, 1, 0xff);
+    HAL_SPI_Transmit(spi_inst, &mdr0_conf, 1, 0xff);
     DL_GPIO_setPins(si_port,leftSelect);
 
     temp = WR | MDR1;
     DL_GPIO_clearPins(si_port,leftSelect);
 
-    SPI_transmitData(spi_inst, &temp, 1);
-    SPI_transmitData(spi_inst, &mdr1_conf, 1);
+    HAL_SPI_Transmit(spi_inst, &temp, 1, 0xff);
+    HAL_SPI_Transmit(spi_inst, &mdr1_conf, 1, 0xff);
     DL_GPIO_setPins(si_port,leftSelect);
 
     temp = WR | MDR0;
     DL_GPIO_clearPins(si_port,rightSelect);
 
-    SPI_transmitData(spi_inst, &temp, 1);
-    SPI_transmitData(spi_inst, &mdr0_conf, 1);
+    HAL_SPI_Transmit(spi_inst, &temp, 1, 0xff);
+    HAL_SPI_Transmit(spi_inst, &mdr0_conf, 1, 0xff);
     DL_GPIO_setPins(si_port,rightSelect);
 
     temp = WR | MDR1;
     DL_GPIO_clearPins(si_port,rightSelect);
 
-    SPI_transmitData(spi_inst, &temp, 1);
-    SPI_transmitData(spi_inst, &mdr1_conf, 1);
+    HAL_SPI_Transmit(spi_inst, &temp, 1, 0xff);
+    HAL_SPI_Transmit(spi_inst, &mdr1_conf, 1, 0xff);
     DL_GPIO_setPins(si_port,rightSelect);
 
     reset();
@@ -62,7 +62,7 @@ void LS7366R::reset()
     uint8_t temp = CLR | CNTR;
     DL_GPIO_clearPins(si_port,leftSelect);
     DL_GPIO_clearPins(si_port,rightSelect);
-    SPI_transmitData(spi_inst, &temp, 1);
+    HAL_SPI_Transmit(spi_inst, &temp, 1, 0xff);
     DL_GPIO_setPins(si_port,leftSelect);
     DL_GPIO_setPins(si_port,rightSelect);
 }
@@ -77,7 +77,7 @@ void LS7366R::Handler()
     temp = LOAD | OTR;
     DL_GPIO_clearPins(si_port,leftSelect);
     DL_GPIO_clearPins(si_port,rightSelect);
-    SPI_transmitData(spi_inst, &temp, 1);
+    HAL_SPI_Transmit(spi_inst, &temp, 1, 0xff);
     DL_GPIO_setPins(si_port,leftSelect);
     DL_GPIO_setPins(si_port,rightSelect);
 
@@ -85,8 +85,8 @@ void LS7366R::Handler()
     DL_GPIO_clearPins(si_port,leftSelect);
 //    SPI.transfer(RD | OTR);
 
-//    SPI_transmitData(spi_inst, &temp, 1);
-//    SPI_receiveData(spi_inst, count1, 4);
+//    HAL_SPI_Transmit(spi_inst, &temp, 1);
+//    HAL_SPI_Receive(spi_inst, count1, 4);
     spi_read_8bit_registers(spi_inst,temp,count1,4);
 //    count = SPI.transfer(0x00);
 //    count <<= 8;
@@ -107,8 +107,8 @@ void LS7366R::Handler()
     DL_GPIO_clearPins(si_port,rightSelect);
 //    SPI.transfer(RD | OTR);
 
-//    SPI_transmitData(spi_inst, &temp, 1);
-//    SPI_receiveData(spi_inst, count2, 4);
+//    HAL_SPI_Transmit(spi_inst, &temp, 1);
+//    HAL_SPI_Receive(spi_inst, count2, 4);
     spi_read_8bit_registers(spi_inst,temp,count2,4);
 //    count = SPI.transfer(0x00);
 //    count <<= 8;

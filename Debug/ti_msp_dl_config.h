@@ -50,6 +50,10 @@
 #define SYSCONFIG_WEAK __attribute__((weak))
 #endif
 
+#ifndef __MSPM0G3507__
+#define __MSPM0G3507__
+#endif
+
 #include <ti/devices/msp/msp.h>
 #include <ti/driverlib/driverlib.h>
 #include <ti/driverlib/m0p/dl_core.h>
@@ -65,7 +69,6 @@ extern "C" {
  *  This function should be called once at a point before any use of
  *  MSP DL.
  */
-
 
 /* clang-format off */
 
@@ -215,8 +218,8 @@ extern "C" {
 
 /* Defines for ADC_VIN */
 #define ADC_VIN_INST                                                        ADC0
-#define ADC_VIN_INST_IRQHandler                                  ADC0_IRQHandler
-#define ADC_VIN_INST_INT_IRQN                                    (ADC0_INT_IRQn)
+//#define ADC_VIN_INST_IRQHandler                                  ADC0_IRQHandler
+//#define ADC_VIN_INST_INT_IRQN                                    (ADC0_INT_IRQn)
 #define ADC_VIN_ADCMEM_1                                      DL_ADC12_MEM_IDX_1
 #define ADC_VIN_ADCMEM_1_REF                     DL_ADC12_REFERENCE_VOLTAGE_VDDA
 #define ADC_VIN_ADCMEM_1_REF_VOLTAGE_V                                       3.3

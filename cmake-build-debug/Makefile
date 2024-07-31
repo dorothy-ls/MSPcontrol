@@ -142,6 +142,33 @@ control.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\control.elf.dir\build.make CMakeFiles/control.elf.dir/build
 .PHONY : control.elf/fast
 
+Debug/ti_msp_dl_config.obj: Debug/ti_msp_dl_config.c.obj
+
+.PHONY : Debug/ti_msp_dl_config.obj
+
+# target to build an object file
+Debug/ti_msp_dl_config.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\control.elf.dir\build.make CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.obj
+.PHONY : Debug/ti_msp_dl_config.c.obj
+
+Debug/ti_msp_dl_config.i: Debug/ti_msp_dl_config.c.i
+
+.PHONY : Debug/ti_msp_dl_config.i
+
+# target to preprocess a source file
+Debug/ti_msp_dl_config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\control.elf.dir\build.make CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.i
+.PHONY : Debug/ti_msp_dl_config.c.i
+
+Debug/ti_msp_dl_config.s: Debug/ti_msp_dl_config.c.s
+
+.PHONY : Debug/ti_msp_dl_config.s
+
+# target to generate assembly for a file
+Debug/ti_msp_dl_config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\control.elf.dir\build.make CMakeFiles/control.elf.dir/Debug/ti_msp_dl_config.c.s
+.PHONY : Debug/ti_msp_dl_config.c.s
+
 code/Buzzer.obj: code/Buzzer.cpp.obj
 
 .PHONY : code/Buzzer.obj
@@ -15775,6 +15802,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... control.elf
+	@echo ... Debug/ti_msp_dl_config.obj
+	@echo ... Debug/ti_msp_dl_config.i
+	@echo ... Debug/ti_msp_dl_config.s
 	@echo ... code/Buzzer.obj
 	@echo ... code/Buzzer.i
 	@echo ... code/Buzzer.s

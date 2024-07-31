@@ -13,7 +13,7 @@
 extern "C" {
 #endif
 
-extern unsigned int utick;
+extern uint32_t utick;
 
 void SysTick_Handler(void);
 

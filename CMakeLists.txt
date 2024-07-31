@@ -49,9 +49,9 @@ endif ()
 include_directories(source/third_party/CMSIS/Core/Include source code source/third_party/CMSIS/DSP/Include
         Debug)
 
-add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx)
+add_definitions()
 
-file(GLOB_RECURSE SOURCES "control.c" "code/*.*" "source/*.*")
+file(GLOB_RECURSE SOURCES "control.c" "code/*.*" "source/*.*" "Debug/ti_msp_dl_config.c")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407VETX_FLASH.ld)
 

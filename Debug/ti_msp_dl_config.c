@@ -55,6 +55,7 @@ SYSCONFIG_WEAK void SYSCFG_DL_init(void)
     SYSCFG_DL_GPIO_init();
     /* Module-Specific Initializations*/
     SYSCFG_DL_SYSCTL_init();
+    SYSCFG_DL_SYSTICK_init();
     SYSCFG_DL_PWM_MOTOR0_init();
     SYSCFG_DL_TIM_CCD_init();
     SYSCFG_DL_PWM_MOTOR1_init();
@@ -65,7 +66,6 @@ SYSCONFIG_WEAK void SYSCFG_DL_init(void)
     SYSCFG_DL_ADC_CCD_init();
     SYSCFG_DL_ADC_VIN_init();
     SYSCFG_DL_DMA_init();
-    SYSCFG_DL_SYSTICK_init();
     /* Ensure backup structures have no valid state */
 	gPWM_MOTOR0Backup.backupRdy 	= false;
 	gPWM_MOTOR1Backup.backupRdy 	= false;
@@ -461,7 +461,7 @@ SYSCONFIG_WEAK void SYSCFG_DL_UART_0_init(void)
 
 static const DL_SPI_Config gSPI_IMU_config = {
     .mode        = DL_SPI_MODE_CONTROLLER,
-    .frameFormat = DL_SPI_FRAME_FORMAT_MOTO3_POL1_PHA1,
+    .frameFormat = DL_SPI_FRAME_FORMAT_MOTO3_POL1_PHA0,
     .parity      = DL_SPI_PARITY_NONE,
     .dataSize    = DL_SPI_DATA_SIZE_8,
     .bitOrder    = DL_SPI_BIT_ORDER_MSB_FIRST,
@@ -546,7 +546,7 @@ SYSCONFIG_WEAK void SYSCFG_DL_ADC_CCD_init(void)
     /* Enable ADC12 interrupt */
     DL_ADC12_clearInterruptStatus(ADC_CCD_INST,(DL_ADC12_INTERRUPT_DMA_DONE));
     DL_ADC12_enableInterrupt(ADC_CCD_INST,(DL_ADC12_INTERRUPT_DMA_DONE));
-    NVIC_SetPriority(ADC_CCD_INST_INT_IRQN, 0);
+    NVIC_SetPriority(ADC_CCD_INST_INT_IRQN, 2);
     DL_ADC12_enableConversions(ADC_CCD_INST);
 }
 /* ADC_VIN Initialization */
@@ -565,8 +565,8 @@ SYSCONFIG_WEAK void SYSCFG_DL_ADC_VIN_init(void)
     DL_ADC12_setPowerDownMode(ADC_VIN_INST,DL_ADC12_POWER_DOWN_MODE_MANUAL);
     DL_ADC12_setSampleTime0(ADC_VIN_INST,2);
     /* Enable ADC12 interrupt */
-    DL_ADC12_clearInterruptStatus(ADC_VIN_INST,(DL_ADC12_INTERRUPT_MEM1_RESULT_LOADED));
-    DL_ADC12_enableInterrupt(ADC_VIN_INST,(DL_ADC12_INTERRUPT_MEM1_RESULT_LOADED));
+    //DL_ADC12_clearInterruptStatus(ADC_VIN_INST,(DL_ADC12_INTERRUPT_MEM1_RESULT_LOADED));
+    //DL_ADC12_enableInterrupt(ADC_VIN_INST,(DL_ADC12_INTERRUPT_MEM1_RESULT_LOADED));
     DL_ADC12_enableConversions(ADC_VIN_INST);
 }
 
@@ -597,5 +597,6 @@ SYSCONFIG_WEAK void SYSCFG_DL_SYSTICK_init(void)
      * enables the interrupt, and starts the SysTick Timer
      */
     DL_SYSTICK_config(80000);
+    NVIC_SetPriority(SysTick_IRQn, 0);
 }
 

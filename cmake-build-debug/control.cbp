@@ -34,9 +34,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DDEBUG"/>
-					<Add option="-DUSE_HAL_DRIVER"/>
-					<Add option="-DSTM32F407xx"/>
 					<Add directory="C:/Users/asus/Desktop/contest2024/MSPcontrol/source/third_party/CMSIS/Core/Include"/>
 					<Add directory="C:/Users/asus/Desktop/contest2024/MSPcontrol/source"/>
 					<Add directory="C:/Users/asus/Desktop/contest2024/MSPcontrol/code"/>
@@ -64,9 +61,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DDEBUG"/>
-					<Add option="-DUSE_HAL_DRIVER"/>
-					<Add option="-DSTM32F407xx"/>
 					<Add directory="C:/Users/asus/Desktop/contest2024/MSPcontrol/source/third_party/CMSIS/Core/Include"/>
 					<Add directory="C:/Users/asus/Desktop/contest2024/MSPcontrol/source"/>
 					<Add directory="C:/Users/asus/Desktop/contest2024/MSPcontrol/code"/>
@@ -98,6 +92,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/asus/Desktop/contest2024/MSPcontrol/Debug/ti_msp_dl_config.c">
+			<Option target="control.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/asus/Desktop/contest2024/MSPcontrol/Debug/ti_msp_dl_config.h">
+			<Option target="control.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/asus/Desktop/contest2024/MSPcontrol/STM32F407VETX_FLASH.ld">
 			<Option target="control.elf"/>
 		</Unit>

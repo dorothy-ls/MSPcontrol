@@ -88,4 +88,15 @@
   ..\..\source\ti\driverlib\dl_vref.h \
   ..\..\source\ti\driverlib\dl_wwdt.h \
   ..\..\source\ti\driverlib\m0p\dl_interrupt.h \
-  ..\..\source\ti\driverlib\m0p\dl_systick.h ..\..\code\task.h
+  ..\..\source\ti\driverlib\m0p\dl_systick.h ..\..\code\task.h \
+  ..\..\code\hal.h ..\..\code\config.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\string.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  ..\..\source\third_party\CMSIS\DSP\Include\arm_math.h \
+  ..\..\source\third_party\CMSIS\Core\Include\cmsis_compiler.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\float.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\float.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\limits.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\limits.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdio.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h

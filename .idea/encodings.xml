@@ -12,5 +12,6 @@
     <file url="file://$PROJECT_DIR$/code/imu963ra.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/code/imu963ra.h" charset="GBK" />
     <file url="file://$PROJECT_DIR$/code/it.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/control.c" charset="GBK" />
   </component>
 </project>
