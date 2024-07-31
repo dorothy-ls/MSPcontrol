@@ -1,3 +1,17 @@
+/**
+  ******************************************************************************
+  * @FileName			    PID_Controller.h
+  * @Description
+  * @author                 Yu Xinyi
+  * @note
+  ******************************************************************************
+  *
+  * Copyright (c) 2023 Team JiaoLong-ShanghaiJiaoTong University
+  * All rights reserved.
+  *
+  ******************************************************************************
+**/
+
 #include "PID_Controller.h"
 
 void PID_Controller::Handler() {

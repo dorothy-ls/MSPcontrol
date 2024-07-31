@@ -1,5 +1,12 @@
+#ifndef HAL_H
+#define HAL_H
+
 #ifdef __cplusplus
 extern "C" {
+#endif
+
+#ifndef __MSPM0G3507__
+#define __MSPM0G3507__
 #endif
 
 #include "ti_msp_dl_config.h"
@@ -7,8 +14,11 @@ extern "C" {
 #include "config.h"
 #include "stdio.h"
 int fputc(int ch, FILE *f);
-	
+
+void UART_Transmit(UART_Regs *uart,uint8_t *data, uint16_t len);
+
 #define system_delay_ms delay_ms
+
 void SPI_transmitData(SPI_Regs *hspi, uint8_t *data, uint8_t dataLength);
 void SPI_receiveData(SPI_Regs *hspi, uint8_t *data, uint8_t dataLength);
 void spi_write_8bit_register(SPI_Regs *hspi, uint8_t reg, uint8_t data);
@@ -18,4 +28,6 @@ void spi_read_8bit_registers(SPI_Regs *hspi, uint8_t reg, uint8_t* data, uint16_
 	
 #ifdef __cplusplus
 }
+#endif
+
 #endif

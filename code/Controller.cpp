@@ -1,3 +1,17 @@
+/**
+  ******************************************************************************
+  * @FileName			    Controller.h
+  * @Description
+  * @author                 Yu Xinyi
+  * @note
+  ******************************************************************************
+  *
+  * Copyright (c) 2023 Team JiaoLong-ShanghaiJiaoTong University
+  * All rights reserved.
+  *
+  ******************************************************************************
+**/
+
 #include "Controller.h"
 
 Controller::Controller(Chassis *chassis) {
@@ -26,10 +40,10 @@ void Controller::Handler(){
         if(ang_err < -180) ang_err += 360;
         else if(ang_err > 180) ang_err -= 360;
         arm_sqrt_f32(x_err * x_err + y_err * y_err, &dist);
-        //ÅÐ¶ÏÄ¿±êµãÔÚÇ°·½»¹ÊÇºó·½£¬ÏÈ¼ÆËãÊ¸¾¶µÄ·½Ïò
+        //åˆ¤æ–­ç›®æ ‡ç‚¹åœ¨å‰æ–¹è¿˜æ˜¯åŽæ–¹ï¼Œå…ˆè®¡ç®—çŸ¢å¾„çš„æ–¹å‘
         if(ang_err > 90 || ang_err < -90) dist = -dist;
 
-        if(ang_err > ang_th || ang_err < -ang_th){ //ÓÅÏÈ×ªÏò
+        if(ang_err > ang_th || ang_err < -ang_th){ //ä¼˜å…ˆè½¬å‘
             v_out = 0;
         }else v_out = kp1 * dist;
         w_out = kp2 * chassis->wheel_seperation * ang_err;

@@ -1,23 +1,23 @@
 #ifndef CONTROL_CCD_H
 #define CONTROL_CCD_H
 
-#include "ti_msp_dl_config.h"
+#include "hal.h"
 
 class CCD{
 public:
     int integrate_time = 10;
-    uint16_t data[128];//´æ´¢ÏßÐÔCCDÊý¾Ý£¬16Î»
+    uint16_t data[128];//ï¿½æ´¢ï¿½ï¿½ï¿½ï¿½CCDï¿½ï¿½ï¿½Ý£ï¿½16Î»
     int sample_t = 0;
     bool sample_complete = false;
 
     uint8_t bin_ccd[128];
-    uint16_t dir;   //ºÚÏßÎ»ÖÃ
+    uint16_t dir;   //ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½
     uint16_t last_dir;
-    uint16_t threshold;//ºÚ°×·Ö½çµÄ¶¯Ì¬ãÐÖµ
+    uint16_t threshold;//ï¿½Ú°×·Ö½ï¿½Ä¶ï¿½Ì¬ï¿½ï¿½Öµ
 
     void init();
-    void Handler(); //·ÅÔÚÖ÷ÈÎÎñÑ­»·Àï
-    void SI_send(); //·ÅÔÚ¶¨Ê±Æ÷ÖÐ¶ÏÀï
+    void Handler(); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½
+    void SI_send(); //ï¿½ï¿½ï¿½Ú¶ï¿½Ê±ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½
 //    void GetThreshold();
 //    void Binarization();
 //    void Filter();

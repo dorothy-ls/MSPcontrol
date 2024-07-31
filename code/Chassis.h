@@ -1,3 +1,17 @@
+/**
+  ******************************************************************************
+  * @FileName			    Chassis.h
+  * @Description
+  * @author                 Yu Xinyi
+  * @note
+  ******************************************************************************
+  *
+  * Copyright (c) 2023 Team JiaoLong-ShanghaiJiaoTong University
+  * All rights reserved.
+  *
+  ******************************************************************************
+**/
+
 #ifndef CONTROL_CHASSIS_H
 #define CONTROL_CHASSIS_H
 
@@ -25,7 +39,7 @@ public:
     Chassis(N20_Motor* left_motor, N20_Motor* right_motor, IMU* imu, CCD* ccd,
             float wheel_seperation);
 
-    //运动信息
+    //杩愬姩淇℃伅
     float v = 0;
     float w = 0;
     float ang = 0;
@@ -35,14 +49,14 @@ public:
 
     float v_set = 0, w_set = 0; //0-10000
 
-    //视野参数
+    //瑙嗛噹鍙傛暟
     float D = 8.8 / 100;
     float dl = 8.0 / 100 / 88;
 
-    //轨道识别信息
+    //杞ㄩ亾璇嗗埆淇℃伅
     bool inrange = false;
     float mid_point = 0;
-    float x_line = 0, y_line = 0;   //轨道坐标
+    float x_line = 0, y_line = 0;	//杞ㄩ亾鍧愭爣
 
 
     void Handler();

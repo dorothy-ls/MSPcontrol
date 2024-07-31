@@ -1,34 +1,34 @@
 #ifndef CONTROL_N20_MOTOR_H
 #define CONTROL_N20_MOTOR_H
 
-#define PWM_DUTY_MAX 5000//Õ¼¿Õ±È×î´óÖµ£¨ARR)
+#define PWM_DUTY_MAX 5000//Õ¼ï¿½Õ±ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ARR)
 
-#include "ti_msp_dl_config.h"
+#include "hal.h"
 #include "Encoder.h"
 #include "Motor.h"
 #include "config.h"
 
 class N20_Motor: public Motor{
 public:
-    Encoder* encoder;//Ã¿Ò»¸ömotor¶ÔÓ¦Ò»¸öencoder
-    float reduction_rate;//µç»ú¼õËÙ±È
+    Encoder* encoder;//Ã¿Ò»ï¿½ï¿½motorï¿½ï¿½Ó¦Ò»ï¿½ï¿½encoder
+    float reduction_rate;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù±ï¿½
     float radius;
-    float deadzone;
+
     N20_Motor(GPTIMER_Regs *htim, DL_TIMER_CC_INDEX pwm_channel1, DL_TIMER_CC_INDEX pwm_channel2,
                   Encoder* encoder,
-                  float reduction_rate, float radius, float deadzone);
+                  float reduction_rate, float radius);
     void init();
-    void Handler();//systickÖÐ¶Ïº¯Êý
+    void Handler();//systickï¿½Ð¶Ïºï¿½ï¿½ï¿½
 
 private:
     GPTIMER_Regs * htim;
-    DL_TIMER_CC_INDEX pwm_channel1;//Ò»¸ömotor¶ÔÓ¦Á½¸öpwmÍ¨µÀ Àý£ºGPIO_PWM_MOTOR_C0_IDX
+    DL_TIMER_CC_INDEX pwm_channel1;//Ò»ï¿½ï¿½motorï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½pwmÍ¨ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½GPIO_PWM_MOTOR_C0_IDX
     DL_TIMER_CC_INDEX pwm_channel2;
 
     int32_t inc_pulse = 0;
 
 
-    void pwm_set_duty(DL_TIMER_CC_INDEX channel, uint16_t duty);//ÉèÖÃpwmÕ¼¿Õ±È
+    void pwm_set_duty(DL_TIMER_CC_INDEX channel, uint16_t duty);//ï¿½ï¿½ï¿½ï¿½pwmÕ¼ï¿½Õ±ï¿½
     void measure_parameter();
     void output_intensity();
 

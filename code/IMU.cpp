@@ -1,8 +1,6 @@
 #include "IMU.h"
 #include "imu660.h"
 #include "imu963ra.h"
-#include "it.h"
-#include "config.h"
 
 #define IMU_CALIBRATE_N 1000
 void IMU::get_data(){

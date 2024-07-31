@@ -1,3 +1,17 @@
+/**
+  ******************************************************************************
+  * @FileName			    PID_Controller.h
+  * @Description
+  * @author                 Yu Xinyi
+  * @note
+  ******************************************************************************
+  *
+  * Copyright (c) 2023 Team JiaoLong-ShanghaiJiaoTong University
+  * All rights reserved.
+  *
+  ******************************************************************************
+**/
+
 #ifndef CONTROL_PID_CONTROLLER_H
 #define CONTROL_PID_CONTROLLER_H
 
@@ -13,7 +27,7 @@ public:
     float *feedback;
     float err = 0;
 
-    float kp = 0;
+    float kp = 0.001;
     float kv = 0.1375;
     float dir = -1;
 

@@ -1,7 +1,7 @@
 #ifndef CONTROL_BUZZER_H
 #define CONTROL_BUZZER_H
 
-#include "ti_msp_dl_config.h"
+#include "hal.h"
 
 class Buzzer{
 public:

@@ -1,7 +1,6 @@
 #ifndef CONTROL_LS7366R_H
 #define CONTROL_LS7366R_H
 
-#include "ti_msp_dl_config.h"
 #include "hal.h"
 
 #define CLR 0B00000000
@@ -36,8 +35,8 @@ class LS7366R {
 
         SPI_Regs *spi_inst;
 
-        long leftValue;
-        long rightValue;
+        uint32_t leftValue;
+        uint32_t rightValue;
 
         LS7366R(SPI_Regs *_spi_inst, GPIO_Regs *_si_port, uint32_t _leftSelect, uint32_t _rightSelect);
         void init(unsigned char mdr0_conf, unsigned char mdr1_conf);
@@ -45,9 +44,12 @@ class LS7366R {
         void Handler();
         long left();
         long right();
-        uint8_t count1[4];
-        uint8_t count2[4];
-        uint32_t LSR = 0;
+
+private:
+    uint8_t count1[4];
+    uint8_t count2[4];
+    uint32_t LSR = 0;
+    uint8_t temp_data[4];
 };
 
 #endif

@@ -61,6 +61,7 @@
 //
 //}
 
+extern void delay_ms(int ms);
 int main(void)
 {
     SYSCFG_DL_init();
@@ -68,7 +69,8 @@ int main(void)
     setup();
 
     while (1) {
-
+	//DL_GPIO_togglePins(GPIO_LEDS_PORT,GPIO_LEDS_USER_LED_2_PIN);
+    //delay_ms(500);
         loop();
     }
 }

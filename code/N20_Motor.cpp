@@ -45,13 +45,13 @@ void N20_Motor::output_intensity()//1ms进行一次输出
     {
         if(this->intensity < 0)
         {
-            pwm_set_duty(pwm_channel1, PWM_DUTY_MAX - (int)MAP(ABS(this->intensity), 0, PWM_DUTY_MAX, this->deadzone, PWM_DUTY_MAX));
+            pwm_set_duty(pwm_channel1, PWM_DUTY_MAX - ABS(this->intensity));
             pwm_set_duty(pwm_channel2, PWM_DUTY_MAX);
         }
         else
         {
             pwm_set_duty(pwm_channel1, PWM_DUTY_MAX);
-            pwm_set_duty(pwm_channel2, PWM_DUTY_MAX - (int)MAP(ABS(this->intensity), 0, PWM_DUTY_MAX, this->deadzone, PWM_DUTY_MAX));
+            pwm_set_duty(pwm_channel2, PWM_DUTY_MAX - ABS(this->intensity));
         }
 
     }break;
@@ -68,14 +68,13 @@ void N20_Motor::output_intensity()//1ms进行一次输出
 }
 
 N20_Motor::N20_Motor(GPTIMER_Regs *htim, DL_TIMER_CC_INDEX pwm_channel1, DL_TIMER_CC_INDEX pwm_channel2, Encoder *encoder,
-                     float reduction_rate, float radius, float deadzone) {
+                     float reduction_rate, float radius) {
     this->htim = htim;
     this->pwm_channel1 = pwm_channel1;
     this->pwm_channel2 = pwm_channel2;
     this->encoder = encoder;
     this->reduction_rate = reduction_rate;
     this->radius = radius;
-    this->deadzone = deadzone;
 
 }
 

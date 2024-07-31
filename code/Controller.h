@@ -1,3 +1,17 @@
+/**
+  ******************************************************************************
+  * @FileName			    Controller.h
+  * @Description
+  * @author                 Yu Xinyi
+  * @note
+  ******************************************************************************
+  *
+  * Copyright (c) 2023 Team JiaoLong-ShanghaiJiaoTong University
+  * All rights reserved.
+  *
+  ******************************************************************************
+**/
+
 #ifndef CONTROL_CONTROLLER_H
 #define CONTROL_CONTROLLER_H
 
@@ -21,7 +35,7 @@ public:
     float v_out = 0, w_out = 0;
     float v_out_max = 0.1, w_out_max = 0.1;
 
-    bool reached = true;
+    bool reached = false;
 
     Controller(Chassis* chassis);
 

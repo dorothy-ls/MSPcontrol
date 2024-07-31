@@ -1,7 +1,7 @@
 #include "CCD.h"
-#include "it.h"
+
 uint32_t DMA_EN_cnt = 0;
-void CCD::SI_send()//¶¨Ê±Æ÷OCÖÐ¶Ïµ÷ÓÃ£¬ÇëÇóÒ»´ÎÊý¾Ý·¢ËÍÒ»´ÎSIÐÅºÅ
+void CCD::SI_send()//ï¿½ï¿½Ê±ï¿½ï¿½OCï¿½Ð¶Ïµï¿½ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ý·ï¿½ï¿½ï¿½Ò»ï¿½ï¿½SIï¿½Åºï¿½
 {
     if(state == 0)
     {
@@ -18,9 +18,9 @@ void CCD::SI_send()//¶¨Ê±Æ÷OCÖÐ¶Ïµ÷ÓÃ£¬ÇëÇóÒ»´ÎÊý¾Ý·¢ËÍÒ»´ÎSIÐÅºÅ
         NVIC_DisableIRQ(TIM_CCD_INST_INT_IRQN);
         state = 0;
 
-        //¿ªADC DMA
+        //ï¿½ï¿½ADC DMA
         //HAL_ADC_Start_DMA(&hadc3, (uint32_t *)data, 128);
-        //DL_ADC12_enableDMA(ADC_CCD_INST);//»¹ÐèÒªÐÞ¸Ä ¹æ¶¨´«ÊäµÄ´æ´¢Æ÷µØÖ·ºÍÊý¾Ý³¤¶È
+        //DL_ADC12_enableDMA(ADC_CCD_INST);//ï¿½ï¿½ï¿½ï¿½Òªï¿½Þ¸ï¿½ ï¿½æ¶¨ï¿½ï¿½ï¿½ï¿½Ä´æ´¢ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Ý³ï¿½ï¿½ï¿½
         DL_ADC12_enableConversions(ADC_CCD_INST);
         DL_DMA_setSrcAddr(DMA, DMA_CH0_CHAN_ID,(uint32_t) DL_ADC12_getMemResultAddress(ADC_CCD_INST,ADC_CCD_ADCMEM_0));
         DL_DMA_setDestAddr(DMA, DMA_CH0_CHAN_ID, (uint32_t) data);
@@ -34,18 +34,18 @@ void CCD::SI_send()//¶¨Ê±Æ÷OCÖÐ¶Ïµ÷ÓÃ£¬ÇëÇóÒ»´ÎÊý¾Ý·¢ËÍÒ»´ÎSIÐÅºÅ
     }
 }
 
-void CCD::Handler()//Ã¿10msÇëÇóÒ»´ÎCCDÊý¾Ý
+void CCD::Handler()//Ã¿10msï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½CCDï¿½ï¿½ï¿½ï¿½
 {
     if(utick % integrate_time == 0)
     {
-        NVIC_EnableIRQ(TIM_CCD_INST_INT_IRQN);//¿ªCCD_TIMÖÐ¶Ï£¬·¢ËÍÒ»¸öSIÂö³å
+        NVIC_EnableIRQ(TIM_CCD_INST_INT_IRQN);//ï¿½ï¿½CCD_TIMï¿½Ð¶Ï£ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½SIï¿½ï¿½ï¿½ï¿½
         sample_t = 0;
         sample_complete = false;
     }
     sample_t++;
 }
 
-void CCD::init() //¿ªCCD_TIM´¥·¢
+void CCD::init() //ï¿½ï¿½CCD_TIMï¿½ï¿½ï¿½ï¿½
 {
     DL_Timer_startCounter(TIM_CCD_INST);
     last_dir = 64;

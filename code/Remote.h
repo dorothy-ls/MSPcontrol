@@ -1,7 +1,7 @@
 #ifndef CONTROL_REMOTE_H
 #define CONTROL_REMOTE_H
 
-#include "ti_msp_dl_config.h"
+#include "hal.h"
 
 typedef enum{
     REMOTE_DISCONNECTED=0,

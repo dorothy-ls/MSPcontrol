@@ -10,7 +10,7 @@ void SysTick_Handler(void)
     SysTick->CTRL &= ~(1 << 16); /*清除滴答定时器中断标志位*/
 
     utick++;//滴答定时器中断计数
-    if(utick%1000 == 0)
+    if(utick%500 == 0)
     DL_GPIO_togglePins(GPIO_LEDS_PORT,GPIO_LEDS_USER_LED_1_PIN);
 
     task_handler();

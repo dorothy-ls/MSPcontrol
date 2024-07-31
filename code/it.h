@@ -1,10 +1,11 @@
 #ifndef CONTROL_IT_H
 #define CONTROL_IT_H
+
 #include "ti_msp_dl_config.h"
-#include "config.h"
+//#include "config.h"
 #include "task.h"
-#include "QEI.h"
-#include "module.h"
+//#include "QEI.h"
+//#include "module.h"
 
 
 

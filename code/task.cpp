@@ -1,10 +1,8 @@
 #include "task.h"
-#include "ti_msp_dl_config.h"
-#include "QEI.h"
-#include "module.h"
-#include "it.h"
 #include "hal.h"
+#include "module.h"
 #include "device.h"
+#include "algorithm.h"
 
 #define TEST
 //#define TEST_MOTOR
@@ -19,8 +17,8 @@ int uart1_state = 0;
 
 Encoder left_encoder(&LEFT_CNT);
 Encoder right_encoder(&RIGHT_CNT);
-void LEFT_QEI_Handler();//Èí¼þ±àÂëÆ÷TIMÒç³ö»Øµ÷º¯ÊýÊµÏÖ
-void RIGHT_QEI_Handler();//Èí¼þ±àÂëÆ÷TIMÒç³ö»Øµ÷º¯ÊýÊµÏÖ
+void LEFT_QEI_Handler();//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½TIMï¿½ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½
+void RIGHT_QEI_Handler();//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½TIMï¿½ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½
 
 N20_Motor left_motor(PWM_MOTOR_INST, GPIO_PWM_MOTOR_C0_IDX, GPIO_PWM_MOTOR_C1_IDX,
                      &left_encoder,
@@ -41,19 +39,19 @@ CCD ccd;
 void setup()
 {
 
-    NVIC_ClearPendingIRQ(UART_0_INST_INT_IRQN);//´®¿ÚÖÐ¶Ï³õÊ¼»¯
+    NVIC_ClearPendingIRQ(UART_0_INST_INT_IRQN);//ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶Ï³ï¿½Ê¼ï¿½ï¿½
     NVIC_EnableIRQ(UART_0_INST_INT_IRQN);
 
-    NVIC_EnableIRQ(TIM_ENCODE_INST_INT_IRQN);//¿ª±àÂëÆ÷²ÉÑù¶¨Ê±Æ÷ÖÐ¶Ï100k
+    NVIC_EnableIRQ(TIM_ENCODE_INST_INT_IRQN);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½Ð¶ï¿½100k
 
-    DL_Timer_startCounter(TIM_ENCODE_INST);//¿ª±àÂëÆ÷²ÉÑù¶¨Ê±Æ÷¼ÆÊý
-    //DL_Timer_startCounter(PWM_MOTOR_INST);//¿ªPWM¶¨Ê±Æ÷¼ÆÊý
+    DL_Timer_startCounter(TIM_ENCODE_INST);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    //DL_Timer_startCounter(PWM_MOTOR_INST);//ï¿½ï¿½PWMï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     right_motor.init();
     left_motor.init();
     ccd.init();
 
-    register_LEFT_QEI_callback(LEFT_QEI_Handler);//×¢²áÈí¼þQEI»Øµ÷
-    register_RIGHT_QEI_callback(RIGHT_QEI_Handler);//×¢²áÈí¼þQEI»Øµ÷
+    register_LEFT_QEI_callback(LEFT_QEI_Handler);//×¢ï¿½ï¿½ï¿½ï¿½ï¿½QEIï¿½Øµï¿½
+    register_RIGHT_QEI_callback(RIGHT_QEI_Handler);//×¢ï¿½ï¿½ï¿½ï¿½ï¿½QEIï¿½Øµï¿½
 
     DL_GPIO_setPins(GPIO_LEDS_PORT, GPIO_LEDS_USER_LED_1_PIN);
 }
@@ -90,7 +88,7 @@ void UART_0_INST_IRQHandler(void)
     uint8_t val = uart1_rx_buf[uart1_rx_len];
     uart1_rx_len++;
     if(uart1_rx_len >= UART1_BUF_LEN) uart1_rx_len = 0;
-    //¼ì²âµ½½áÎ²±êÖ¾Ê±´¦Àí
+    //ï¿½ï¿½âµ½ï¿½ï¿½Î²ï¿½ï¿½Ö¾Ê±ï¿½ï¿½ï¿½ï¿½
     if(val == '\r')
     {
         uart1_state = 1;
@@ -117,7 +115,7 @@ void TIM_CCD_INST_IRQHandler(void)
 
 
 
-//²âÊÔ²¿·ÖÒµÎñÂß¼­
+//ï¿½ï¿½ï¿½Ô²ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ß¼ï¿½
 #ifdef TEST
 
 #define USE_REMOTE
@@ -135,28 +133,24 @@ volatile bool gCheckADC = false;
 volatile uint8_t signal_en_flag = 0;
 
 LS7366R ls7366r(SPI_ENCODER_INST,GPIO_ENCODER_PORT,GPIO_ENCODER_SI_L_PIN,GPIO_ENCODER_SI_R_PIN);
-Encoder left_encoder(&LEFT_CNT);
-Encoder right_encoder(&RIGHT_CNT);
-void LEFT_QEI_Handler();//Èí¼þ±àÂëÆ÷TIMÒç³ö»Øµ÷º¯ÊýÊµÏÖ
-void RIGHT_QEI_Handler();//Èí¼þ±àÂëÆ÷TIMÒç³ö»Øµ÷º¯ÊýÊµÏÖ
+Encoder left_encoder(&(ls7366r.leftValue));
+Encoder right_encoder(&(ls7366r.rightValue));
+
 void test_power();
 
 void signal_start();
 void signal_Handler();
 
-void UART_Transmit(UART_Regs *uart,uint8_t *data, uint16_t len);
 
 N20_Motor right_motor(PWM_MOTOR0_INST, GPIO_PWM_MOTOR0_C3_IDX, GPIO_PWM_MOTOR0_C2_IDX,
                      &right_encoder,
-                     210 * 2 * 7,
-                     33.4 / 2 / 1000 / 435 * 432,
-                     0
+                     150 * 4 * 7,
+                     33.4 / 2 / 1000 / 435 * 432
 );
 N20_Motor left_motor(PWM_MOTOR1_INST, GPIO_PWM_MOTOR1_C0_IDX, GPIO_PWM_MOTOR1_C1_IDX,
                      &left_encoder,
-                     210 * 2 * 7,
-                     33.4 / 2 / 1000 / 435 * 432,
-                     0
+                     150 * 4 * 7,
+                     33.4 / 2 / 1000 / 435 * 432
                      );
 CCD ccd;
 Remote remote(UART_0_INST);
@@ -164,10 +158,10 @@ IMU imu;
 Buzzer buzzer(PWM_BUZZER_INST);
 
 Chassis chassis(&left_motor, &right_motor, &imu, &ccd, 112.5 / 1000);
-Controller controller(&chassis); //Î»ÖÃ¿ØÖÆÆ÷
-PID_Controller pid_controller(&chassis); //Ñ­¼£¿ØÖÆÆ÷
+Controller controller(&chassis);
+PID_Controller pid_controller(&chassis);
 
-//¶ÔÏóÉùÃ÷
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 uint8_t start_flag[] = {0xfe, 0xfe};
 uint8_t end_flag[] = {0xff, 0xff};
 uint8_t temp_rx[128] = {0};
@@ -175,29 +169,17 @@ void setup()
 {
 
     NVIC_EnableIRQ(TIM_CCD_INST_INT_IRQN);
-
-    NVIC_ClearPendingIRQ(UART_0_INST_INT_IRQN);//´®¿ÚÖÐ¶Ï³õÊ¼»¯
-
-
-//    NVIC_EnableIRQ(GPIO_EncoderA_INT_IRQN);
-//    NVIC_EnableIRQ(GPIO_EncoderB_INT_IRQN);
+    NVIC_ClearPendingIRQ(UART_0_INST_INT_IRQN);//ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶Ï³ï¿½Ê¼ï¿½ï¿½
 
     NVIC_EnableIRQ(ADC_CCD_INST_INT_IRQN);
 
 
-//    NVIC_EnableIRQ(TIM_ENCODE_INST_INT_IRQN);//¿ª±àÂëÆ÷²ÉÑù¶¨Ê±Æ÷ÖÐ¶Ï100k
+//    NVIC_EnableIRQ(TIM_ENCODE_INST_INT_IRQN);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½Ð¶ï¿½100k
 //
-//    DL_Timer_startCounter(TIM_ENCODE_INST);//¿ª±àÂëÆ÷²ÉÑù¶¨Ê±Æ÷¼ÆÊý
-    //DL_Timer_startCounter(PWM_MOTOR_INST);//¿ªPWM¶¨Ê±Æ÷¼ÆÊý
-    ls7366r.init(MDR0_CONF,MDR1_CONF);
-    delay_ms(10);
-    ls7366r.init(MDR0_CONF,MDR1_CONF);
-    delay_ms(10);
-    ls7366r.init(MDR0_CONF,MDR1_CONF);
-    delay_ms(10);
-    ls7366r.init(MDR0_CONF,MDR1_CONF);
-    delay_ms(10);
-
+//    DL_Timer_startCounter(TIM_ENCODE_INST);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    //DL_Timer_startCounter(PWM_MOTOR_INST);//ï¿½ï¿½PWMï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    
+	ls7366r.init(MDR0_CONF,MDR1_CONF);
 
     right_motor.init();
     left_motor.init();
@@ -207,8 +189,8 @@ void setup()
 
 
 
-    register_LEFT_QEI_callback(LEFT_QEI_Handler);//×¢²áÈí¼þQEI»Øµ÷
-    register_RIGHT_QEI_callback(RIGHT_QEI_Handler);//×¢²áÈí¼þQEI»Øµ÷
+    //register_LEFT_QEI_callback(LEFT_QEI_Handler);//×¢ï¿½ï¿½ï¿½ï¿½ï¿½QEIï¿½Øµï¿½
+    //register_RIGHT_QEI_callback(RIGHT_QEI_Handler);//×¢ï¿½ï¿½ï¿½ï¿½ï¿½QEIï¿½Øµï¿½
 
     DL_GPIO_setPins(GPIO_LEDS_PORT, GPIO_LEDS_USER_LED_1_PIN);
 
@@ -217,7 +199,7 @@ void setup()
 //    DL_DMA_setTransferSize(DMA, DMA_CH0_CHAN_ID, 128);
     DL_DMA_disableChannel(DMA, DMA_CH0_CHAN_ID);
     //DL_ADC12_disableConversions(ADC_CCD_INST);
-    NVIC_EnableIRQ(ADC_VIN_INST_INT_IRQN);//¿ªµçÑ¹¼ì²âADCÖÐ¶Ï
+    NVIC_EnableIRQ(ADC_VIN_INST_INT_IRQN);//ï¿½ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½ADCï¿½Ð¶ï¿½
     delay_ms(1000);
     imu.init();
     NVIC_EnableIRQ(UART_0_INST_INT_IRQN);
@@ -254,6 +236,7 @@ void loop()
 void task_handler()
 {
     ls7366r.Handler();
+	
     left_encoder.Handler();
     right_encoder.Handler();
     left_motor.Handler();
@@ -271,12 +254,12 @@ void task_handler()
     pid_controller.Handler();
 
 
-#ifdef USE_REMOTE //Ò£¿ØÆ÷
+#ifdef USE_REMOTE //Ò£ï¿½ï¿½ï¿½ï¿½
     switch (remote.mode) {
         case 0: { //Í£Ö¹
             chassis.state = CHASSIS_STOP;
         }break;
-        case 1: { //Ò£¿Ø
+        case 1: { //Ò£ï¿½ï¿½
 //            float thresh = 0;
 //            if(remote.vertical < thresh && remote.vertical > -thresh){
 //                chassis.v_set = 0;
@@ -286,7 +269,7 @@ void task_handler()
 //            }else chassis.w_set = remote.horizontal * (-0.1);
 //            chassis.state = CHASSIS_RUN;
         }break;
-        case 2: { //Î»ÖÃ¿ØÖÆÆ÷²âÊÔ¾ØÐÎ
+        case 2: { //Î»ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¾ï¿½ï¿½ï¿½
 //            const float l = 0.3;
 //            static float x_array[] = {0, l, l, 0};
 //            static float y_array[] = {0, 0, -l, -l};
@@ -318,15 +301,6 @@ void task_handler()
 
 }
 
-void LEFT_QEI_Handler()
-{
-    left_encoder.overflow_update();
-}
-void RIGHT_QEI_Handler()
-{
-    right_encoder.overflow_update();
-}
-
 uint32_t uart1_cnt = 0;
 void UART_0_INST_IRQHandler(void)
 {
@@ -335,7 +309,7 @@ void UART_0_INST_IRQHandler(void)
     uint8_t val = uart1_rx_buf[uart1_rx_len];
     uart1_rx_len++;
     if(uart1_rx_len >= UART1_BUF_LEN) uart1_rx_len = 0;
-    //¼ì²âµ½½áÎ²±êÖ¾Ê±´¦Àí
+    //ï¿½ï¿½âµ½ï¿½ï¿½Î²ï¿½ï¿½Ö¾Ê±ï¿½ï¿½ï¿½ï¿½
     if(val == '\r')
     {
         uart1_state = 1;
@@ -379,78 +353,6 @@ void ADC_CCD_INST_IRQHandler(void)
     //DL_ADC12_clearInterruptStatus(ADC_CCD_INST,DL_ADC12_IIDX_DMA_DONE);
 }
 
-//void GROUP1_IRQHandler(void)
-//{
-//    //»ñÈ¡ÖÐ¶ÏÐÅºÅ
-//    gpioA = DL_GPIO_getEnabledInterruptStatus(GPIOA,
-//    GPIO_EncoderA_PIN_0_PIN | GPIO_EncoderA_PIN_1_PIN);
-//    gpioB = DL_GPIO_getEnabledInterruptStatus(GPIOB,
-//        GPIO_EncoderB_PIN_2_PIN | GPIO_EncoderB_PIN_3_PIN);
-//    //Èç¹ûÊÇGPIO_EncoderA_PIN_0_PIN²úÉúµÄÖÐ¶Ï
-//    uint16_t temp_LEFT_CNT = LEFT_CNT;
-//    uint16_t temp_RIGHT_CNT = RIGHT_CNT;
-//    if((gpioA & GPIO_EncoderA_PIN_0_PIN) == GPIO_EncoderA_PIN_0_PIN)
-//    {
-//        //Pin0ÉÏÉýÑØ£¬¿´Pin1µÄµçÆ½£¬ÎªµÍµçÆ½ÔòÅÐ¶ÏÎª·´×ª£¬¸ßµçÆ½ÅÐ¶ÏÎªÕý×ª
-//        if(!DL_GPIO_readPins(GPIOA,GPIO_EncoderA_PIN_1_PIN))//P1ÎªµÍµçÆ½
-//        {
-//            LEFT_CNT--;
-//        }
-//        else//P1Îª¸ßµçÆ½
-//        {
-//            LEFT_CNT++;
-//        }
-//    }
-//
-//    //ÀàËÆÓÚStm32ÖÐ±àÂëÆ÷Ä£Ê½µÄABÁ½Ïà¶¼²â£¬¿ÉµÃµ½2±¶µÄ¼ÆÊý
-//    else if((gpioA & GPIO_EncoderA_PIN_1_PIN) == GPIO_EncoderA_PIN_1_PIN)
-//    {
-//        //Pin1ÉÏÉýÑØ
-//        if(!DL_GPIO_readPins(GPIOA,GPIO_EncoderA_PIN_0_PIN))//P0ÎªµÍµçÆ½
-//        {
-//            LEFT_CNT++;
-//        }
-//        else//P1Îª¸ßµçÆ½
-//        {
-//            LEFT_CNT--;
-//        }
-//    }
-//
-//    if((gpioB & GPIO_EncoderB_PIN_2_PIN) == GPIO_EncoderB_PIN_2_PIN)
-//    {
-//        //Pin0ÉÏÉýÑØ£¬¿´Pin1µÄµçÆ½£¬ÎªµÍµçÆ½ÔòÅÐ¶ÏÎª·´×ª£¬¸ßµçÆ½ÅÐ¶ÏÎªÕý×ª
-//        if(!DL_GPIO_readPins(GPIOB,GPIO_EncoderB_PIN_3_PIN))//P1ÎªµÍµçÆ½
-//        {
-//            RIGHT_CNT--;
-//        }
-//        else//P1Îª¸ßµçÆ½
-//        {
-//            RIGHT_CNT++;
-//        }
-//    }
-//
-//    //ÀàËÆÓÚStm32ÖÐ±àÂëÆ÷Ä£Ê½µÄABÁ½Ïà¶¼²â£¬¿ÉµÃµ½2±¶µÄ¼ÆÊý
-//    else if((gpioB & GPIO_EncoderB_PIN_3_PIN) == GPIO_EncoderB_PIN_3_PIN)
-//    {
-//        //Pin1ÉÏÉýÑØ
-//        if(!DL_GPIO_readPins(GPIOB,GPIO_EncoderB_PIN_2_PIN))//P0ÎªµÍµçÆ½
-//        {
-//            RIGHT_CNT++;
-//        }
-//        else//P1Îª¸ßµçÆ½
-//        {
-//            RIGHT_CNT--;
-//        }
-//    }
-//
-//    if((temp_LEFT_CNT == 65535 && LEFT_CNT == 0) || (temp_LEFT_CNT == 0 && LEFT_CNT == 65535))
-//        left_encoder.overflow_update();
-//    if(temp_RIGHT_CNT == 65535 && RIGHT_CNT == 0 || temp_RIGHT_CNT == 0 && RIGHT_CNT == 65535)
-//        right_encoder.overflow_update();
-//    //×îºóÇå³ýÖÐ¶Ï±êÖ¾Î»
-//    DL_GPIO_clearInterruptStatus(GPIOA, GPIO_EncoderA_PIN_0_PIN|GPIO_EncoderA_PIN_1_PIN);
-//    DL_GPIO_clearInterruptStatus(GPIOB, GPIO_EncoderB_PIN_2_PIN|GPIO_EncoderB_PIN_3_PIN);
-//}
 
 void test_power()
 {
@@ -512,43 +414,8 @@ void signal_Handler()
     }
 }
 
-void UART_Transmit(UART_Regs *uart,uint8_t *data, uint16_t len)
-{
-    int i = 0;
-    for(i = 0; i < len; i++)
-    {
-        while( DL_UART_isBusy(uart) == true );
-        DL_UART_transmitData(uart,data[i]);
-    }
-}
+
 
 #endif
 
-#ifdef TEST_DELAY
-uint8_t data[] = {1,2,3};
-LS7366R ls7366r(SPI_ENCODER_INST,GPIO_ENCODER_PORT,GPIO_ENCODER_SI_L_PIN,GPIO_ENCODER_SI_R_PIN);
-void setup()
-{
-    ls7366r.init(MDR0_CONF,MDR1_CONF);
-//    DL_GPIO_setPins(GPIO_ENCODER_PORT ,GPIO_ENCODER_SI_L_PIN);
-//    DL_GPIO_setPins(GPIO_ENCODER_PORT ,GPIO_ENCODER_SI_R_PIN);
-}
 
-void loop()
-{
-    DL_GPIO_clearPins(GPIO_ENCODER_PORT ,GPIO_ENCODER_SI_L_PIN);
-    DL_GPIO_clearPins(GPIO_ENCODER_PORT ,GPIO_ENCODER_SI_R_PIN);
-    SPI_transmitData(SPI_ENCODER_INST,data,3);
-    DL_GPIO_setPins(GPIO_ENCODER_PORT ,GPIO_ENCODER_SI_L_PIN);
-    DL_GPIO_setPins(GPIO_ENCODER_PORT ,GPIO_ENCODER_SI_R_PIN);
-
-
-}
-
-void task_handler()
-{
-
-
-}
-
-#endif

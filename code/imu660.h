@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-#include "ti_msp_dl_config.h"
+#include "hal.h"
 
 
 // IMU660RA_USE_SOFT_IIC定义为0表示使用硬件SPI驱动 定义为1表示使用软件IIC驱动

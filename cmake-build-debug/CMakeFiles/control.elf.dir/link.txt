@@ -1,0 +1,1 @@
+G:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  -g  -Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/asus/Desktop/contest2024/MSPcontrol/cmake-build-debug/control.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T C:/Users/asus/Desktop/contest2024/MSPcontrol/STM32F407VETX_FLASH.ld @CMakeFiles\control.elf.dir\objects1.rsp  -o control.elf 

@@ -1,28 +1,30 @@
 #ifndef CONTROL_LED_H
 #define CONTROL_LED_H
 
+#include "hal.h"
+
 class controlGPIOPin
 {
-   public:
+public:
     controlGPIOPin(GPIO_Regs* gpio, uint32_t pins)
     {
         gpioPort = gpio;
         gpioPins = pins;
     }
-    void clear(void)
+    inline void clear(void)
     {
         DL_GPIO_clearPins(gpioPort, gpioPins);
     }
-    void set(void)
+    inline void set(void)
     {
         DL_GPIO_setPins(gpioPort, gpioPins);
     }
-    void toggle(void)
+    inline void toggle(void)
     {
         DL_GPIO_togglePins(gpioPort, gpioPins);
     }
 
-   private:
+private:
     GPIO_Regs* gpioPort;
     uint32_t gpioPins;
 };

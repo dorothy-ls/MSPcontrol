@@ -1,32 +1,36 @@
+/**
+  ******************************************************************************
+  * @FileName			    Encoder.h
+  * @Description
+  * @author                 Yu Xinyi
+  * @note
+  ******************************************************************************
+  *
+  * Copyright (c) 2023 Team JiaoLong-ShanghaiJiaoTong University
+  * All rights reserved.
+  *
+  ******************************************************************************
+**/
+
 #include "Encoder.h"
 
-#define CNT_OVERFLOW 65536
+#define CNT_OVERFLOW 4294967296
+#define CNT_TH1 1073741824
+#define CNT_TH2 3221225472
 
-//systick中断调用
 void Encoder::Handler() {
-    pulse += *CNT - prev_cnt + carry_flag * CNT_OVERFLOW;
+    if(*CNT < CNT_TH1 && prev_cnt > CNT_TH2){ //向上溢出
+        carry_flag++;
+    }else if(*CNT > CNT_TH2 && prev_cnt < CNT_TH1){ //向下溢出
+        carry_flag--;
+    }
+    pulse += *CNT + (carry_flag * CNT_OVERFLOW - prev_cnt);
     carry_flag = 0;
     prev_cnt = *CNT;
+
 }
 
-Encoder::Encoder(uint16_t* CNT_ADD) {
-    CNT = CNT_ADD;
+Encoder::Encoder(uint32_t* CNT) {
+    this->CNT = CNT;
 }
 
-//void Encoder::init() {
-//    NVIC_EnableIRQ(TIM_ENCODE_INST_INT_IRQN);
-//    DL_Timer_startCounter(TIM_ENCODE_INST);
-//
-//    HAL_TIM_Encoder_Start(htim, TIM_CHANNEL_ALL);
-//    HAL_TIM_Base_Start_IT(htim);
-//}
-
-//虚拟溢出中断回调
-void Encoder::overflow_update() {
-//    if(!init_flag){
-//        init_flag = true;
-//        return;
-//    }
-    if(*CNT < CNT_OVERFLOW / 2) carry_flag++;
-    else carry_flag--;
-}

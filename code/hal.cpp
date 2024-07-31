@@ -1,4 +1,20 @@
 #include "hal.h"
+
+void UART_Transmit(UART_Regs *uart,uint8_t *data, uint16_t len)
+{
+    int i = 0;
+    for(i = 0; i < len; i++)
+    {
+        while( DL_UART_isBusy(uart) == true );
+        DL_UART_transmitData(uart,data[i]);
+    }
+}
+
+int fputc(int ch, FILE *f)
+{
+    UART_Transmit(UART_0_INST, (uint8_t*)&ch, 1);
+    return ch;
+}
 //HAL_SPI_Transmit(hspi, &temp, 1, 0xffff);
 void SPI_transmitData(SPI_Regs *hspi, uint8_t *data, uint8_t dataLength)
 {
