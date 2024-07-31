@@ -13,7 +13,7 @@ void SysTick_Handler(void)
     if(utick%500 == 0)
 		DL_GPIO_togglePins(GPIO_LEDS_PORT,GPIO_LEDS_USER_LED_1_PIN);
 
-    task_handler();
+    //task_handler();
 }
 
 void delay_ms(unsigned int ms)

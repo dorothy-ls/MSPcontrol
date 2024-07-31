@@ -41,14 +41,14 @@ int main(void)
 {
     SYSCFG_DL_init();
 	
-	DL_DMA_disableChannel(DMA, DMA_CH0_CHAN_ID);
+	/*DL_DMA_disableChannel(DMA, DMA_CH0_CHAN_ID);
 	NVIC_EnableIRQ(TIM_CCD_INST_INT_IRQN);
     NVIC_ClearPendingIRQ(UART_0_INST_INT_IRQN);
     NVIC_EnableIRQ(ADC_CCD_INST_INT_IRQN);
     NVIC_EnableIRQ(UART_0_INST_INT_IRQN);
-	DL_GPIO_setPins(GPIO_LEDS_PORT, GPIO_LEDS_USER_LED_1_PIN);
+	DL_GPIO_setPins(GPIO_LEDS_PORT, GPIO_LEDS_USER_LED_1_PIN);*/
 
-    setup();
+    //setup();
     while (1) {
 	//DL_GPIO_togglePins(GPIO_LEDS_PORT,GPIO_LEDS_USER_LED_2_PIN);
     //delay_ms(500);
