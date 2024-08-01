@@ -9,7 +9,8 @@ void Chassis::process()
     int i;
     for(i = 0; i < 128; ++i)
     {
-        data_norm[i] = (float)ccd->data[i] * ccd_norm[i];
+        data_norm[i] = (float)ccd->data[i];
+//                                        * ccd_norm[i];
     }
 
     // Get the threshold

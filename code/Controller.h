@@ -14,7 +14,7 @@ public:
     float dist, ang_err;
     float x_err, y_err;
 
-    float dist_th = 0.005, ang_th = 3;
+    float dist_th = 0.01, ang_th = 3;
 
     float kp1 = 3, kp2 = 0.13;
 

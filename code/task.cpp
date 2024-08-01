@@ -120,7 +120,7 @@ void TIM_CCD_INST_IRQHandler(void)
 //²âÊÔ²¿·ÖÒµÎñÂß¼­
 #ifdef TEST
 
-//#define USE_REMOTE
+#define USE_REMOTE
 
 #define UART1_BUF_LEN 100
 #define v_th 9
@@ -236,8 +236,10 @@ void loop()
         UART_Transmit(UART_0_INST, (uint8_t *)ccd.data, 128 * 2);
         UART_Transmit(UART_0_INST, end_flag, 2);
 
-        UART_Transmit(UART_0_INST, (uint8_t *)&left_motor.intensity, 4);
-        UART_Transmit(UART_0_INST, (uint8_t *)&left_motor.v, 4);
+//        UART_Transmit(UART_0_INST, (uint8_t *)&left_motor.intensity, 4);
+//        UART_Transmit(UART_0_INST, (uint8_t *)&left_motor.v, 4);
+        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.x, 4);
+        UART_Transmit(UART_0_INST, (uint8_t *)&chassis.y, 4);
         UART_Transmit(UART_0_INST, (uint8_t *)&chassis.ang, 4);
         UART_Transmit(UART_0_INST, (uint8_t *)&chassis.x_line, 4);
         UART_Transmit(UART_0_INST, (uint8_t *)&chassis.y_line, 4);
@@ -270,13 +272,13 @@ void task_handler()
 {
     if(init_flag && imu.state == IMU_RUN)
     {
-    if(utick % 10 == 0){
+    ///if(utick % 10 == 0){
     ls7366r.Handler();
     left_encoder.Handler();
     right_encoder.Handler();
     left_motor.Handler();
     right_motor.Handler();
-    }
+    //}
     remote.Handler();
     ccd.Handler();
     imu.Handler();
@@ -291,19 +293,19 @@ void task_handler()
 
 
     //controller.state = 1;
-                const float l = 0.3;
-                static float x_array[] = {0, l, l, 0};
-                static float y_array[] = {0, 0, -l, -l};
-                static int array_len = 4, index = 0;
-
-              if(controller.reached == true){
-                  if(++index >= array_len) index = 0;
-                  controller.x_set = x_array[index];
-                  controller.y_set = y_array[index];
-                  controller.reached = false;
-              }
-                controller.state = 1;
-                chassis.state = CHASSIS_RUN;
+//                const float l = 0.3;
+//                static float x_array[] = {0, l, l, 0};
+//                static float y_array[] = {0, 0, -l, -l};
+//                static int array_len = 4, index = 0;
+//
+//              if(controller.reached == true){
+//                  if(++index >= array_len) index = 0;
+//                  controller.x_set = x_array[index];
+//                  controller.y_set = y_array[index];
+//                  controller.reached = false;
+//              }
+//                controller.state = 1;
+//                chassis.state = CHASSIS_RUN;
 
 #ifdef USE_REMOTE //Ò£¿ØÆ÷
     switch (remote.mode) {
