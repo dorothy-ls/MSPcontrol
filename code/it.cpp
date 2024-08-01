@@ -12,6 +12,7 @@ void SysTick_Handler(void)
     utick++;//滴答定时器中断计数
     if(utick%500 == 0)
     DL_GPIO_togglePins(GPIO_LEDS_PORT,GPIO_LEDS_USER_LED_1_PIN);
+    DL_GPIO_togglePins(GPIO_SYS_PORT,GPIO_SYS_PIN_SYS_PIN);
 
     task_handler();
 }

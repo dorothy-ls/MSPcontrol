@@ -1,18 +1,18 @@
 ******************************************************************************
             TI ARM Clang Linker PC v3.2.2                      
 ******************************************************************************
->> Linked Thu Aug  1 07:02:10 2024
+>> Linked Thu Aug  1 10:49:55 2024
 
 OUTPUT FILE NAME:   <control.out>
-ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 00004439
+ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 0000465d
 
 
 MEMORY CONFIGURATION
 
          name            origin    length      used     unused   attr    fill
 ----------------------  --------  ---------  --------  --------  ----  --------
-  FLASH                 00000000   00020000  00007b18  000184e8  R  X
-  SRAM                  20200000   00008000  00000de8  00007218  RW X
+  FLASH                 00000000   00020000  00007d18  000182e8  R  X
+  SRAM                  20200000   00008000  00000e38  000071c8  RW X
   BCR_CONFIG            41c00000   00000080  00000000  00000080  R   
   BSL_CONFIG            41c00100   00000080  00000000  00000080  R   
 
@@ -21,15 +21,15 @@ SEGMENT ALLOCATION MAP
 
 run origin  load origin   length   init length attrs members
 ----------  ----------- ---------- ----------- ----- -------
-00000000    00000000    00007b18   00007b18    r-x
+00000000    00000000    00007d18   00007d18    r-x
   00000000    00000000    000000c0   000000c0    r-- .intvecs
-  000000c0    000000c0    00004f10   00004f10    r-x .text
-  00004fd0    00004fd0    000028c8   000028c8    r-- .rodata
-  00007898    00007898    00000008   00000008    r-- .init_array
-  000078a0    000078a0    00000278   00000278    r-- .cinit
-20200000    20200000    00000bea   00000000    rw-
-  20200000    20200000    000009ba   00000000    rw- .data
-  202009bc    202009bc    0000022e   00000000    rw- .bss
+  000000c0    000000c0    00005140   00005140    r-x .text
+  00005200    00005200    000028e0   000028e0    r-- .rodata
+  00007ae0    00007ae0    00000008   00000008    r-- .init_array
+  00007ae8    00007ae8    00000230   00000230    r-- .cinit
+20200000    20200000    00000c3a   00000000    rw-
+  20200000    20200000    00000992   00000000    rw- .data
+  20200994    20200994    000002a6   00000000    rw- .bss
 20207e00    20207e00    00000200   00000000    rw-
   20207e00    20207e00    00000200   00000000    rw- .stack
 
@@ -44,318 +44,320 @@ section   page    origin      length       input sections
 
 .binit     0    00000000    00000000     
 
-.text      0    000000c0    00004f10     
+.text      0    000000c0    00005140     
                   000000c0    0000046c     Chassis.o (.text._ZN7Chassis7HandlerEv)
                   0000052c    000002f0     arm_cortexM0l_math.a : arm_sin_cos_f32.o (.text.arm_sin_cos_f32)
                   0000081c    000002c4     Controller.o (.text._ZN10Controller7HandlerEv)
-                  00000ae0    00000298     Chassis.o (.text._ZN7Chassis7processEv)
-                  00000d78    000001f8     IMU.o (.text._ZN3IMU8get_dataEv)
-                  00000f70    000001cc     Remote.o (.text._ZN6Remote12process_dataEv)
-                  0000113c    000001c8     libc.a : s_atanf.c.obj (.text.atanf)
-                  00001304    00000198     N20_Motor.o (.text._ZN9N20_Motor16output_intensityEv)
-                  0000149c    00000192     libclang_rt.builtins.a : adddf3.S.obj (.text.adddf3_subdf3)
-                  0000162e    00000002                            : aeabi_div0.c.obj (.text.__aeabi_idiv0)
-                  00001630    0000013c     task.o (.text.task_handler)
-                  0000176c    00000138     ti_msp_dl_config.o (.text.SYSCFG_DL_GPIO_init)
-                  000018a4    00000130     libc.a : e_atan2f.c.obj (.text.atan2f)
-                  000019d4    00000120     N20_Motor.o (.text._ZN9N20_Motor17measure_parameterEv)
-                  00001af4    00000114     IMU.o (.text._ZN3IMU4initEv)
-                  00001c08    00000110     driverlib.a : dl_timer.o (.text.DL_Timer_initPWMMode)
-                  00001d18    0000010c     libclang_rt.builtins.a : divdf3.S.obj (.text.__divdf3)
-                  00001e24    000000f4     LS7366R.o (.text._ZN7LS7366R4initEhh)
-                  00001f18    000000ec     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_configSYSPLL)
-                  00002004    000000ec                 : dl_timer.o (.text.DL_TimerA_initPWMMode)
-                  000020f0    000000e8     imu660.o (.text.imu660ra_init)
-                  000021d8    000000e4     libclang_rt.builtins.a : muldf3.S.obj (.text.__muldf3)
-                  000022bc    000000d8                            : addsf3.S.obj (.text)
-                  00002394    000000d4     ti_msp_dl_config.o (.text.SYSCFG_DL_initPower)
-                  00002468    000000c4     task.o (.text.loop)
-                  0000252c    000000c0     task.o (.text._Z10test_powerv)
-                  000025ec    000000c0     CCD.o (.text._ZN3CCD7SI_sendEv)
-                  000026ac    000000bc     task.o (.text.setup)
-                  00002768    000000b0     task.o (.text.UART0_IRQHandler)
-                  00002818    000000ae     LS7366R.o (.text._ZN7LS7366R7HandlerEv)
-                  000028c6    00000002     --HOLE-- [fill = 0]
-                  000028c8    000000a8     libc.a : e_sqrtf.c.obj (.text.sqrtf)
-                  00002970    000000a2     PID_Controller.o (.text._ZN14PID_Controller7HandlerEv)
-                  00002a12    00000002     --HOLE-- [fill = 0]
-                  00002a14    0000009c     ti_msp_dl_config.o (.text.SYSCFG_DL_ADC_CCD_init)
-                  00002ab0    0000008c     libclang_rt.builtins.a : mulsf3.S.obj (.text.__mulsf3)
-                  00002b3c    00000088     ti_msp_dl_config.o (.text.SYSCFG_DL_PWM_MOTOR0_init)
-                  00002bc4    00000088     ti_msp_dl_config.o (.text.SYSCFG_DL_TIM_CCD_init)
-                  00002c4c    00000084     ti_msp_dl_config.o (.text.SYSCFG_DL_PWM_MOTOR1_init)
-                  00002cd0    00000084     ti_msp_dl_config.o (.text.__NVIC_SetPriority)
-                  00002d54    00000082     libclang_rt.builtins.a : divsf3.S.obj (.text.__divsf3)
-                  00002dd6    00000082     hal.o (.text.spi_read_8bit_registers)
-                  00002e58    00000078     libc.a : copy_decompress_lzss.c.obj (.text:decompress:lzss)
-                  00002ed0    00000074     libclang_rt.builtins.a : truncdfsf2.S.obj (.text.__truncdfsf2)
-                  00002f44    00000070     task.o (.text._Z14signal_Handlerv)
-                  00002fb4    00000070     imu660.o (.text._ZL23imu660ra_read_registershPhj)
-                  00003024    00000068     ti_msp_dl_config.o (.text.SYSCFG_DL_ADC_VIN_init)
-                  0000308c    00000064     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_setHFCLKSourceHFXTParams)
-                  000030f0    00000064     ti_msp_dl_config.o (.text.SYSCFG_DL_init)
-                  00003154    00000062     libclang_rt.builtins.a : aeabi_fcmp.S.obj (.text.__aeabi_fcmp)
-                  000031b6    00000002     --HOLE-- [fill = 0]
-                  000031b8    00000060     ti_msp_dl_config.o (.text.SYSCFG_DL_PWM_BUZZER_init)
-                  00003218    0000005a     hal.o (.text.SPI_transmitData)
-                  00003272    00000002     --HOLE-- [fill = 0]
-                  00003274    00000058     Chassis.o (.text._ZN7ChassisC2EP9N20_MotorS1_P3IMUP3CCDf)
-                  000032cc    00000054     driverlib.a : dl_dma.o (.text.DL_DMA_configTransfer)
-                  00003320    00000054     ti_msp_dl_config.o (.text.SYSCFG_DL_UART_0_init)
-                  00003374    00000054     libc.a : autoinit.c.obj (.text:__TI_auto_init_nobinit)
-                  000033c8    00000050     task.o (.text.ADC1_IRQHandler)
-                  00003418    00000050     ti_msp_dl_config.o (.text.SysTick_Config)
-                  00003468    00000050     it.o (.text.SysTick_Handler)
-                  000034b8    0000004e     imu660.o (.text._ZL19imu660ra_self_checkv)
-                  00003506    00000002     --HOLE-- [fill = 0]
-                  00003508    0000004c     ti_msp_dl_config.o (.text.DL_ADC12_initSingleSample)
-                  00003554    0000004c     driverlib.a : dl_adc12.o (.text.DL_ADC12_setClockConfig)
-                  000035a0    0000004c                 : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_switchMCLKfromSYSOSCtoHSCLK)
-                  000035ec    0000004c                 : dl_uart.o (.text.DL_UART_init)
-                  00003638    0000004c     ti_msp_dl_config.o (.text.DL_UART_setBaudRateDivisor)
-                  00003684    0000004a     ti_msp_dl_config.o (.text.DL_ADC12_configConversionMem)
-                  000036ce    0000004a     task.o (.text._Z13UART_TransmitP9UART_RegsPht)
-                  00003718    0000004a     N20_Motor.o (.text._ZN9N20_MotorC2EP12GPTIMER_Regs17DL_TIMER_CC_INDEXS2_P7Encoderfff)
-                  00003762    00000002     --HOLE-- [fill = 0]
-                  00003764    0000004a     libclang_rt.builtins.a : fixdfsi.S.obj (.text.__fixdfsi)
-                  000037ae    00000002     --HOLE-- [fill = 0]
-                  000037b0    00000048     driverlib.a : dl_spi.o (.text.DL_SPI_init)
-                  000037f8    00000048     ti_msp_dl_config.o (.text.SYSCFG_DL_SYSCTL_init)
-                  00003840    00000048     Controller.o (.text._ZN10ControllerC2EP7Chassis)
-                  00003888    00000048     CCD.o (.text._ZN3CCD7HandlerEv)
-                  000038d0    00000048     LS7366R.o (.text._ZN7LS7366R5resetEv)
-                  00003918    00000048     imu660.o (.text.imu660ra_get_acc)
-                  00003960    00000048     imu660.o (.text.imu660ra_get_gyro)
-                  000039a8    00000046     driverlib.a : dl_dma.o (.text.DL_DMA_initChannel)
-                  000039ee    00000002     --HOLE-- [fill = 0]
-                  000039f0    00000044     imu660.o (.text._ZL22imu660ra_read_registerh)
-                  00003a34    00000040     driverlib.a : dl_timer.o (.text.DL_Timer_setCaptureCompareOutCtl)
-                  00003a74    00000040     ti_msp_dl_config.o (.text.SYSCFG_DL_SPI_ENCODER_init)
-                  00003ab4    00000040     ti_msp_dl_config.o (.text.SYSCFG_DL_SPI_IMU_init)
-                  00003af4    00000040     imu660.o (.text._ZL23imu660ra_write_registerhh)
-                  00003b34    00000040     imu660.o (.text._ZL24imu660ra_write_registershPKhj)
-                  00003b74    00000040     libclang_rt.builtins.a : aeabi_uidivmod.S.obj (.text.__aeabi_uidivmod)
-                  00003bb4    00000040                            : extendsfdf2.S.obj (.text.__extendsfdf2)
-                  00003bf4    0000003c     driverlib.a : dl_timer.o (.text.DL_Timer_setCaptureCompareCtl)
-                  00003c30    0000003c     PID_Controller.o (.text._ZN14PID_ControllerC2EP7Chassis)
-                  00003c6c    0000003c     libclang_rt.builtins.a : floatsisf.S.obj (.text.__floatsisf)
-                  00003ca8    0000003c                            : comparesf2.S.obj (.text.__gtsf2)
-                  00003ce4    0000003a                            : comparesf2.S.obj (.text.__eqsf2)
-                  00003d1e    00000002     --HOLE-- [fill = 0]
-                  00003d20    0000003a                            : muldsi3.S.obj (.text.__muldsi3)
-                  00003d5a    00000002     --HOLE-- [fill = 0]
-                  00003d5c    00000038     driverlib.a : dl_dma.o (.text.DL_DMA_setTrigger)
-                  00003d94    00000038     ti_msp_dl_config.o (.text.DL_Timer_setPublisherChanID)
-                  00003dcc    00000038     task.o (.text.__cxx_global_var_init.3)
-                  00003e04    00000038     task.o (.text.__cxx_global_var_init.4)
-                  00003e3c    00000038     libclang_rt.builtins.a : fixsfsi.S.obj (.text.__fixsfsi)
-                  00003e74    00000034     driverlib.a : dl_timer.o (.text.DL_Timer_setCaptCompUpdateMethod)
-                  00003ea8    00000034                 : dl_timer.o (.text.DL_Timer_setCaptureCompareAction)
-                  00003edc    00000034                 : dl_timer.o (.text.DL_Timer_setCaptureCompareInput)
-                  00003f10    00000034                 : dl_timer.o (.text.DL_Timer_setClockConfig)
-                  00003f44    00000034     task.o (.text._GLOBAL__sub_I_task.cpp)
-                  00003f78    00000034     CCD.o (.text._ZL17__NVIC_DisableIRQ4IRQn)
-                  00003fac    00000034     task.o (.text.__cxx_global_var_init.9)
-                  00003fe0    00000032     hal.o (.text.spi_write_8bit_register)
-                  00004012    00000002     --HOLE-- [fill = 0]
-                  00004014    00000030     ti_msp_dl_config.o (.text.DL_SPI_setFIFOThreshold)
-                  00004044    00000030     task.o (.text._ZL21DL_ADC12_getMemResultP10ADC12_Regs16DL_ADC12_MEM_IDX)
-                  00004074    00000030     CCD.o (.text._ZL22DL_DMA_setTransferSizeP8DMA_Regsht)
-                  000040a4    00000030     hal.o (.text.spi_write_8bit_registers)
-                  000040d4    0000002c     task.o (.text.ADC0_IRQHandler)
-                  00004100    0000002c     ti_msp_dl_config.o (.text.DL_ADC12_setDMASamplesCnt)
-                  0000412c    0000002c     driverlib.a : dl_timer.o (.text.DL_Timer_setCaptureCompareValue)
-                  00004158    0000002c     CCD.o (.text._ZL16__NVIC_EnableIRQ4IRQn)
-                  00004184    0000002c     task.o (.text._ZL16__NVIC_EnableIRQ4IRQn)
-                  000041b0    0000002c     task.o (.text._ZL22__NVIC_ClearPendingIRQ4IRQn)
-                  000041dc    0000002c     libclang_rt.builtins.a : floatsidf.S.obj (.text.__floatsidf)
-                  00004208    00000028     driverlib.a : dl_adc12.o (.text.DL_Common_updateReg)
-                  00004230    00000028                 : dl_dma.o (.text.DL_Common_updateReg)
-                  00004258    00000028                 : dl_spi.o (.text.DL_Common_updateReg)
-                  00004280    00000028                 : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_Common_updateReg)
-                  000042a8    00000028                 : dl_timer.o (.text.DL_Common_updateReg)
-                  000042d0    00000028                 : dl_uart.o (.text.DL_Common_updateReg)
-                  000042f8    00000028     ti_msp_dl_config.o (.text.DL_Common_updateReg)
-                  00004320    00000028     ti_msp_dl_config.o (.text.DL_Timer_enableEvent)
-                  00004348    00000028     CCD.o (.text._ZL17DL_DMA_setSrcAddrP8DMA_Regshj)
-                  00004370    00000028     CCD.o (.text._ZL18DL_DMA_setDestAddrP8DMA_Regshj)
-                  00004398    00000028     LS7366R.o (.text._ZN7LS7366RC2EP8SPI_RegsP9GPIO_Regsjj)
-                  000043c0    00000028     task.o (.text.__cxx_global_var_init)
-                  000043e8    00000028     libclang_rt.builtins.a : floatunsisf.S.obj (.text.__floatunsisf)
-                  00004410    00000028     it.o (.text.delay_ms)
-                  00004438    00000028     libc.a : boot_cortex_m.c.obj (.text:_c_int00_noargs)
-                  00004460    00000026     CCD.o (.text._ZL20DL_DMA_enableChannelP8DMA_Regsh)
-                  00004486    00000026     task.o (.text._ZL21DL_DMA_disableChannelP8DMA_Regsh)
-                  000044ac    00000026     Remote.o (.text._ZN6RemoteC2EP9UART_Regs)
-                  000044d2    00000002     --HOLE-- [fill = 0]
-                  000044d4    00000024     ti_msp_dl_config.o (.text.DL_SPI_setBitRateSerialClockDivider)
-                  000044f8    00000024     driverlib.a : dl_spi.o (.text.DL_SPI_setClockConfig)
-                  0000451c    00000024                 : dl_uart.o (.text.DL_UART_setClockConfig)
-                  00004540    00000024     CCD.o (.text._ZL28DL_ADC12_getMemResultAddressP10ADC12_Regs16DL_ADC12_MEM_IDX)
-                  00004564    00000024     CCD.o (.text._ZN3CCD4initEv)
-                  00004588    00000024     N20_Motor.o (.text._ZN9N20_Motor12pwm_set_dutyE17DL_TIMER_CC_INDEXt)
-                  000045ac    00000022     task.o (.text._ZN3CCDC2Ev)
-                  000045ce    00000022     task.o (.text._ZN3IMUC2Ev)
-                  000045f0    00000022     Encoder.o (.text._ZN7Encoder7HandlerEv)
-                  00004612    00000002     --HOLE-- [fill = 0]
-                  00004614    00000020     ti_msp_dl_config.o (.text.DL_ADC12_setStartAddress)
-                  00004634    00000020     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_CORE_configInstruction)
-                  00004654    00000020     ti_msp_dl_config.o (.text.DL_GPIO_initPeripheralInputFunction)
-                  00004674    00000020     ti_msp_dl_config.o (.text.DL_SYSCTL_setFlashWaitState)
-                  00004694    00000020     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_setHFXTFrequencyRange)
-                  000046b4    00000020                 : dl_timer.o (.text.DL_Timer_setCounterValueAfterEnable)
-                  000046d4    0000001e     ti_msp_dl_config.o (.text.DL_ADC12_setPowerDownMode)
-                  000046f2    0000001e     ti_msp_dl_config.o (.text.DL_UART_setOversampling)
-                  00004710    0000001e     IMU.o (.text._ZN3IMU7HandlerEv)
-                  0000472e    00000002     --HOLE-- [fill = 0]
-                  00004730    0000001c     ti_msp_dl_config.o (.text.DL_ADC12_clearInterruptStatus)
-                  0000474c    0000001c     ti_msp_dl_config.o (.text.DL_ADC12_enableDMA)
-                  00004768    0000001c     ti_msp_dl_config.o (.text.DL_ADC12_enableDMATrigger)
-                  00004784    0000001c     ti_msp_dl_config.o (.text.DL_ADC12_enableInterrupt)
-                  000047a0    0000001c     ti_msp_dl_config.o (.text.DL_GPIO_initPeripheralOutputFunction)
-                  000047bc    0000001c     ti_msp_dl_config.o (.text.DL_SYSCTL_setSYSOSCFreq)
-                  000047d8    0000001c     ti_msp_dl_config.o (.text.DL_SYSCTL_setULPCLKDivider)
-                  000047f4    0000001c     ti_msp_dl_config.o (.text.DL_Timer_enableInterrupt)
-                  00004810    0000001c     ti_msp_dl_config.o (.text.DL_UART_enableInterrupt)
-                  0000482c    0000001c     task.o (.text.TIMG12_IRQHandler)
-                  00004848    0000001c     task.o (.text._ZL24DL_ADC12_startConversionP10ADC12_Regs)
-                  00004864    0000001a     ti_msp_dl_config.o (.text.DL_ADC12_setSubscriberChanID)
-                  0000487e    0000001a     Encoder.o (.text._ZN7EncoderC2EPl)
-                  00004898    00000018     ti_msp_dl_config.o (.text.DL_ADC12_enablePower)
-                  000048b0    00000018     ti_msp_dl_config.o (.text.DL_ADC12_reset)
-                  000048c8    00000018     ti_msp_dl_config.o (.text.DL_ADC12_setSampleTime0)
-                  000048e0    00000018     ti_msp_dl_config.o (.text.DL_GPIO_enableOutput)
-                  000048f8    00000018     ti_msp_dl_config.o (.text.DL_GPIO_enablePower)
-                  00004910    00000018     ti_msp_dl_config.o (.text.DL_GPIO_initDigitalOutput)
-                  00004928    00000018     ti_msp_dl_config.o (.text.DL_GPIO_initPeripheralAnalogFunction)
-                  00004940    00000018     ti_msp_dl_config.o (.text.DL_GPIO_reset)
-                  00004958    00000018     ti_msp_dl_config.o (.text.DL_GPIO_setPins)
-                  00004970    00000018     ti_msp_dl_config.o (.text.DL_SPI_enable)
-                  00004988    00000018     ti_msp_dl_config.o (.text.DL_SPI_enablePower)
-                  000049a0    00000018     ti_msp_dl_config.o (.text.DL_SPI_reset)
-                  000049b8    00000018     ti_msp_dl_config.o (.text.DL_SYSCTL_setBORThreshold)
-                  000049d0    00000018     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_setHFXTStartupTime)
-                  000049e8    00000018                 : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_setHSCLKSource)
-                  00004a00    00000018     ti_msp_dl_config.o (.text.DL_Timer_enablePower)
-                  00004a18    00000018     ti_msp_dl_config.o (.text.DL_Timer_reset)
-                  00004a30    00000018     driverlib.a : dl_timer.o (.text.DL_Timer_setLoadValue)
-                  00004a48    00000018     ti_msp_dl_config.o (.text.DL_UART_enablePower)
-                  00004a60    00000018     ti_msp_dl_config.o (.text.DL_UART_reset)
-                  00004a78    00000018     ti_msp_dl_config.o (.text.SYSCFG_DL_DMA_CH0_init)
-                  00004a90    00000018     hal.o (.text._ZL13DL_SPI_isBusyP8SPI_Regs)
-                  00004aa8    00000018     task.o (.text._ZL14DL_UART_isBusyP9UART_Regs)
-                  00004ac0    00000018     CCD.o (.text._ZL15DL_GPIO_setPinsP9GPIO_Regsj)
-                  00004ad8    00000018     LS7366R.o (.text._ZL15DL_GPIO_setPinsP9GPIO_Regsj)
-                  00004af0    00000018     imu660.o (.text._ZL15DL_GPIO_setPinsP9GPIO_Regsj)
-                  00004b08    00000018     task.o (.text._ZL15DL_GPIO_setPinsP9GPIO_Regsj)
-                  00004b20    00000018     it.o (.text._ZL18DL_GPIO_togglePinsP9GPIO_Regsj)
-                  00004b38    00000018     hal.o (.text._ZL20DL_SPI_isRXFIFOEmptyP8SPI_Regs)
-                  00004b50    00000018     Buzzer.o (.text._ZL20DL_Timer_stopCounterP12GPTIMER_Regs)
-                  00004b68    00000018     Buzzer.o (.text._ZL21DL_Timer_startCounterP12GPTIMER_Regs)
-                  00004b80    00000018     CCD.o (.text._ZL21DL_Timer_startCounterP12GPTIMER_Regs)
-                  00004b98    00000018     N20_Motor.o (.text._ZL21DL_Timer_startCounterP12GPTIMER_Regs)
-                  00004bb0    00000018     N20_Motor.o (.text._ZN9N20_Motor7HandlerEv)
-                  00004bc8    00000018     task.o (.text.__cxx_global_var_init.1)
-                  00004be0    00000018     task.o (.text.__cxx_global_var_init.2)
-                  00004bf8    00000018     control.o (.text.main)
-                  00004c10    00000016     ti_msp_dl_config.o (.text.DL_ADC12_enableConversions)
-                  00004c26    00000016     driverlib.a : dl_uart.o (.text.DL_UART_disable)
-                  00004c3c    00000016     ti_msp_dl_config.o (.text.DL_UART_enable)
-                  00004c52    00000016     hal.o (.text._ZL20DL_SPI_transmitData8P8SPI_Regsh)
-                  00004c68    00000016     task.o (.text._ZL20DL_UART_transmitDataP9UART_Regsh)
-                  00004c7e    00000016     CCD.o (.text._ZL26DL_ADC12_enableConversionsP10ADC12_Regs)
-                  00004c94    00000016     task.o (.text._ZL26DL_ADC12_enableConversionsP10ADC12_Regs)
-                  00004caa    00000016     task.o (.text._ZL27DL_ADC12_disableConversionsP10ADC12_Regs)
-                  00004cc0    00000016     libc.a : copy_zero_init.c.obj (.text:decompress:ZI:__TI_zero_init_nomemset)
-                  00004cd6    00000014     driverlib.a : dl_common.o (.text.DL_Common_delayCycles)
-                  00004cea    00000014     ti_msp_dl_config.o (.text.DL_GPIO_clearPins)
-                  00004cfe    00000002     --HOLE-- [fill = 0]
-                  00004d00    00000014     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_disableHFCLKStartupMonitor)
-                  00004d14    00000014                 : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_disableSYSPLL)
-                  00004d28    00000014     ti_msp_dl_config.o (.text.DL_SYSCTL_disableSYSPLL)
-                  00004d3c    00000014     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_enableHFCLKStartupMonitor)
-                  00004d50    00000014     ti_msp_dl_config.o (.text.DL_Timer_enableClock)
-                  00004d64    00000014     ti_msp_dl_config.o (.text.DL_Timer_setCCPDirection)
-                  00004d78    00000014     Controller.o (.text._Z5atan2B6v15007ff)
-                  00004d8c    00000014     CCD.o (.text._ZL17DL_GPIO_clearPinsP9GPIO_Regsj)
-                  00004da0    00000014     LS7366R.o (.text._ZL17DL_GPIO_clearPinsP9GPIO_Regsj)
-                  00004db4    00000014     imu660.o (.text._ZL17DL_GPIO_clearPinsP9GPIO_Regsj)
-                  00004dc8    00000014     task.o (.text._ZL17DL_GPIO_clearPinsP9GPIO_Regsj)
-                  00004ddc    00000014     hal.o (.text._ZL19DL_SPI_receiveData8P8SPI_Regs)
-                  00004df0    00000014     task.o (.text._ZL19DL_UART_receiveDataP9UART_Regs)
-                  00004e04    00000014     N20_Motor.o (.text._ZN5MotorC2Ev)
-                  00004e18    00000014     Remote.o (.text._ZN6Remote7HandlerEv)
-                  00004e2c    00000014     task.o (.text.__cxx_global_var_init.10)
-                  00004e40    00000014     task.o (.text.__cxx_global_var_init.11)
-                  00004e54    00000014     task.o (.text.__cxx_global_var_init.6)
-                  00004e68    00000014     task.o (.text.__cxx_global_var_init.8)
-                  00004e7c    00000012     task.o (.text._ZL28DL_ADC12_getPendingInterruptP10ADC12_Regs)
-                  00004e8e    00000012     Buzzer.o (.text._ZN6Buzzer4stopEv)
-                  00004ea0    00000012     Buzzer.o (.text._ZN6Buzzer5startEv)
-                  00004eb2    00000012     N20_Motor.o (.text._ZN9N20_Motor4initEv)
-                  00004ec4    00000012     libc.a : memcpy16.S.obj (.text:TI_memcpy_small)
-                  00004ed6    00000012            : copy_decompress_none.c.obj (.text:decompress:none)
-                  00004ee8    00000010     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_CORE_getInstructionConfig)
-                  00004ef8    00000010                 : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_disableHFXT)
-                  00004f08    00000010     ti_msp_dl_config.o (.text.DL_SYSCTL_disableHFXT)
-                  00004f18    00000010     ti_msp_dl_config.o (.text.SYSCFG_DL_SYSTICK_init)
-                  00004f28    00000010     Buzzer.o (.text._ZN6BuzzerC2EP12GPTIMER_Regs)
-                  00004f38    00000010     task.o (.text.__cxx_global_var_init.5)
-                  00004f48    00000010     task.o (.text.__cxx_global_var_init.7)
-                  00004f58    0000000c     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_getClockStatus)
-                  00004f64    00000008     ti_msp_dl_config.o (.text.SYSCFG_DL_DMA_init)
-                  00004f6c    00000008     libc.a : aeabi_portable.c.obj (.text.__aeabi_errno_addr)
-                  00004f74    00000008     libclang_rt.builtins.a : aeabi_memcpy.S.obj (.text.__aeabi_memcpy)
-                  00004f7c    00000006     libc.a : s_atanf.c.obj (.text.OUTLINED_FUNCTION_0)
-                  00004f82    00000002     --HOLE-- [fill = 0]
-                  00004f84    00000010     libclang_rt.builtins.a : divsf3.S.obj (.tramp.__aeabi_fdiv.1)
-                  00004f94    00000004     startup_mspm0g350x_ticlang.o (.text.Default_Handler)
-                  00004f98    00000004     libc.a : s_atanf.c.obj (.text.OUTLINED_FUNCTION_1)
-                  00004f9c    00000010     libclang_rt.builtins.a : addsf3.S.obj (.tramp.__aeabi_fadd.1)
-                  00004fac    00000004     startup_mspm0g350x_ticlang.o (.text.Reset_Handler)
-                  00004fb0    00000010     libc.a : boot_cortex_m.c.obj (.tramp._c_int00_noargs.1)
-                  00004fc0    00000004            : pre_init.c.obj (.text._system_pre_init)
-                  00004fc4    00000004            : exit.c.obj (.text:abort)
-                  00004fc8    00000008     --HOLE-- [fill = 0]
+                  00000ae0    000002c0     Chassis.o (.text._ZN7Chassis7processEv)
+                  00000da0    000001f8     IMU.o (.text._ZN3IMU8get_dataEv)
+                  00000f98    000001cc     Remote.o (.text._ZN6Remote12process_dataEv)
+                  00001164    000001c8     libc.a : s_atanf.c.obj (.text.atanf)
+                  0000132c    000001c0     task.o (.text.task_handler)
+                  000014ec    00000198     N20_Motor.o (.text._ZN9N20_Motor16output_intensityEv)
+                  00001684    00000192     libclang_rt.builtins.a : adddf3.S.obj (.text.adddf3_subdf3)
+                  00001816    00000002     task.o (.text.TIMG6_IRQHandler)
+                  00001818    0000013c     ti_msp_dl_config.o (.text.SYSCFG_DL_GPIO_init)
+                  00001954    00000130     libc.a : e_atan2f.c.obj (.text.atan2f)
+                  00001a84    00000120     N20_Motor.o (.text._ZN9N20_Motor17measure_parameterEv)
+                  00001ba4    00000114     IMU.o (.text._ZN3IMU4initEv)
+                  00001cb8    00000110     driverlib.a : dl_timer.o (.text.DL_Timer_initPWMMode)
+                  00001dc8    0000010c     libclang_rt.builtins.a : divdf3.S.obj (.text.__divdf3)
+                  00001ed4    00000100     driverlib.a : dl_timer.o (.text.DL_Timer_initTimerMode)
+                  00001fd4    000000f4     LS7366R.o (.text._ZN7LS7366R4initEhh)
+                  000020c8    000000ec     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_configSYSPLL)
+                  000021b4    000000ec                 : dl_timer.o (.text.DL_TimerA_initPWMMode)
+                  000022a0    000000e8     imu660.o (.text.imu660ra_init)
+                  00002388    000000e4     ti_msp_dl_config.o (.text.SYSCFG_DL_initPower)
+                  0000246c    000000e4     libclang_rt.builtins.a : muldf3.S.obj (.text.__muldf3)
+                  00002550    000000d8                            : addsf3.S.obj (.text)
+                  00002628    000000cc     task.o (.text.setup)
+                  000026f4    000000c0     task.o (.text._Z10test_powerv)
+                  000027b4    000000c0     CCD.o (.text._ZN3CCD7SI_sendEv)
+                  00002874    000000c0     task.o (.text.loop)
+                  00002934    000000b0     task.o (.text.UART0_IRQHandler)
+                  000029e4    000000ae     LS7366R.o (.text._ZN7LS7366R7HandlerEv)
+                  00002a92    00000002     libclang_rt.builtins.a : aeabi_div0.c.obj (.text.__aeabi_idiv0)
+                  00002a94    000000a8     libc.a : e_sqrtf.c.obj (.text.sqrtf)
+                  00002b3c    000000a2     PID_Controller.o (.text._ZN14PID_Controller7HandlerEv)
+                  00002bde    00000002     --HOLE-- [fill = 0]
+                  00002be0    0000009c     ti_msp_dl_config.o (.text.SYSCFG_DL_ADC_CCD_init)
+                  00002c7c    0000008c     libclang_rt.builtins.a : mulsf3.S.obj (.text.__mulsf3)
+                  00002d08    00000088     ti_msp_dl_config.o (.text.SYSCFG_DL_PWM_MOTOR0_init)
+                  00002d90    00000088     ti_msp_dl_config.o (.text.SYSCFG_DL_TIM_CCD_init)
+                  00002e18    00000084     ti_msp_dl_config.o (.text.SYSCFG_DL_PWM_MOTOR1_init)
+                  00002e9c    00000084     ti_msp_dl_config.o (.text.__NVIC_SetPriority)
+                  00002f20    00000082     libclang_rt.builtins.a : divsf3.S.obj (.text.__divsf3)
+                  00002fa2    00000082     hal.o (.text.spi_read_8bit_registers)
+                  00003024    00000078     libc.a : copy_decompress_lzss.c.obj (.text:decompress:lzss)
+                  0000309c    00000004     startup_mspm0g350x_ticlang.o (.text.Default_Handler)
+                  000030a0    00000074     libclang_rt.builtins.a : truncdfsf2.S.obj (.text.__truncdfsf2)
+                  00003114    00000070     ti_msp_dl_config.o (.text.SYSCFG_DL_init)
+                  00003184    00000070     task.o (.text._Z14signal_Handlerv)
+                  000031f4    00000070     imu660.o (.text._ZL23imu660ra_read_registershPhj)
+                  00003264    00000068     ti_msp_dl_config.o (.text.SYSCFG_DL_ADC_VIN_init)
+                  000032cc    00000064     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_setHFCLKSourceHFXTParams)
+                  00003330    00000062     libclang_rt.builtins.a : aeabi_fcmp.S.obj (.text.__aeabi_fcmp)
+                  00003392    00000002     --HOLE-- [fill = 0]
+                  00003394    00000060     ti_msp_dl_config.o (.text.SYSCFG_DL_PWM_BUZZER_init)
+                  000033f4    0000005a     hal.o (.text.SPI_transmitData)
+                  0000344e    00000002     --HOLE-- [fill = 0]
+                  00003450    00000058     it.o (.text.SysTick_Handler)
+                  000034a8    00000058     Chassis.o (.text._ZN7ChassisC2EP9N20_MotorS1_P3IMUP3CCDf)
+                  00003500    00000054     driverlib.a : dl_dma.o (.text.DL_DMA_configTransfer)
+                  00003554    00000054     ti_msp_dl_config.o (.text.SYSCFG_DL_UART_0_init)
+                  000035a8    00000054     libc.a : autoinit.c.obj (.text:__TI_auto_init_nobinit)
+                  000035fc    00000050     task.o (.text.ADC1_IRQHandler)
+                  0000364c    00000050     ti_msp_dl_config.o (.text.SysTick_Config)
+                  0000369c    0000004e     imu660.o (.text._ZL19imu660ra_self_checkv)
+                  000036ea    00000002     --HOLE-- [fill = 0]
+                  000036ec    0000004c     ti_msp_dl_config.o (.text.DL_ADC12_initSingleSample)
+                  00003738    0000004c     driverlib.a : dl_adc12.o (.text.DL_ADC12_setClockConfig)
+                  00003784    0000004c                 : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_switchMCLKfromSYSOSCtoHSCLK)
+                  000037d0    0000004c                 : dl_uart.o (.text.DL_UART_init)
+                  0000381c    0000004c     ti_msp_dl_config.o (.text.DL_UART_setBaudRateDivisor)
+                  00003868    0000004a     ti_msp_dl_config.o (.text.DL_ADC12_configConversionMem)
+                  000038b2    0000004a     task.o (.text._Z13UART_TransmitP9UART_RegsPht)
+                  000038fc    0000004a     N20_Motor.o (.text._ZN9N20_MotorC2EP12GPTIMER_Regs17DL_TIMER_CC_INDEXS2_P7Encoderfff)
+                  00003946    00000002     --HOLE-- [fill = 0]
+                  00003948    0000004a     libclang_rt.builtins.a : fixdfsi.S.obj (.text.__fixdfsi)
+                  00003992    00000002     --HOLE-- [fill = 0]
+                  00003994    00000048     driverlib.a : dl_spi.o (.text.DL_SPI_init)
+                  000039dc    00000048     ti_msp_dl_config.o (.text.SYSCFG_DL_SYSCTL_init)
+                  00003a24    00000048     Controller.o (.text._ZN10ControllerC2EP7Chassis)
+                  00003a6c    00000048     CCD.o (.text._ZN3CCD7HandlerEv)
+                  00003ab4    00000048     LS7366R.o (.text._ZN7LS7366R5resetEv)
+                  00003afc    00000048     imu660.o (.text.imu660ra_get_acc)
+                  00003b44    00000048     imu660.o (.text.imu660ra_get_gyro)
+                  00003b8c    00000046     driverlib.a : dl_dma.o (.text.DL_DMA_initChannel)
+                  00003bd2    00000002     --HOLE-- [fill = 0]
+                  00003bd4    00000044     imu660.o (.text._ZL22imu660ra_read_registerh)
+                  00003c18    00000040     driverlib.a : dl_timer.o (.text.DL_Timer_setCaptureCompareOutCtl)
+                  00003c58    00000040     ti_msp_dl_config.o (.text.SYSCFG_DL_SPI_ENCODER_init)
+                  00003c98    00000040     ti_msp_dl_config.o (.text.SYSCFG_DL_SPI_IMU_init)
+                  00003cd8    00000040     ti_msp_dl_config.o (.text.SYSCFG_DL_TIMER_V_init)
+                  00003d18    00000040     imu660.o (.text._ZL23imu660ra_write_registerhh)
+                  00003d58    00000040     imu660.o (.text._ZL24imu660ra_write_registershPKhj)
+                  00003d98    00000040     libclang_rt.builtins.a : aeabi_uidivmod.S.obj (.text.__aeabi_uidivmod)
+                  00003dd8    00000040                            : extendsfdf2.S.obj (.text.__extendsfdf2)
+                  00003e18    0000003c     driverlib.a : dl_timer.o (.text.DL_Timer_setCaptureCompareCtl)
+                  00003e54    0000003c     PID_Controller.o (.text._ZN14PID_ControllerC2EP7Chassis)
+                  00003e90    0000003c     libclang_rt.builtins.a : floatsisf.S.obj (.text.__floatsisf)
+                  00003ecc    0000003c                            : comparesf2.S.obj (.text.__gtsf2)
+                  00003f08    0000003a                            : comparesf2.S.obj (.text.__eqsf2)
+                  00003f42    00000002     --HOLE-- [fill = 0]
+                  00003f44    0000003a                            : muldsi3.S.obj (.text.__muldsi3)
+                  00003f7e    00000002     --HOLE-- [fill = 0]
+                  00003f80    00000038     driverlib.a : dl_dma.o (.text.DL_DMA_setTrigger)
+                  00003fb8    00000038     ti_msp_dl_config.o (.text.DL_Timer_setPublisherChanID)
+                  00003ff0    00000038     task.o (.text.__cxx_global_var_init.3)
+                  00004028    00000038     task.o (.text.__cxx_global_var_init.4)
+                  00004060    00000038     libclang_rt.builtins.a : fixsfsi.S.obj (.text.__fixsfsi)
+                  00004098    00000034     driverlib.a : dl_timer.o (.text.DL_Timer_setCaptCompUpdateMethod)
+                  000040cc    00000034                 : dl_timer.o (.text.DL_Timer_setCaptureCompareAction)
+                  00004100    00000034                 : dl_timer.o (.text.DL_Timer_setCaptureCompareInput)
+                  00004134    00000034                 : dl_timer.o (.text.DL_Timer_setClockConfig)
+                  00004168    00000034     task.o (.text._GLOBAL__sub_I_task.cpp)
+                  0000419c    00000034     CCD.o (.text._ZL17__NVIC_DisableIRQ4IRQn)
+                  000041d0    00000034     task.o (.text.__cxx_global_var_init.9)
+                  00004204    00000032     hal.o (.text.spi_write_8bit_register)
+                  00004236    00000002     --HOLE-- [fill = 0]
+                  00004238    00000030     ti_msp_dl_config.o (.text.DL_SPI_setFIFOThreshold)
+                  00004268    00000030     task.o (.text._ZL21DL_ADC12_getMemResultP10ADC12_Regs16DL_ADC12_MEM_IDX)
+                  00004298    00000030     CCD.o (.text._ZL22DL_DMA_setTransferSizeP8DMA_Regsht)
+                  000042c8    00000030     hal.o (.text.spi_write_8bit_registers)
+                  000042f8    0000002c     task.o (.text.ADC0_IRQHandler)
+                  00004324    0000002c     ti_msp_dl_config.o (.text.DL_ADC12_setDMASamplesCnt)
+                  00004350    0000002c     driverlib.a : dl_timer.o (.text.DL_Timer_setCaptureCompareValue)
+                  0000437c    0000002c     CCD.o (.text._ZL16__NVIC_EnableIRQ4IRQn)
+                  000043a8    0000002c     task.o (.text._ZL16__NVIC_EnableIRQ4IRQn)
+                  000043d4    0000002c     task.o (.text._ZL22__NVIC_ClearPendingIRQ4IRQn)
+                  00004400    0000002c     libclang_rt.builtins.a : floatsidf.S.obj (.text.__floatsidf)
+                  0000442c    00000028     driverlib.a : dl_adc12.o (.text.DL_Common_updateReg)
+                  00004454    00000028                 : dl_dma.o (.text.DL_Common_updateReg)
+                  0000447c    00000028                 : dl_spi.o (.text.DL_Common_updateReg)
+                  000044a4    00000028                 : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_Common_updateReg)
+                  000044cc    00000028                 : dl_timer.o (.text.DL_Common_updateReg)
+                  000044f4    00000028                 : dl_uart.o (.text.DL_Common_updateReg)
+                  0000451c    00000028     ti_msp_dl_config.o (.text.DL_Common_updateReg)
+                  00004544    00000028     ti_msp_dl_config.o (.text.DL_Timer_enableEvent)
+                  0000456c    00000028     CCD.o (.text._ZL17DL_DMA_setSrcAddrP8DMA_Regshj)
+                  00004594    00000028     CCD.o (.text._ZL18DL_DMA_setDestAddrP8DMA_Regshj)
+                  000045bc    00000028     LS7366R.o (.text._ZN7LS7366RC2EP8SPI_RegsP9GPIO_Regsjj)
+                  000045e4    00000028     task.o (.text.__cxx_global_var_init)
+                  0000460c    00000028     libclang_rt.builtins.a : floatunsisf.S.obj (.text.__floatunsisf)
+                  00004634    00000028     it.o (.text.delay_ms)
+                  0000465c    00000028     libc.a : boot_cortex_m.c.obj (.text:_c_int00_noargs)
+                  00004684    00000026     CCD.o (.text._ZL20DL_DMA_enableChannelP8DMA_Regsh)
+                  000046aa    00000026     task.o (.text._ZL21DL_DMA_disableChannelP8DMA_Regsh)
+                  000046d0    00000026     Remote.o (.text._ZN6RemoteC2EP9UART_Regs)
+                  000046f6    00000002     --HOLE-- [fill = 0]
+                  000046f8    00000024     ti_msp_dl_config.o (.text.DL_SPI_setBitRateSerialClockDivider)
+                  0000471c    00000024     driverlib.a : dl_spi.o (.text.DL_SPI_setClockConfig)
+                  00004740    00000024                 : dl_uart.o (.text.DL_UART_setClockConfig)
+                  00004764    00000024     CCD.o (.text._ZL28DL_ADC12_getMemResultAddressP10ADC12_Regs16DL_ADC12_MEM_IDX)
+                  00004788    00000024     CCD.o (.text._ZN3CCD4initEv)
+                  000047ac    00000024     N20_Motor.o (.text._ZN9N20_Motor12pwm_set_dutyE17DL_TIMER_CC_INDEXt)
+                  000047d0    00000022     task.o (.text._ZN3CCDC2Ev)
+                  000047f2    00000022     task.o (.text._ZN3IMUC2Ev)
+                  00004814    00000022     Encoder.o (.text._ZN7Encoder7HandlerEv)
+                  00004836    00000002     --HOLE-- [fill = 0]
+                  00004838    00000020     ti_msp_dl_config.o (.text.DL_ADC12_setStartAddress)
+                  00004858    00000020     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_CORE_configInstruction)
+                  00004878    00000020     ti_msp_dl_config.o (.text.DL_GPIO_initPeripheralInputFunction)
+                  00004898    00000020     ti_msp_dl_config.o (.text.DL_SYSCTL_setFlashWaitState)
+                  000048b8    00000020     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_setHFXTFrequencyRange)
+                  000048d8    00000020                 : dl_timer.o (.text.DL_Timer_setCounterValueAfterEnable)
+                  000048f8    0000001e     ti_msp_dl_config.o (.text.DL_ADC12_setPowerDownMode)
+                  00004916    0000001e     ti_msp_dl_config.o (.text.DL_UART_setOversampling)
+                  00004934    0000001e     IMU.o (.text._ZN3IMU7HandlerEv)
+                  00004952    00000002     --HOLE-- [fill = 0]
+                  00004954    0000001c     ti_msp_dl_config.o (.text.DL_ADC12_clearInterruptStatus)
+                  00004970    0000001c     ti_msp_dl_config.o (.text.DL_ADC12_enableDMA)
+                  0000498c    0000001c     ti_msp_dl_config.o (.text.DL_ADC12_enableDMATrigger)
+                  000049a8    0000001c     ti_msp_dl_config.o (.text.DL_ADC12_enableInterrupt)
+                  000049c4    0000001c     ti_msp_dl_config.o (.text.DL_GPIO_initPeripheralOutputFunction)
+                  000049e0    0000001c     ti_msp_dl_config.o (.text.DL_SYSCTL_setSYSOSCFreq)
+                  000049fc    0000001c     ti_msp_dl_config.o (.text.DL_SYSCTL_setULPCLKDivider)
+                  00004a18    0000001c     ti_msp_dl_config.o (.text.DL_Timer_enableInterrupt)
+                  00004a34    0000001c     ti_msp_dl_config.o (.text.DL_UART_enableInterrupt)
+                  00004a50    0000001c     task.o (.text.TIMG12_IRQHandler)
+                  00004a6c    0000001c     task.o (.text._ZL24DL_ADC12_startConversionP10ADC12_Regs)
+                  00004a88    0000001a     ti_msp_dl_config.o (.text.DL_ADC12_setSubscriberChanID)
+                  00004aa2    0000001a     Encoder.o (.text._ZN7EncoderC2EPl)
+                  00004abc    00000018     ti_msp_dl_config.o (.text.DL_ADC12_enablePower)
+                  00004ad4    00000018     ti_msp_dl_config.o (.text.DL_ADC12_reset)
+                  00004aec    00000018     ti_msp_dl_config.o (.text.DL_ADC12_setSampleTime0)
+                  00004b04    00000018     ti_msp_dl_config.o (.text.DL_GPIO_enableOutput)
+                  00004b1c    00000018     ti_msp_dl_config.o (.text.DL_GPIO_enablePower)
+                  00004b34    00000018     ti_msp_dl_config.o (.text.DL_GPIO_initDigitalOutput)
+                  00004b4c    00000018     ti_msp_dl_config.o (.text.DL_GPIO_initPeripheralAnalogFunction)
+                  00004b64    00000018     ti_msp_dl_config.o (.text.DL_GPIO_reset)
+                  00004b7c    00000018     ti_msp_dl_config.o (.text.DL_GPIO_setPins)
+                  00004b94    00000018     ti_msp_dl_config.o (.text.DL_SPI_enable)
+                  00004bac    00000018     ti_msp_dl_config.o (.text.DL_SPI_enablePower)
+                  00004bc4    00000018     ti_msp_dl_config.o (.text.DL_SPI_reset)
+                  00004bdc    00000018     ti_msp_dl_config.o (.text.DL_SYSCTL_setBORThreshold)
+                  00004bf4    00000018     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_setHFXTStartupTime)
+                  00004c0c    00000018                 : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_setHSCLKSource)
+                  00004c24    00000018     ti_msp_dl_config.o (.text.DL_Timer_enablePower)
+                  00004c3c    00000018     ti_msp_dl_config.o (.text.DL_Timer_reset)
+                  00004c54    00000018     driverlib.a : dl_timer.o (.text.DL_Timer_setLoadValue)
+                  00004c6c    00000018     ti_msp_dl_config.o (.text.DL_UART_enablePower)
+                  00004c84    00000018     ti_msp_dl_config.o (.text.DL_UART_reset)
+                  00004c9c    00000018     ti_msp_dl_config.o (.text.SYSCFG_DL_DMA_CH0_init)
+                  00004cb4    00000018     hal.o (.text._ZL13DL_SPI_isBusyP8SPI_Regs)
+                  00004ccc    00000018     task.o (.text._ZL14DL_UART_isBusyP9UART_Regs)
+                  00004ce4    00000018     CCD.o (.text._ZL15DL_GPIO_setPinsP9GPIO_Regsj)
+                  00004cfc    00000018     LS7366R.o (.text._ZL15DL_GPIO_setPinsP9GPIO_Regsj)
+                  00004d14    00000018     imu660.o (.text._ZL15DL_GPIO_setPinsP9GPIO_Regsj)
+                  00004d2c    00000018     task.o (.text._ZL15DL_GPIO_setPinsP9GPIO_Regsj)
+                  00004d44    00000018     it.o (.text._ZL18DL_GPIO_togglePinsP9GPIO_Regsj)
+                  00004d5c    00000018     hal.o (.text._ZL20DL_SPI_isRXFIFOEmptyP8SPI_Regs)
+                  00004d74    00000018     Buzzer.o (.text._ZL20DL_Timer_stopCounterP12GPTIMER_Regs)
+                  00004d8c    00000018     Buzzer.o (.text._ZL21DL_Timer_startCounterP12GPTIMER_Regs)
+                  00004da4    00000018     CCD.o (.text._ZL21DL_Timer_startCounterP12GPTIMER_Regs)
+                  00004dbc    00000018     N20_Motor.o (.text._ZL21DL_Timer_startCounterP12GPTIMER_Regs)
+                  00004dd4    00000018     task.o (.text._ZL21DL_Timer_startCounterP12GPTIMER_Regs)
+                  00004dec    00000018     N20_Motor.o (.text._ZN9N20_Motor7HandlerEv)
+                  00004e04    00000018     task.o (.text.__cxx_global_var_init.1)
+                  00004e1c    00000018     task.o (.text.__cxx_global_var_init.2)
+                  00004e34    00000018     control.o (.text.main)
+                  00004e4c    00000016     ti_msp_dl_config.o (.text.DL_ADC12_enableConversions)
+                  00004e62    00000016     driverlib.a : dl_uart.o (.text.DL_UART_disable)
+                  00004e78    00000016     ti_msp_dl_config.o (.text.DL_UART_enable)
+                  00004e8e    00000016     hal.o (.text._ZL20DL_SPI_transmitData8P8SPI_Regsh)
+                  00004ea4    00000016     task.o (.text._ZL20DL_UART_transmitDataP9UART_Regsh)
+                  00004eba    00000016     CCD.o (.text._ZL26DL_ADC12_enableConversionsP10ADC12_Regs)
+                  00004ed0    00000016     task.o (.text._ZL26DL_ADC12_enableConversionsP10ADC12_Regs)
+                  00004ee6    00000016     task.o (.text._ZL27DL_ADC12_disableConversionsP10ADC12_Regs)
+                  00004efc    00000016     libc.a : copy_zero_init.c.obj (.text:decompress:ZI:__TI_zero_init_nomemset)
+                  00004f12    00000014     driverlib.a : dl_common.o (.text.DL_Common_delayCycles)
+                  00004f26    00000014     ti_msp_dl_config.o (.text.DL_GPIO_clearPins)
+                  00004f3a    00000002     --HOLE-- [fill = 0]
+                  00004f3c    00000014     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_disableHFCLKStartupMonitor)
+                  00004f50    00000014                 : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_disableSYSPLL)
+                  00004f64    00000014     ti_msp_dl_config.o (.text.DL_SYSCTL_disableSYSPLL)
+                  00004f78    00000014     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_enableHFCLKStartupMonitor)
+                  00004f8c    00000014     ti_msp_dl_config.o (.text.DL_Timer_enableClock)
+                  00004fa0    00000014     ti_msp_dl_config.o (.text.DL_Timer_setCCPDirection)
+                  00004fb4    00000014     Controller.o (.text._Z5atan2B6v15007ff)
+                  00004fc8    00000014     CCD.o (.text._ZL17DL_GPIO_clearPinsP9GPIO_Regsj)
+                  00004fdc    00000014     LS7366R.o (.text._ZL17DL_GPIO_clearPinsP9GPIO_Regsj)
+                  00004ff0    00000014     imu660.o (.text._ZL17DL_GPIO_clearPinsP9GPIO_Regsj)
+                  00005004    00000014     task.o (.text._ZL17DL_GPIO_clearPinsP9GPIO_Regsj)
+                  00005018    00000014     hal.o (.text._ZL19DL_SPI_receiveData8P8SPI_Regs)
+                  0000502c    00000014     task.o (.text._ZL19DL_UART_receiveDataP9UART_Regs)
+                  00005040    00000014     N20_Motor.o (.text._ZN5MotorC2Ev)
+                  00005054    00000014     Remote.o (.text._ZN6Remote7HandlerEv)
+                  00005068    00000014     task.o (.text.__cxx_global_var_init.10)
+                  0000507c    00000014     task.o (.text.__cxx_global_var_init.11)
+                  00005090    00000014     task.o (.text.__cxx_global_var_init.6)
+                  000050a4    00000014     task.o (.text.__cxx_global_var_init.8)
+                  000050b8    00000012     task.o (.text._ZL28DL_ADC12_getPendingInterruptP10ADC12_Regs)
+                  000050ca    00000012     Buzzer.o (.text._ZN6Buzzer4stopEv)
+                  000050dc    00000012     Buzzer.o (.text._ZN6Buzzer5startEv)
+                  000050ee    00000012     N20_Motor.o (.text._ZN9N20_Motor4initEv)
+                  00005100    00000012     libc.a : memcpy16.S.obj (.text:TI_memcpy_small)
+                  00005112    00000012            : copy_decompress_none.c.obj (.text:decompress:none)
+                  00005124    00000010     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_CORE_getInstructionConfig)
+                  00005134    00000010                 : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_disableHFXT)
+                  00005144    00000010     ti_msp_dl_config.o (.text.DL_SYSCTL_disableHFXT)
+                  00005154    00000010     ti_msp_dl_config.o (.text.SYSCFG_DL_SYSTICK_init)
+                  00005164    00000010     Buzzer.o (.text._ZN6BuzzerC2EP12GPTIMER_Regs)
+                  00005174    00000010     task.o (.text.__cxx_global_var_init.5)
+                  00005184    00000010     task.o (.text.__cxx_global_var_init.7)
+                  00005194    0000000c     driverlib.a : dl_sysctl_mspm0g1x0x_g3x0x.o (.text.DL_SYSCTL_getClockStatus)
+                  000051a0    00000008     ti_msp_dl_config.o (.text.SYSCFG_DL_DMA_init)
+                  000051a8    00000008     libc.a : aeabi_portable.c.obj (.text.__aeabi_errno_addr)
+                  000051b0    00000008     libclang_rt.builtins.a : aeabi_memcpy.S.obj (.text.__aeabi_memcpy)
+                  000051b8    00000006     libc.a : s_atanf.c.obj (.text.OUTLINED_FUNCTION_0)
+                  000051be    00000002     --HOLE-- [fill = 0]
+                  000051c0    00000010     libclang_rt.builtins.a : divsf3.S.obj (.tramp.__aeabi_fdiv.1)
+                  000051d0    00000004     libc.a : s_atanf.c.obj (.text.OUTLINED_FUNCTION_1)
+                  000051d4    00000010     libclang_rt.builtins.a : addsf3.S.obj (.tramp.__aeabi_fadd.1)
+                  000051e4    00000004     startup_mspm0g350x_ticlang.o (.text.Reset_Handler)
+                  000051e8    00000010     libc.a : boot_cortex_m.c.obj (.tramp._c_int00_noargs.1)
+                  000051f8    00000004            : pre_init.c.obj (.text._system_pre_init)
+                  000051fc    00000004            : exit.c.obj (.text:abort)
 
-.cinit     0    000078a0    00000278     
-                  000078a0    0000024d     (.cinit..data.load) [load image, compression = lzss]
-                  00007aed    00000003     --HOLE-- [fill = 0]
-                  00007af0    0000000c     (__TI_handler_table)
-                  00007afc    00000008     (.cinit..bss.load) [load image, compression = zero_init]
-                  00007b04    00000010     (__TI_cinit_table)
-                  00007b14    00000004     --HOLE-- [fill = 0]
+.cinit     0    00007ae8    00000230     
+                  00007ae8    0000020c     (.cinit..data.load) [load image, compression = lzss]
+                  00007cf4    0000000c     (__TI_handler_table)
+                  00007d00    00000008     (.cinit..bss.load) [load image, compression = zero_init]
+                  00007d08    00000010     (__TI_cinit_table)
 
-.rodata    0    00004fd0    000028c8     
-                  00004fd0    00002000     imu660.o (.rodata._ZL20imu660ra_config_file)
-                  00006fd0    00000804     arm_cortexM0l_math.a : arm_common_tables.o (.rodata.sinTable_f32)
-                  000077d4    00000028     ti_msp_dl_config.o (.rodata.gSYSPLLConfig)
-                  000077fc    00000020     libc.a : s_atanf.c.obj (.rodata.cst16)
-                  0000781c    00000018     ti_msp_dl_config.o (.rodata.gDMA_CH0Config)
-                  00007834    0000000a     ti_msp_dl_config.o (.rodata.gSPI_ENCODER_config)
-                  0000783e    0000000a     ti_msp_dl_config.o (.rodata.gSPI_IMU_config)
-                  00007848    0000000a     ti_msp_dl_config.o (.rodata.gUART_0Config)
-                  00007852    00000002     ti_msp_dl_config.o (.rodata.gSPI_ENCODER_clockConfig)
-                  00007854    00000008     ti_msp_dl_config.o (.rodata.gADC_CCDClockConfig)
-                  0000785c    00000008     ti_msp_dl_config.o (.rodata.gADC_VINClockConfig)
-                  00007864    00000008     ti_msp_dl_config.o (.rodata.gPWM_BUZZERConfig)
-                  0000786c    00000008     ti_msp_dl_config.o (.rodata.gPWM_MOTOR0Config)
-                  00007874    00000008     ti_msp_dl_config.o (.rodata.gPWM_MOTOR1Config)
-                  0000787c    00000008     ti_msp_dl_config.o (.rodata.gTIM_CCDConfig)
-                  00007884    00000003     ti_msp_dl_config.o (.rodata.gPWM_BUZZERClockConfig)
-                  00007887    00000003     ti_msp_dl_config.o (.rodata.gPWM_MOTOR0ClockConfig)
-                  0000788a    00000003     ti_msp_dl_config.o (.rodata.gPWM_MOTOR1ClockConfig)
-                  0000788d    00000003     ti_msp_dl_config.o (.rodata.gTIM_CCDClockConfig)
-                  00007890    00000002     ti_msp_dl_config.o (.rodata.gSPI_IMU_clockConfig)
-                  00007892    00000002     ti_msp_dl_config.o (.rodata.gUART_0ClockConfig)
-                  00007894    00000004     --HOLE-- [fill = 0]
+.rodata    0    00005200    000028e0     
+                  00005200    00002000     imu660.o (.rodata._ZL20imu660ra_config_file)
+                  00007200    00000804     arm_cortexM0l_math.a : arm_common_tables.o (.rodata.sinTable_f32)
+                  00007a04    00000028     ti_msp_dl_config.o (.rodata.gSYSPLLConfig)
+                  00007a2c    00000020     libc.a : s_atanf.c.obj (.rodata.cst16)
+                  00007a4c    00000018     ti_msp_dl_config.o (.rodata.gDMA_CH0Config)
+                  00007a64    00000014     ti_msp_dl_config.o (.rodata.gTIMER_VTimerConfig)
+                  00007a78    0000000a     ti_msp_dl_config.o (.rodata.gSPI_ENCODER_config)
+                  00007a82    0000000a     ti_msp_dl_config.o (.rodata.gSPI_IMU_config)
+                  00007a8c    0000000a     ti_msp_dl_config.o (.rodata.gUART_0Config)
+                  00007a96    00000002     ti_msp_dl_config.o (.rodata.gSPI_ENCODER_clockConfig)
+                  00007a98    00000008     ti_msp_dl_config.o (.rodata.gADC_CCDClockConfig)
+                  00007aa0    00000008     ti_msp_dl_config.o (.rodata.gADC_VINClockConfig)
+                  00007aa8    00000008     ti_msp_dl_config.o (.rodata.gPWM_BUZZERConfig)
+                  00007ab0    00000008     ti_msp_dl_config.o (.rodata.gPWM_MOTOR0Config)
+                  00007ab8    00000008     ti_msp_dl_config.o (.rodata.gPWM_MOTOR1Config)
+                  00007ac0    00000008     ti_msp_dl_config.o (.rodata.gTIM_CCDConfig)
+                  00007ac8    00000003     ti_msp_dl_config.o (.rodata.gPWM_BUZZERClockConfig)
+                  00007acb    00000003     ti_msp_dl_config.o (.rodata.gPWM_MOTOR0ClockConfig)
+                  00007ace    00000003     ti_msp_dl_config.o (.rodata.gPWM_MOTOR1ClockConfig)
+                  00007ad1    00000003     ti_msp_dl_config.o (.rodata.gTIMER_VClockConfig)
+                  00007ad4    00000003     ti_msp_dl_config.o (.rodata.gTIM_CCDClockConfig)
+                  00007ad7    00000002     ti_msp_dl_config.o (.rodata.gSPI_IMU_clockConfig)
+                  00007ad9    00000002     ti_msp_dl_config.o (.rodata.gUART_0ClockConfig)
+                  00007adb    00000005     --HOLE-- [fill = 0]
 
 .init_array 
-*          0    00007898    00000008     
-                  00007898    00000004     task.o (.init_array)
-                  0000789c    00000004     --HOLE-- [fill = 0]
+*          0    00007ae0    00000008     
+                  00007ae0    00000004     task.o (.init_array)
+                  00007ae4    00000004     --HOLE-- [fill = 0]
 
-.data      0    20200000    000009ba     UNINITIALIZED
+.data      0    20200000    00000992     UNINITIALIZED
                   20200000    000002d8     task.o (.data.chassis)
                   202002d8    00000200     Chassis.o (.data.ccd_norm)
                   202004d8    00000194     task.o (.data.ccd)
@@ -369,48 +371,45 @@ section   page    origin      length       input sections
                   202008ec    00000024     task.o (.data.ls7366r)
                   20200910    00000014     task.o (.data.left_encoder)
                   20200924    00000014     task.o (.data.right_encoder)
-                  20200938    00000010     task.o (.data._ZZ12task_handlerE7x_array)
-                  20200948    00000010     task.o (.data._ZZ12task_handlerE7y_array)
-                  20200958    00000008     imu660.o (.data.imu660ra_transition_factor)
-                  20200960    00000004     task.o (.data.ADC_VIN_cnt)
-                  20200964    00000004     task.o (.data.ADC_cnt)
-                  20200968    00000004     task.o (.data.CCD_cnt)
-                  2020096c    00000004     CCD.o (.data.DMA_EN_cnt)
-                  20200970    00000004     task.o (.data._ZZ12task_handlerE5index)
-                  20200974    00000004     task.o (.data._ZZ12task_handlerE9array_len)
-                  20200978    00000004     task.o (.data._ZZ14signal_HandlervE10temp_utick)
-                  2020097c    00000004     libc.a : aeabi_portable.c.obj (.data.__aeabi_errno)
-                  20200980    00000004     task.o (.data.buzzer)
-                  20200984    00000004     Remote.o (.data.crc_err)
-                  20200988    00000004     imu660.o (.data.imu660ra_state)
-                  2020098c    00000004     Remote.o (.data.remote_cnt)
-                  20200990    00000004     task.o (.data.uart1_cnt)
-                  20200994    00000004     task.o (.data.uart1_state)
-                  20200998    00000004     it.o (.data.utick)
-                  2020099c    00000004     task.o (.data.vin)
-                  202009a0    00000002     Remote.o (.data.crc1)
-                  202009a2    00000002     task.o (.data.end_flag)
-                  202009a4    00000002     imu660.o (.data.imu660ra_acc_x)
-                  202009a6    00000002     imu660.o (.data.imu660ra_acc_y)
-                  202009a8    00000002     imu660.o (.data.imu660ra_acc_z)
-                  202009aa    00000002     imu660.o (.data.imu660ra_gyro_x)
-                  202009ac    00000002     imu660.o (.data.imu660ra_gyro_y)
-                  202009ae    00000002     imu660.o (.data.imu660ra_gyro_z)
-                  202009b0    00000002     task.o (.data.power_vin)
-                  202009b2    00000002     task.o (.data.start_flag)
-                  202009b4    00000002     task.o (.data.uart1_rx_len)
-                  202009b6    00000001     task.o (.data._ZZ10test_powervE10power_flag)
-                  202009b7    00000001     task.o (.data.gCheckADC)
-                  202009b8    00000001     task.o (.data.init_flag)
-                  202009b9    00000001     task.o (.data.signal_en_flag)
+                  20200938    00000008     imu660.o (.data.imu660ra_transition_factor)
+                  20200940    00000004     task.o (.data.ADC_VIN_cnt)
+                  20200944    00000004     task.o (.data.ADC_cnt)
+                  20200948    00000004     task.o (.data.CCD_cnt)
+                  2020094c    00000004     CCD.o (.data.DMA_EN_cnt)
+                  20200950    00000004     task.o (.data._ZZ14signal_HandlervE10temp_utick)
+                  20200954    00000004     libc.a : aeabi_portable.c.obj (.data.__aeabi_errno)
+                  20200958    00000004     task.o (.data.buzzer)
+                  2020095c    00000004     Remote.o (.data.crc_err)
+                  20200960    00000004     imu660.o (.data.imu660ra_state)
+                  20200964    00000004     Remote.o (.data.remote_cnt)
+                  20200968    00000004     task.o (.data.uart1_cnt)
+                  2020096c    00000004     task.o (.data.uart1_state)
+                  20200970    00000004     it.o (.data.utick)
+                  20200974    00000004     task.o (.data.vin)
+                  20200978    00000002     Remote.o (.data.crc1)
+                  2020097a    00000002     task.o (.data.end_flag)
+                  2020097c    00000002     imu660.o (.data.imu660ra_acc_x)
+                  2020097e    00000002     imu660.o (.data.imu660ra_acc_y)
+                  20200980    00000002     imu660.o (.data.imu660ra_acc_z)
+                  20200982    00000002     imu660.o (.data.imu660ra_gyro_x)
+                  20200984    00000002     imu660.o (.data.imu660ra_gyro_y)
+                  20200986    00000002     imu660.o (.data.imu660ra_gyro_z)
+                  20200988    00000002     task.o (.data.power_vin)
+                  2020098a    00000002     task.o (.data.start_flag)
+                  2020098c    00000002     task.o (.data.uart1_rx_len)
+                  2020098e    00000001     task.o (.data._ZZ10test_powervE10power_flag)
+                  2020098f    00000001     task.o (.data.gCheckADC)
+                  20200990    00000001     task.o (.data.init_flag)
+                  20200991    00000001     task.o (.data.signal_en_flag)
 
-.bss       0    202009bc    0000022e     UNINITIALIZED
-                  202009bc    000000bc     (.common:gPWM_MOTOR0Backup)
-                  20200a78    000000bc     (.common:gPWM_MOTOR1Backup)
-                  20200b34    00000064     task.o (.bss.uart1_rx_buf)
-                  20200b98    00000028     (.common:gSPI_ENCODERBackup)
-                  20200bc0    00000028     (.common:gSPI_IMUBackup)
-                  20200be8    00000002     Remote.o (.bss.crc)
+.bss       0    20200994    000002a6     UNINITIALIZED
+                  20200994    000000bc     (.common:gPWM_MOTOR0Backup)
+                  20200a50    000000bc     (.common:gPWM_MOTOR1Backup)
+                  20200b0c    00000078     (.common:gTIMER_VBackup)
+                  20200b84    00000064     task.o (.bss.uart1_rx_buf)
+                  20200be8    00000028     (.common:gSPI_ENCODERBackup)
+                  20200c10    00000028     (.common:gSPI_IMUBackup)
+                  20200c38    00000002     Remote.o (.bss.crc)
 
 .stack     0    20207e00    00000200     UNINITIALIZED
                   20207e00    00000004     libc.a : boot_cortex_m.c.obj (.stack)
@@ -427,16 +426,16 @@ MODULE SUMMARY
        Module                         code    ro data   rw data
        ------                         ----    -------   -------
     .\
-       ti_msp_dl_config.o             3400    160       456    
+       ti_msp_dl_config.o             3496    183       576    
        startup_mspm0g350x_ticlang.o   8       192       0      
        control.o                      24      0         0      
     +--+------------------------------+-------+---------+---------+
-       Total:                         3432    352       456    
+       Total:                         3528    375       576    
                                                                
     .\code\
        imu660.o                       806     8192      24     
-       task.o                         2264    4         2032   
-       Chassis.o                      1884    0         512    
+       task.o                         2434    4         1992   
+       Chassis.o                      1924    0         512    
        N20_Motor.o                    892     0         0      
        IMU.o                          810     0         0      
        Controller.o                   800     0         0      
@@ -445,11 +444,11 @@ MODULE SUMMARY
        Remote.o                       518     0         12     
        hal.o                          408     0         0      
        PID_Controller.o               222     0         0      
-       it.o                           144     0         4      
+       it.o                           152     0         4      
        Buzzer.o                       100     0         0      
        Encoder.o                      60      0         0      
     +--+------------------------------+-------+---------+---------+
-       Total:                         10170   8196      2588   
+       Total:                         10388   8196      2548   
                                                                
     C:/ti/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/DSP/lib/ticlang/m0p/arm_cortexM0l_math.a
        arm_common_tables.o            0       2052      0      
@@ -458,7 +457,7 @@ MODULE SUMMARY
        Total:                         752     2052      0      
                                                                
     C:/ti/mspm0_sdk_2_01_00_03/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/driverlib.a
-       dl_timer.o                     980     0         0      
+       dl_timer.o                     1236    0         0      
        dl_sysctl_mspm0g1x0x_g3x0x.o   668     0         0      
        dl_dma.o                       250     0         0      
        dl_uart.o                      174     0         0      
@@ -466,7 +465,7 @@ MODULE SUMMARY
        dl_adc12.o                     116     0         0      
        dl_common.o                    20      0         0      
     +--+------------------------------+-------+---------+---------+
-       Total:                         2356    0         0      
+       Total:                         2612    0         0      
                                                                
     F:\ti\ccs1271\ccs\tools\compiler\ti-cgt-armllvm_3.2.2.LTS\lib\armv6m-ti-none-eabi/c/libc.a
        s_atanf.c.obj                  466     32        0      
@@ -508,21 +507,21 @@ MODULE SUMMARY
        Total:                         2218    0         0      
                                                                
        Stack:                         0       0         512    
-       Linker Generated:              0       625       0      
+       Linker Generated:              0       560       0      
     +--+------------------------------+-------+---------+---------+
-       Grand Total:                   20200   11257     3560   
+       Grand Total:                   20770   11215     3640   
 
 
 LINKER GENERATED COPY TABLES
 
-__TI_cinit_table @ 00007b04 records: 2, size/record: 8, table size: 16
-	.data: load addr=000078a0, load size=0000024d bytes, run addr=20200000, run size=000009ba bytes, compression=lzss
-	.bss: load addr=00007afc, load size=00000008 bytes, run addr=202009bc, run size=0000022e bytes, compression=zero_init
+__TI_cinit_table @ 00007d08 records: 2, size/record: 8, table size: 16
+	.data: load addr=00007ae8, load size=0000020c bytes, run addr=20200000, run size=00000992 bytes, compression=lzss
+	.bss: load addr=00007d00, load size=00000008 bytes, run addr=20200994, run size=000002a6 bytes, compression=zero_init
 
 
 LINKER GENERATED HANDLER TABLE
 
-__TI_handler_table @ 00007af0 records: 3, size/record: 4, table size: 12
+__TI_handler_table @ 00007cf4 records: 3, size/record: 4, table size: 12
 	index: 0, handler: __TI_decompress_lzss
 	index: 1, handler: __TI_decompress_none
 	index: 2, handler: __TI_zero_init
@@ -534,11 +533,11 @@ callee name               trampoline name
    callee addr  tramp addr   call addr  call info
 --------------  -----------  ---------  ----------------
 __aeabi_fdiv              $Tramp$TT$L$PI$$__aeabi_fdiv
-   00002d55     00004f84     00004f80   libc.a : s_atanf.c.obj (.text.OUTLINED_FUNCTION_0)
+   00002f21     000051c0     000051bc   libc.a : s_atanf.c.obj (.text.OUTLINED_FUNCTION_0)
 __aeabi_fadd              $Tramp$TT$L$PI$$__aeabi_fadd
-   000022c7     00004f9c     00004f9a   libc.a : s_atanf.c.obj (.text.OUTLINED_FUNCTION_1)
+   0000255b     000051d4     000051d2   libc.a : s_atanf.c.obj (.text.OUTLINED_FUNCTION_1)
 _c_int00_noargs           $Tramp$TT$L$PI$$_c_int00_noargs
-   00004439     00004fb0     00004fac   startup_mspm0g350x_ticlang.o (.text.Reset_Handler)
+   0000465d     000051e8     000051e4   startup_mspm0g350x_ticlang.o (.text.Reset_Handler)
 
 [3 trampolines]
 [3 trampoline calls]
@@ -548,127 +547,129 @@ GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name
 
 address   name                                                             
 -------   ----                                                             
-000040d5  ADC0_IRQHandler                                                  
-000033c9  ADC1_IRQHandler                                                  
-20200960  ADC_VIN_cnt                                                      
-20200964  ADC_cnt                                                          
-00004f95  AES_IRQHandler                                                   
-00004fc4  C$$EXIT                                                          
-00004f95  CANFD0_IRQHandler                                                
-20200968  CCD_cnt                                                          
-00004f95  DAC0_IRQHandler                                                  
-00003555  DL_ADC12_setClockConfig                                          
-00004cd7  DL_Common_delayCycles                                            
-000039a9  DL_DMA_initChannel                                               
-000037b1  DL_SPI_init                                                      
-000044f9  DL_SPI_setClockConfig                                            
-00001f19  DL_SYSCTL_configSYSPLL                                           
-0000308d  DL_SYSCTL_setHFCLKSourceHFXTParams                               
-000035a1  DL_SYSCTL_switchMCLKfromSYSOSCtoHSCLK                            
-00002005  DL_TimerA_initPWMMode                                            
-00001c09  DL_Timer_initPWMMode                                             
-00003e75  DL_Timer_setCaptCompUpdateMethod                                 
-00003ea9  DL_Timer_setCaptureCompareAction                                 
-00003bf5  DL_Timer_setCaptureCompareCtl                                    
-00003edd  DL_Timer_setCaptureCompareInput                                  
-00003a35  DL_Timer_setCaptureCompareOutCtl                                 
-0000412d  DL_Timer_setCaptureCompareValue                                  
-00003f11  DL_Timer_setClockConfig                                          
-000035ed  DL_UART_init                                                     
-0000451d  DL_UART_setClockConfig                                           
-2020096c  DMA_EN_cnt                                                       
-00004f95  DMA_IRQHandler                                                   
-00004f95  Default_Handler                                                  
-00004f95  GROUP0_IRQHandler                                                
-00004f95  GROUP1_IRQHandler                                                
-00004f95  HardFault_Handler                                                
-00004f95  I2C0_IRQHandler                                                  
-00004f95  I2C1_IRQHandler                                                  
-00004f95  NMI_Handler                                                      
-00004f95  PendSV_Handler                                                   
-00004f95  RTC_IRQHandler                                                   
-00004fad  Reset_Handler                                                    
-00007898  SHT$$INIT_ARRAY$$Base                                            
-0000789c  SHT$$INIT_ARRAY$$Limit                                           
-00004f95  SPI0_IRQHandler                                                  
-00004f95  SPI1_IRQHandler                                                  
-00003219  SPI_transmitData                                                 
-00004f95  SVC_Handler                                                      
-00002a15  SYSCFG_DL_ADC_CCD_init                                           
-00003025  SYSCFG_DL_ADC_VIN_init                                           
-00004a79  SYSCFG_DL_DMA_CH0_init                                           
-00004f65  SYSCFG_DL_DMA_init                                               
-0000176d  SYSCFG_DL_GPIO_init                                              
-000031b9  SYSCFG_DL_PWM_BUZZER_init                                        
-00002b3d  SYSCFG_DL_PWM_MOTOR0_init                                        
-00002c4d  SYSCFG_DL_PWM_MOTOR1_init                                        
-00003a75  SYSCFG_DL_SPI_ENCODER_init                                       
-00003ab5  SYSCFG_DL_SPI_IMU_init                                           
-000037f9  SYSCFG_DL_SYSCTL_init                                            
-00004f19  SYSCFG_DL_SYSTICK_init                                           
-00002bc5  SYSCFG_DL_TIM_CCD_init                                           
-00003321  SYSCFG_DL_UART_0_init                                            
-000030f1  SYSCFG_DL_init                                                   
-00002395  SYSCFG_DL_initPower                                              
-00003469  SysTick_Handler                                                  
-00004f95  TIMA0_IRQHandler                                                 
-00004f95  TIMA1_IRQHandler                                                 
-00004f95  TIMG0_IRQHandler                                                 
-0000482d  TIMG12_IRQHandler                                                
-00004f95  TIMG6_IRQHandler                                                 
-00004f95  TIMG7_IRQHandler                                                 
-00004f95  TIMG8_IRQHandler                                                 
-00004ec5  TI_memcpy_small                                                  
-00002769  UART0_IRQHandler                                                 
-00004f95  UART1_IRQHandler                                                 
-00004f95  UART2_IRQHandler                                                 
-00004f95  UART3_IRQHandler                                                 
-0000252d  _Z10test_powerv                                                  
-000036cf  _Z13UART_TransmitP9UART_RegsPht                                  
-00002f45  _Z14signal_Handlerv                                              
-00004d79  _Z5atan2B6v15007ff                                               
+000042f9  ADC0_IRQHandler                                                  
+000035fd  ADC1_IRQHandler                                                  
+20200940  ADC_VIN_cnt                                                      
+20200944  ADC_cnt                                                          
+0000309d  AES_IRQHandler                                                   
+000051fc  C$$EXIT                                                          
+0000309d  CANFD0_IRQHandler                                                
+20200948  CCD_cnt                                                          
+0000309d  DAC0_IRQHandler                                                  
+00003739  DL_ADC12_setClockConfig                                          
+00004f13  DL_Common_delayCycles                                            
+00003b8d  DL_DMA_initChannel                                               
+00003995  DL_SPI_init                                                      
+0000471d  DL_SPI_setClockConfig                                            
+000020c9  DL_SYSCTL_configSYSPLL                                           
+000032cd  DL_SYSCTL_setHFCLKSourceHFXTParams                               
+00003785  DL_SYSCTL_switchMCLKfromSYSOSCtoHSCLK                            
+000021b5  DL_TimerA_initPWMMode                                            
+00001cb9  DL_Timer_initPWMMode                                             
+00001ed5  DL_Timer_initTimerMode                                           
+00004099  DL_Timer_setCaptCompUpdateMethod                                 
+000040cd  DL_Timer_setCaptureCompareAction                                 
+00003e19  DL_Timer_setCaptureCompareCtl                                    
+00004101  DL_Timer_setCaptureCompareInput                                  
+00003c19  DL_Timer_setCaptureCompareOutCtl                                 
+00004351  DL_Timer_setCaptureCompareValue                                  
+00004135  DL_Timer_setClockConfig                                          
+000037d1  DL_UART_init                                                     
+00004741  DL_UART_setClockConfig                                           
+2020094c  DMA_EN_cnt                                                       
+0000309d  DMA_IRQHandler                                                   
+0000309d  Default_Handler                                                  
+0000309d  GROUP0_IRQHandler                                                
+0000309d  GROUP1_IRQHandler                                                
+0000309d  HardFault_Handler                                                
+0000309d  I2C0_IRQHandler                                                  
+0000309d  I2C1_IRQHandler                                                  
+0000309d  NMI_Handler                                                      
+0000309d  PendSV_Handler                                                   
+0000309d  RTC_IRQHandler                                                   
+000051e5  Reset_Handler                                                    
+00007ae0  SHT$$INIT_ARRAY$$Base                                            
+00007ae4  SHT$$INIT_ARRAY$$Limit                                           
+0000309d  SPI0_IRQHandler                                                  
+0000309d  SPI1_IRQHandler                                                  
+000033f5  SPI_transmitData                                                 
+0000309d  SVC_Handler                                                      
+00002be1  SYSCFG_DL_ADC_CCD_init                                           
+00003265  SYSCFG_DL_ADC_VIN_init                                           
+00004c9d  SYSCFG_DL_DMA_CH0_init                                           
+000051a1  SYSCFG_DL_DMA_init                                               
+00001819  SYSCFG_DL_GPIO_init                                              
+00003395  SYSCFG_DL_PWM_BUZZER_init                                        
+00002d09  SYSCFG_DL_PWM_MOTOR0_init                                        
+00002e19  SYSCFG_DL_PWM_MOTOR1_init                                        
+00003c59  SYSCFG_DL_SPI_ENCODER_init                                       
+00003c99  SYSCFG_DL_SPI_IMU_init                                           
+000039dd  SYSCFG_DL_SYSCTL_init                                            
+00005155  SYSCFG_DL_SYSTICK_init                                           
+00003cd9  SYSCFG_DL_TIMER_V_init                                           
+00002d91  SYSCFG_DL_TIM_CCD_init                                           
+00003555  SYSCFG_DL_UART_0_init                                            
+00003115  SYSCFG_DL_init                                                   
+00002389  SYSCFG_DL_initPower                                              
+00003451  SysTick_Handler                                                  
+0000309d  TIMA0_IRQHandler                                                 
+0000309d  TIMA1_IRQHandler                                                 
+0000309d  TIMG0_IRQHandler                                                 
+00004a51  TIMG12_IRQHandler                                                
+00001817  TIMG6_IRQHandler                                                 
+0000309d  TIMG7_IRQHandler                                                 
+0000309d  TIMG8_IRQHandler                                                 
+00005101  TI_memcpy_small                                                  
+00002935  UART0_IRQHandler                                                 
+0000309d  UART1_IRQHandler                                                 
+0000309d  UART2_IRQHandler                                                 
+0000309d  UART3_IRQHandler                                                 
+000026f5  _Z10test_powerv                                                  
+000038b3  _Z13UART_TransmitP9UART_RegsPht                                  
+00003185  _Z14signal_Handlerv                                              
+00004fb5  _Z5atan2B6v15007ff                                               
 0000081d  _ZN10Controller7HandlerEv                                        
-00003841  _ZN10ControllerC1EP7Chassis                                      
-00003841  _ZN10ControllerC2EP7Chassis                                      
-00002971  _ZN14PID_Controller7HandlerEv                                    
-00003c31  _ZN14PID_ControllerC1EP7Chassis                                  
-00003c31  _ZN14PID_ControllerC2EP7Chassis                                  
-00004565  _ZN3CCD4initEv                                                   
-00003889  _ZN3CCD7HandlerEv                                                
-000025ed  _ZN3CCD7SI_sendEv                                                
-000045ad  _ZN3CCDC2Ev                                                      
-00001af5  _ZN3IMU4initEv                                                   
-00004711  _ZN3IMU7HandlerEv                                                
-00000d79  _ZN3IMU8get_dataEv                                               
-000045cf  _ZN3IMUC2Ev                                                      
-00004e05  _ZN5MotorC2Ev                                                    
-00004e8f  _ZN6Buzzer4stopEv                                                
-00004ea1  _ZN6Buzzer5startEv                                               
-00004f29  _ZN6BuzzerC1EP12GPTIMER_Regs                                     
-00004f29  _ZN6BuzzerC2EP12GPTIMER_Regs                                     
-00000f71  _ZN6Remote12process_dataEv                                       
-00004e19  _ZN6Remote7HandlerEv                                             
-000044ad  _ZN6RemoteC1EP9UART_Regs                                         
-000044ad  _ZN6RemoteC2EP9UART_Regs                                         
+00003a25  _ZN10ControllerC1EP7Chassis                                      
+00003a25  _ZN10ControllerC2EP7Chassis                                      
+00002b3d  _ZN14PID_Controller7HandlerEv                                    
+00003e55  _ZN14PID_ControllerC1EP7Chassis                                  
+00003e55  _ZN14PID_ControllerC2EP7Chassis                                  
+00004789  _ZN3CCD4initEv                                                   
+00003a6d  _ZN3CCD7HandlerEv                                                
+000027b5  _ZN3CCD7SI_sendEv                                                
+000047d1  _ZN3CCDC2Ev                                                      
+00001ba5  _ZN3IMU4initEv                                                   
+00004935  _ZN3IMU7HandlerEv                                                
+00000da1  _ZN3IMU8get_dataEv                                               
+000047f3  _ZN3IMUC2Ev                                                      
+00005041  _ZN5MotorC2Ev                                                    
+000050cb  _ZN6Buzzer4stopEv                                                
+000050dd  _ZN6Buzzer5startEv                                               
+00005165  _ZN6BuzzerC1EP12GPTIMER_Regs                                     
+00005165  _ZN6BuzzerC2EP12GPTIMER_Regs                                     
+00000f99  _ZN6Remote12process_dataEv                                       
+00005055  _ZN6Remote7HandlerEv                                             
+000046d1  _ZN6RemoteC1EP9UART_Regs                                         
+000046d1  _ZN6RemoteC2EP9UART_Regs                                         
 000000c1  _ZN7Chassis7HandlerEv                                            
 00000ae1  _ZN7Chassis7processEv                                            
-00003275  _ZN7ChassisC1EP9N20_MotorS1_P3IMUP3CCDf                          
-00003275  _ZN7ChassisC2EP9N20_MotorS1_P3IMUP3CCDf                          
-000045f1  _ZN7Encoder7HandlerEv                                            
-0000487f  _ZN7EncoderC1EPl                                                 
-0000487f  _ZN7EncoderC2EPl                                                 
-00001e25  _ZN7LS7366R4initEhh                                              
-000038d1  _ZN7LS7366R5resetEv                                              
-00002819  _ZN7LS7366R7HandlerEv                                            
-00004399  _ZN7LS7366RC1EP8SPI_RegsP9GPIO_Regsjj                            
-00004399  _ZN7LS7366RC2EP8SPI_RegsP9GPIO_Regsjj                            
-00004589  _ZN9N20_Motor12pwm_set_dutyE17DL_TIMER_CC_INDEXt                 
-00001305  _ZN9N20_Motor16output_intensityEv                                
-000019d5  _ZN9N20_Motor17measure_parameterEv                               
-00004eb3  _ZN9N20_Motor4initEv                                             
-00004bb1  _ZN9N20_Motor7HandlerEv                                          
-00003719  _ZN9N20_MotorC1EP12GPTIMER_Regs17DL_TIMER_CC_INDEXS2_P7Encoderfff
-00003719  _ZN9N20_MotorC2EP12GPTIMER_Regs17DL_TIMER_CC_INDEXS2_P7Encoderfff
+000034a9  _ZN7ChassisC1EP9N20_MotorS1_P3IMUP3CCDf                          
+000034a9  _ZN7ChassisC2EP9N20_MotorS1_P3IMUP3CCDf                          
+00004815  _ZN7Encoder7HandlerEv                                            
+00004aa3  _ZN7EncoderC1EPl                                                 
+00004aa3  _ZN7EncoderC2EPl                                                 
+00001fd5  _ZN7LS7366R4initEhh                                              
+00003ab5  _ZN7LS7366R5resetEv                                              
+000029e5  _ZN7LS7366R7HandlerEv                                            
+000045bd  _ZN7LS7366RC1EP8SPI_RegsP9GPIO_Regsjj                            
+000045bd  _ZN7LS7366RC2EP8SPI_RegsP9GPIO_Regsjj                            
+000047ad  _ZN9N20_Motor12pwm_set_dutyE17DL_TIMER_CC_INDEXt                 
+000014ed  _ZN9N20_Motor16output_intensityEv                                
+00001a85  _ZN9N20_Motor17measure_parameterEv                               
+000050ef  _ZN9N20_Motor4initEv                                             
+00004ded  _ZN9N20_Motor7HandlerEv                                          
+000038fd  _ZN9N20_MotorC1EP12GPTIMER_Regs17DL_TIMER_CC_INDEXS2_P7Encoderfff
+000038fd  _ZN9N20_MotorC2EP12GPTIMER_Regs17DL_TIMER_CC_INDEXS2_P7Encoderfff
 20208000  __STACK_END                                                      
 00000200  __STACK_SIZE                                                     
 00000000  __TI_ATRegion0_region_sz                                         
@@ -680,141 +681,142 @@ address   name
 00000000  __TI_ATRegion2_region_sz                                         
 00000000  __TI_ATRegion2_src_addr                                          
 00000000  __TI_ATRegion2_trg_addr                                          
-00007b04  __TI_CINIT_Base                                                  
-00007b14  __TI_CINIT_Limit                                                 
-00007b14  __TI_CINIT_Warm                                                  
-00007af0  __TI_Handler_Table_Base                                          
-00007afc  __TI_Handler_Table_Limit                                         
-00003375  __TI_auto_init_nobinit                                           
-00002e59  __TI_decompress_lzss                                             
-00004ed7  __TI_decompress_none                                             
+00007d08  __TI_CINIT_Base                                                  
+00007d18  __TI_CINIT_Limit                                                 
+00007d18  __TI_CINIT_Warm                                                  
+00007cf4  __TI_Handler_Table_Base                                          
+00007d00  __TI_Handler_Table_Limit                                         
+000035a9  __TI_auto_init_nobinit                                           
+00003025  __TI_decompress_lzss                                             
+00005113  __TI_decompress_none                                             
 ffffffff  __TI_pprof_out_hndl                                              
 ffffffff  __TI_prof_data_size                                              
 ffffffff  __TI_prof_data_start                                             
 00000000  __TI_static_base__                                               
-00004cc1  __TI_zero_init_nomemset                                          
-000014a7  __adddf3                                                         
-000022c7  __addsf3                                                         
-00002ed1  __aeabi_d2f                                                      
-00003765  __aeabi_d2iz                                                     
-000014a7  __aeabi_dadd                                                     
-00001d19  __aeabi_ddiv                                                     
-000021d9  __aeabi_dmul                                                     
-0000149d  __aeabi_dsub                                                     
-2020097c  __aeabi_errno                                                    
-00004f6d  __aeabi_errno_addr                                               
-00003bb5  __aeabi_f2d                                                      
-00003e3d  __aeabi_f2iz                                                     
-000022c7  __aeabi_fadd                                                     
-00003155  __aeabi_fcmpeq                                                   
-00003191  __aeabi_fcmpge                                                   
-000031a5  __aeabi_fcmpgt                                                   
-0000317d  __aeabi_fcmple                                                   
-00003169  __aeabi_fcmplt                                                   
-00002d55  __aeabi_fdiv                                                     
-00002ab1  __aeabi_fmul                                                     
-000022bd  __aeabi_fsub                                                     
-000041dd  __aeabi_i2d                                                      
-00003c6d  __aeabi_i2f                                                      
-0000162f  __aeabi_idiv0                                                    
-00004f75  __aeabi_memcpy                                                   
-00004f75  __aeabi_memcpy4                                                  
-00004f75  __aeabi_memcpy8                                                  
-000043e9  __aeabi_ui2f                                                     
-00003b75  __aeabi_uidiv                                                    
-00003b75  __aeabi_uidivmod                                                 
+00004efd  __TI_zero_init_nomemset                                          
+0000168f  __adddf3                                                         
+0000255b  __addsf3                                                         
+000030a1  __aeabi_d2f                                                      
+00003949  __aeabi_d2iz                                                     
+0000168f  __aeabi_dadd                                                     
+00001dc9  __aeabi_ddiv                                                     
+0000246d  __aeabi_dmul                                                     
+00001685  __aeabi_dsub                                                     
+20200954  __aeabi_errno                                                    
+000051a9  __aeabi_errno_addr                                               
+00003dd9  __aeabi_f2d                                                      
+00004061  __aeabi_f2iz                                                     
+0000255b  __aeabi_fadd                                                     
+00003331  __aeabi_fcmpeq                                                   
+0000336d  __aeabi_fcmpge                                                   
+00003381  __aeabi_fcmpgt                                                   
+00003359  __aeabi_fcmple                                                   
+00003345  __aeabi_fcmplt                                                   
+00002f21  __aeabi_fdiv                                                     
+00002c7d  __aeabi_fmul                                                     
+00002551  __aeabi_fsub                                                     
+00004401  __aeabi_i2d                                                      
+00003e91  __aeabi_i2f                                                      
+00002a93  __aeabi_idiv0                                                    
+000051b1  __aeabi_memcpy                                                   
+000051b1  __aeabi_memcpy4                                                  
+000051b1  __aeabi_memcpy8                                                  
+0000460d  __aeabi_ui2f                                                     
+00003d99  __aeabi_uidiv                                                    
+00003d99  __aeabi_uidivmod                                                 
 ffffffff  __binit__                                                        
-00003ce5  __cmpsf2                                                         
-00001d19  __divdf3                                                         
-00002d55  __divsf3                                                         
-00003ce5  __eqsf2                                                          
-00003bb5  __extendsfdf2                                                    
-00003765  __fixdfsi                                                        
-00003e3d  __fixsfsi                                                        
-000041dd  __floatsidf                                                      
-00003c6d  __floatsisf                                                      
-000043e9  __floatunsisf                                                    
-00003ca9  __gesf2                                                          
-00003ca9  __gtsf2                                                          
-00003ce5  __lesf2                                                          
-00003ce5  __ltsf2                                                          
+00003f09  __cmpsf2                                                         
+00001dc9  __divdf3                                                         
+00002f21  __divsf3                                                         
+00003f09  __eqsf2                                                          
+00003dd9  __extendsfdf2                                                    
+00003949  __fixdfsi                                                        
+00004061  __fixsfsi                                                        
+00004401  __floatsidf                                                      
+00003e91  __floatsisf                                                      
+0000460d  __floatunsisf                                                    
+00003ecd  __gesf2                                                          
+00003ecd  __gtsf2                                                          
+00003f09  __lesf2                                                          
+00003f09  __ltsf2                                                          
 UNDEFED   __mpu_init                                                       
-000021d9  __muldf3                                                         
-00003d21  __muldsi3                                                        
-00002ab1  __mulsf3                                                         
-00003ce5  __nesf2                                                          
+0000246d  __muldf3                                                         
+00003f45  __muldsi3                                                        
+00002c7d  __mulsf3                                                         
+00003f09  __nesf2                                                          
 20207e00  __stack                                                          
 20200000  __start___llvm_prf_bits                                          
 20200000  __start___llvm_prf_cnts                                          
 20200000  __stop___llvm_prf_bits                                           
 20200000  __stop___llvm_prf_cnts                                           
-0000149d  __subdf3                                                         
-000022bd  __subsf3                                                         
-00002ed1  __truncdfsf2                                                     
-00004439  _c_int00_noargs                                                  
+00001685  __subdf3                                                         
+00002551  __subsf3                                                         
+000030a1  __truncdfsf2                                                     
+0000465d  _c_int00_noargs                                                  
 UNDEFED   _system_post_cinit                                               
-00004fc1  _system_pre_init                                                 
-00004fc5  abort                                                            
+000051f9  _system_pre_init                                                 
+000051fd  abort                                                            
 0000052d  arm_sin_cos_f32                                                  
-000018a5  atan2f                                                           
-0000113d  atanf                                                            
+00001955  atan2f                                                           
+00001165  atanf                                                            
 ffffffff  binit                                                            
-20200980  buzzer                                                           
+20200958  buzzer                                                           
 202004d8  ccd                                                              
 202002d8  ccd_norm                                                         
 20200000  chassis                                                          
 202007c8  controller                                                       
-20200be8  crc                                                              
-202009a0  crc1                                                             
-20200984  crc_err                                                          
-00004411  delay_ms                                                         
-202009a2  end_flag                                                         
-202009b7  gCheckADC                                                        
-202009bc  gPWM_MOTOR0Backup                                                
-20200a78  gPWM_MOTOR1Backup                                                
-20200b98  gSPI_ENCODERBackup                                               
-20200bc0  gSPI_IMUBackup                                                   
+20200c38  crc                                                              
+20200978  crc1                                                             
+2020095c  crc_err                                                          
+00004635  delay_ms                                                         
+2020097a  end_flag                                                         
+2020098f  gCheckADC                                                        
+20200994  gPWM_MOTOR0Backup                                                
+20200a50  gPWM_MOTOR1Backup                                                
+20200be8  gSPI_ENCODERBackup                                               
+20200c10  gSPI_IMUBackup                                                   
+20200b0c  gTIMER_VBackup                                                   
 20200818  imu                                                              
-202009a4  imu660ra_acc_x                                                   
-202009a6  imu660ra_acc_y                                                   
-202009a8  imu660ra_acc_z                                                   
-00003919  imu660ra_get_acc                                                 
-00003961  imu660ra_get_gyro                                                
-202009aa  imu660ra_gyro_x                                                  
-202009ac  imu660ra_gyro_y                                                  
-202009ae  imu660ra_gyro_z                                                  
-000020f1  imu660ra_init                                                    
-20200988  imu660ra_state                                                   
-20200958  imu660ra_transition_factor                                       
-202009b8  init_flag                                                        
+2020097c  imu660ra_acc_x                                                   
+2020097e  imu660ra_acc_y                                                   
+20200980  imu660ra_acc_z                                                   
+00003afd  imu660ra_get_acc                                                 
+00003b45  imu660ra_get_gyro                                                
+20200982  imu660ra_gyro_x                                                  
+20200984  imu660ra_gyro_y                                                  
+20200986  imu660ra_gyro_z                                                  
+000022a1  imu660ra_init                                                    
+20200960  imu660ra_state                                                   
+20200938  imu660ra_transition_factor                                       
+20200990  init_flag                                                        
 00000000  interruptVectors                                                 
 20200910  left_encoder                                                     
 20200868  left_motor                                                       
-00002469  loop                                                             
+00002875  loop                                                             
 202008ec  ls7366r                                                          
-00004bf9  main                                                             
+00004e35  main                                                             
 20200894  pid_controller                                                   
-202009b0  power_vin                                                        
+20200988  power_vin                                                        
 2020066c  remote                                                           
-2020098c  remote_cnt                                                       
+20200964  remote_cnt                                                       
 20200924  right_encoder                                                    
 202008c0  right_motor                                                      
-000026ad  setup                                                            
-202009b9  signal_en_flag                                                   
-00006fd0  sinTable_f32                                                     
-00002dd7  spi_read_8bit_registers                                          
-00003fe1  spi_write_8bit_register                                          
-000040a5  spi_write_8bit_registers                                         
-000028c9  sqrtf                                                            
-202009b2  start_flag                                                       
-00001631  task_handler                                                     
+00002629  setup                                                            
+20200991  signal_en_flag                                                   
+00007200  sinTable_f32                                                     
+00002fa3  spi_read_8bit_registers                                          
+00004205  spi_write_8bit_register                                          
+000042c9  spi_write_8bit_registers                                         
+00002a95  sqrtf                                                            
+2020098a  start_flag                                                       
+0000132d  task_handler                                                     
 20200748  temp_rx                                                          
-20200990  uart1_cnt                                                        
-20200b34  uart1_rx_buf                                                     
-202009b4  uart1_rx_len                                                     
-20200994  uart1_state                                                      
-20200998  utick                                                            
-2020099c  vin                                                              
+20200968  uart1_cnt                                                        
+20200b84  uart1_rx_buf                                                     
+2020098c  uart1_rx_len                                                     
+2020096c  uart1_state                                                      
+20200970  utick                                                            
+20200974  vin                                                              
 
 
 GLOBAL SYMBOLS: SORTED BY Symbol Address 
@@ -837,197 +839,199 @@ address   name
 0000052d  arm_sin_cos_f32                                                  
 0000081d  _ZN10Controller7HandlerEv                                        
 00000ae1  _ZN7Chassis7processEv                                            
-00000d79  _ZN3IMU8get_dataEv                                               
-00000f71  _ZN6Remote12process_dataEv                                       
-0000113d  atanf                                                            
-00001305  _ZN9N20_Motor16output_intensityEv                                
-0000149d  __aeabi_dsub                                                     
-0000149d  __subdf3                                                         
-000014a7  __adddf3                                                         
-000014a7  __aeabi_dadd                                                     
-0000162f  __aeabi_idiv0                                                    
-00001631  task_handler                                                     
-0000176d  SYSCFG_DL_GPIO_init                                              
-000018a5  atan2f                                                           
-000019d5  _ZN9N20_Motor17measure_parameterEv                               
-00001af5  _ZN3IMU4initEv                                                   
-00001c09  DL_Timer_initPWMMode                                             
-00001d19  __aeabi_ddiv                                                     
-00001d19  __divdf3                                                         
-00001e25  _ZN7LS7366R4initEhh                                              
-00001f19  DL_SYSCTL_configSYSPLL                                           
-00002005  DL_TimerA_initPWMMode                                            
-000020f1  imu660ra_init                                                    
-000021d9  __aeabi_dmul                                                     
-000021d9  __muldf3                                                         
-000022bd  __aeabi_fsub                                                     
-000022bd  __subsf3                                                         
-000022c7  __addsf3                                                         
-000022c7  __aeabi_fadd                                                     
-00002395  SYSCFG_DL_initPower                                              
-00002469  loop                                                             
-0000252d  _Z10test_powerv                                                  
-000025ed  _ZN3CCD7SI_sendEv                                                
-000026ad  setup                                                            
-00002769  UART0_IRQHandler                                                 
-00002819  _ZN7LS7366R7HandlerEv                                            
-000028c9  sqrtf                                                            
-00002971  _ZN14PID_Controller7HandlerEv                                    
-00002a15  SYSCFG_DL_ADC_CCD_init                                           
-00002ab1  __aeabi_fmul                                                     
-00002ab1  __mulsf3                                                         
-00002b3d  SYSCFG_DL_PWM_MOTOR0_init                                        
-00002bc5  SYSCFG_DL_TIM_CCD_init                                           
-00002c4d  SYSCFG_DL_PWM_MOTOR1_init                                        
-00002d55  __aeabi_fdiv                                                     
-00002d55  __divsf3                                                         
-00002dd7  spi_read_8bit_registers                                          
-00002e59  __TI_decompress_lzss                                             
-00002ed1  __aeabi_d2f                                                      
-00002ed1  __truncdfsf2                                                     
-00002f45  _Z14signal_Handlerv                                              
-00003025  SYSCFG_DL_ADC_VIN_init                                           
-0000308d  DL_SYSCTL_setHFCLKSourceHFXTParams                               
-000030f1  SYSCFG_DL_init                                                   
-00003155  __aeabi_fcmpeq                                                   
-00003169  __aeabi_fcmplt                                                   
-0000317d  __aeabi_fcmple                                                   
-00003191  __aeabi_fcmpge                                                   
-000031a5  __aeabi_fcmpgt                                                   
-000031b9  SYSCFG_DL_PWM_BUZZER_init                                        
-00003219  SPI_transmitData                                                 
-00003275  _ZN7ChassisC1EP9N20_MotorS1_P3IMUP3CCDf                          
-00003275  _ZN7ChassisC2EP9N20_MotorS1_P3IMUP3CCDf                          
-00003321  SYSCFG_DL_UART_0_init                                            
-00003375  __TI_auto_init_nobinit                                           
-000033c9  ADC1_IRQHandler                                                  
-00003469  SysTick_Handler                                                  
-00003555  DL_ADC12_setClockConfig                                          
-000035a1  DL_SYSCTL_switchMCLKfromSYSOSCtoHSCLK                            
-000035ed  DL_UART_init                                                     
-000036cf  _Z13UART_TransmitP9UART_RegsPht                                  
-00003719  _ZN9N20_MotorC1EP12GPTIMER_Regs17DL_TIMER_CC_INDEXS2_P7Encoderfff
-00003719  _ZN9N20_MotorC2EP12GPTIMER_Regs17DL_TIMER_CC_INDEXS2_P7Encoderfff
-00003765  __aeabi_d2iz                                                     
-00003765  __fixdfsi                                                        
-000037b1  DL_SPI_init                                                      
-000037f9  SYSCFG_DL_SYSCTL_init                                            
-00003841  _ZN10ControllerC1EP7Chassis                                      
-00003841  _ZN10ControllerC2EP7Chassis                                      
-00003889  _ZN3CCD7HandlerEv                                                
-000038d1  _ZN7LS7366R5resetEv                                              
-00003919  imu660ra_get_acc                                                 
-00003961  imu660ra_get_gyro                                                
-000039a9  DL_DMA_initChannel                                               
-00003a35  DL_Timer_setCaptureCompareOutCtl                                 
-00003a75  SYSCFG_DL_SPI_ENCODER_init                                       
-00003ab5  SYSCFG_DL_SPI_IMU_init                                           
-00003b75  __aeabi_uidiv                                                    
-00003b75  __aeabi_uidivmod                                                 
-00003bb5  __aeabi_f2d                                                      
-00003bb5  __extendsfdf2                                                    
-00003bf5  DL_Timer_setCaptureCompareCtl                                    
-00003c31  _ZN14PID_ControllerC1EP7Chassis                                  
-00003c31  _ZN14PID_ControllerC2EP7Chassis                                  
-00003c6d  __aeabi_i2f                                                      
-00003c6d  __floatsisf                                                      
-00003ca9  __gesf2                                                          
-00003ca9  __gtsf2                                                          
-00003ce5  __cmpsf2                                                         
-00003ce5  __eqsf2                                                          
-00003ce5  __lesf2                                                          
-00003ce5  __ltsf2                                                          
-00003ce5  __nesf2                                                          
-00003d21  __muldsi3                                                        
-00003e3d  __aeabi_f2iz                                                     
-00003e3d  __fixsfsi                                                        
-00003e75  DL_Timer_setCaptCompUpdateMethod                                 
-00003ea9  DL_Timer_setCaptureCompareAction                                 
-00003edd  DL_Timer_setCaptureCompareInput                                  
-00003f11  DL_Timer_setClockConfig                                          
-00003fe1  spi_write_8bit_register                                          
-000040a5  spi_write_8bit_registers                                         
-000040d5  ADC0_IRQHandler                                                  
-0000412d  DL_Timer_setCaptureCompareValue                                  
-000041dd  __aeabi_i2d                                                      
-000041dd  __floatsidf                                                      
-00004399  _ZN7LS7366RC1EP8SPI_RegsP9GPIO_Regsjj                            
-00004399  _ZN7LS7366RC2EP8SPI_RegsP9GPIO_Regsjj                            
-000043e9  __aeabi_ui2f                                                     
-000043e9  __floatunsisf                                                    
-00004411  delay_ms                                                         
-00004439  _c_int00_noargs                                                  
-000044ad  _ZN6RemoteC1EP9UART_Regs                                         
-000044ad  _ZN6RemoteC2EP9UART_Regs                                         
-000044f9  DL_SPI_setClockConfig                                            
-0000451d  DL_UART_setClockConfig                                           
-00004565  _ZN3CCD4initEv                                                   
-00004589  _ZN9N20_Motor12pwm_set_dutyE17DL_TIMER_CC_INDEXt                 
-000045ad  _ZN3CCDC2Ev                                                      
-000045cf  _ZN3IMUC2Ev                                                      
-000045f1  _ZN7Encoder7HandlerEv                                            
-00004711  _ZN3IMU7HandlerEv                                                
-0000482d  TIMG12_IRQHandler                                                
-0000487f  _ZN7EncoderC1EPl                                                 
-0000487f  _ZN7EncoderC2EPl                                                 
-00004a79  SYSCFG_DL_DMA_CH0_init                                           
-00004bb1  _ZN9N20_Motor7HandlerEv                                          
-00004bf9  main                                                             
-00004cc1  __TI_zero_init_nomemset                                          
-00004cd7  DL_Common_delayCycles                                            
-00004d79  _Z5atan2B6v15007ff                                               
-00004e05  _ZN5MotorC2Ev                                                    
-00004e19  _ZN6Remote7HandlerEv                                             
-00004e8f  _ZN6Buzzer4stopEv                                                
-00004ea1  _ZN6Buzzer5startEv                                               
-00004eb3  _ZN9N20_Motor4initEv                                             
-00004ec5  TI_memcpy_small                                                  
-00004ed7  __TI_decompress_none                                             
-00004f19  SYSCFG_DL_SYSTICK_init                                           
-00004f29  _ZN6BuzzerC1EP12GPTIMER_Regs                                     
-00004f29  _ZN6BuzzerC2EP12GPTIMER_Regs                                     
-00004f65  SYSCFG_DL_DMA_init                                               
-00004f6d  __aeabi_errno_addr                                               
-00004f75  __aeabi_memcpy                                                   
-00004f75  __aeabi_memcpy4                                                  
-00004f75  __aeabi_memcpy8                                                  
-00004f95  AES_IRQHandler                                                   
-00004f95  CANFD0_IRQHandler                                                
-00004f95  DAC0_IRQHandler                                                  
-00004f95  DMA_IRQHandler                                                   
-00004f95  Default_Handler                                                  
-00004f95  GROUP0_IRQHandler                                                
-00004f95  GROUP1_IRQHandler                                                
-00004f95  HardFault_Handler                                                
-00004f95  I2C0_IRQHandler                                                  
-00004f95  I2C1_IRQHandler                                                  
-00004f95  NMI_Handler                                                      
-00004f95  PendSV_Handler                                                   
-00004f95  RTC_IRQHandler                                                   
-00004f95  SPI0_IRQHandler                                                  
-00004f95  SPI1_IRQHandler                                                  
-00004f95  SVC_Handler                                                      
-00004f95  TIMA0_IRQHandler                                                 
-00004f95  TIMA1_IRQHandler                                                 
-00004f95  TIMG0_IRQHandler                                                 
-00004f95  TIMG6_IRQHandler                                                 
-00004f95  TIMG7_IRQHandler                                                 
-00004f95  TIMG8_IRQHandler                                                 
-00004f95  UART1_IRQHandler                                                 
-00004f95  UART2_IRQHandler                                                 
-00004f95  UART3_IRQHandler                                                 
-00004fad  Reset_Handler                                                    
-00004fc1  _system_pre_init                                                 
-00004fc4  C$$EXIT                                                          
-00004fc5  abort                                                            
-00006fd0  sinTable_f32                                                     
-00007898  SHT$$INIT_ARRAY$$Base                                            
-0000789c  SHT$$INIT_ARRAY$$Limit                                           
-00007af0  __TI_Handler_Table_Base                                          
-00007afc  __TI_Handler_Table_Limit                                         
-00007b04  __TI_CINIT_Base                                                  
-00007b14  __TI_CINIT_Limit                                                 
-00007b14  __TI_CINIT_Warm                                                  
+00000da1  _ZN3IMU8get_dataEv                                               
+00000f99  _ZN6Remote12process_dataEv                                       
+00001165  atanf                                                            
+0000132d  task_handler                                                     
+000014ed  _ZN9N20_Motor16output_intensityEv                                
+00001685  __aeabi_dsub                                                     
+00001685  __subdf3                                                         
+0000168f  __adddf3                                                         
+0000168f  __aeabi_dadd                                                     
+00001817  TIMG6_IRQHandler                                                 
+00001819  SYSCFG_DL_GPIO_init                                              
+00001955  atan2f                                                           
+00001a85  _ZN9N20_Motor17measure_parameterEv                               
+00001ba5  _ZN3IMU4initEv                                                   
+00001cb9  DL_Timer_initPWMMode                                             
+00001dc9  __aeabi_ddiv                                                     
+00001dc9  __divdf3                                                         
+00001ed5  DL_Timer_initTimerMode                                           
+00001fd5  _ZN7LS7366R4initEhh                                              
+000020c9  DL_SYSCTL_configSYSPLL                                           
+000021b5  DL_TimerA_initPWMMode                                            
+000022a1  imu660ra_init                                                    
+00002389  SYSCFG_DL_initPower                                              
+0000246d  __aeabi_dmul                                                     
+0000246d  __muldf3                                                         
+00002551  __aeabi_fsub                                                     
+00002551  __subsf3                                                         
+0000255b  __addsf3                                                         
+0000255b  __aeabi_fadd                                                     
+00002629  setup                                                            
+000026f5  _Z10test_powerv                                                  
+000027b5  _ZN3CCD7SI_sendEv                                                
+00002875  loop                                                             
+00002935  UART0_IRQHandler                                                 
+000029e5  _ZN7LS7366R7HandlerEv                                            
+00002a93  __aeabi_idiv0                                                    
+00002a95  sqrtf                                                            
+00002b3d  _ZN14PID_Controller7HandlerEv                                    
+00002be1  SYSCFG_DL_ADC_CCD_init                                           
+00002c7d  __aeabi_fmul                                                     
+00002c7d  __mulsf3                                                         
+00002d09  SYSCFG_DL_PWM_MOTOR0_init                                        
+00002d91  SYSCFG_DL_TIM_CCD_init                                           
+00002e19  SYSCFG_DL_PWM_MOTOR1_init                                        
+00002f21  __aeabi_fdiv                                                     
+00002f21  __divsf3                                                         
+00002fa3  spi_read_8bit_registers                                          
+00003025  __TI_decompress_lzss                                             
+0000309d  AES_IRQHandler                                                   
+0000309d  CANFD0_IRQHandler                                                
+0000309d  DAC0_IRQHandler                                                  
+0000309d  DMA_IRQHandler                                                   
+0000309d  Default_Handler                                                  
+0000309d  GROUP0_IRQHandler                                                
+0000309d  GROUP1_IRQHandler                                                
+0000309d  HardFault_Handler                                                
+0000309d  I2C0_IRQHandler                                                  
+0000309d  I2C1_IRQHandler                                                  
+0000309d  NMI_Handler                                                      
+0000309d  PendSV_Handler                                                   
+0000309d  RTC_IRQHandler                                                   
+0000309d  SPI0_IRQHandler                                                  
+0000309d  SPI1_IRQHandler                                                  
+0000309d  SVC_Handler                                                      
+0000309d  TIMA0_IRQHandler                                                 
+0000309d  TIMA1_IRQHandler                                                 
+0000309d  TIMG0_IRQHandler                                                 
+0000309d  TIMG7_IRQHandler                                                 
+0000309d  TIMG8_IRQHandler                                                 
+0000309d  UART1_IRQHandler                                                 
+0000309d  UART2_IRQHandler                                                 
+0000309d  UART3_IRQHandler                                                 
+000030a1  __aeabi_d2f                                                      
+000030a1  __truncdfsf2                                                     
+00003115  SYSCFG_DL_init                                                   
+00003185  _Z14signal_Handlerv                                              
+00003265  SYSCFG_DL_ADC_VIN_init                                           
+000032cd  DL_SYSCTL_setHFCLKSourceHFXTParams                               
+00003331  __aeabi_fcmpeq                                                   
+00003345  __aeabi_fcmplt                                                   
+00003359  __aeabi_fcmple                                                   
+0000336d  __aeabi_fcmpge                                                   
+00003381  __aeabi_fcmpgt                                                   
+00003395  SYSCFG_DL_PWM_BUZZER_init                                        
+000033f5  SPI_transmitData                                                 
+00003451  SysTick_Handler                                                  
+000034a9  _ZN7ChassisC1EP9N20_MotorS1_P3IMUP3CCDf                          
+000034a9  _ZN7ChassisC2EP9N20_MotorS1_P3IMUP3CCDf                          
+00003555  SYSCFG_DL_UART_0_init                                            
+000035a9  __TI_auto_init_nobinit                                           
+000035fd  ADC1_IRQHandler                                                  
+00003739  DL_ADC12_setClockConfig                                          
+00003785  DL_SYSCTL_switchMCLKfromSYSOSCtoHSCLK                            
+000037d1  DL_UART_init                                                     
+000038b3  _Z13UART_TransmitP9UART_RegsPht                                  
+000038fd  _ZN9N20_MotorC1EP12GPTIMER_Regs17DL_TIMER_CC_INDEXS2_P7Encoderfff
+000038fd  _ZN9N20_MotorC2EP12GPTIMER_Regs17DL_TIMER_CC_INDEXS2_P7Encoderfff
+00003949  __aeabi_d2iz                                                     
+00003949  __fixdfsi                                                        
+00003995  DL_SPI_init                                                      
+000039dd  SYSCFG_DL_SYSCTL_init                                            
+00003a25  _ZN10ControllerC1EP7Chassis                                      
+00003a25  _ZN10ControllerC2EP7Chassis                                      
+00003a6d  _ZN3CCD7HandlerEv                                                
+00003ab5  _ZN7LS7366R5resetEv                                              
+00003afd  imu660ra_get_acc                                                 
+00003b45  imu660ra_get_gyro                                                
+00003b8d  DL_DMA_initChannel                                               
+00003c19  DL_Timer_setCaptureCompareOutCtl                                 
+00003c59  SYSCFG_DL_SPI_ENCODER_init                                       
+00003c99  SYSCFG_DL_SPI_IMU_init                                           
+00003cd9  SYSCFG_DL_TIMER_V_init                                           
+00003d99  __aeabi_uidiv                                                    
+00003d99  __aeabi_uidivmod                                                 
+00003dd9  __aeabi_f2d                                                      
+00003dd9  __extendsfdf2                                                    
+00003e19  DL_Timer_setCaptureCompareCtl                                    
+00003e55  _ZN14PID_ControllerC1EP7Chassis                                  
+00003e55  _ZN14PID_ControllerC2EP7Chassis                                  
+00003e91  __aeabi_i2f                                                      
+00003e91  __floatsisf                                                      
+00003ecd  __gesf2                                                          
+00003ecd  __gtsf2                                                          
+00003f09  __cmpsf2                                                         
+00003f09  __eqsf2                                                          
+00003f09  __lesf2                                                          
+00003f09  __ltsf2                                                          
+00003f09  __nesf2                                                          
+00003f45  __muldsi3                                                        
+00004061  __aeabi_f2iz                                                     
+00004061  __fixsfsi                                                        
+00004099  DL_Timer_setCaptCompUpdateMethod                                 
+000040cd  DL_Timer_setCaptureCompareAction                                 
+00004101  DL_Timer_setCaptureCompareInput                                  
+00004135  DL_Timer_setClockConfig                                          
+00004205  spi_write_8bit_register                                          
+000042c9  spi_write_8bit_registers                                         
+000042f9  ADC0_IRQHandler                                                  
+00004351  DL_Timer_setCaptureCompareValue                                  
+00004401  __aeabi_i2d                                                      
+00004401  __floatsidf                                                      
+000045bd  _ZN7LS7366RC1EP8SPI_RegsP9GPIO_Regsjj                            
+000045bd  _ZN7LS7366RC2EP8SPI_RegsP9GPIO_Regsjj                            
+0000460d  __aeabi_ui2f                                                     
+0000460d  __floatunsisf                                                    
+00004635  delay_ms                                                         
+0000465d  _c_int00_noargs                                                  
+000046d1  _ZN6RemoteC1EP9UART_Regs                                         
+000046d1  _ZN6RemoteC2EP9UART_Regs                                         
+0000471d  DL_SPI_setClockConfig                                            
+00004741  DL_UART_setClockConfig                                           
+00004789  _ZN3CCD4initEv                                                   
+000047ad  _ZN9N20_Motor12pwm_set_dutyE17DL_TIMER_CC_INDEXt                 
+000047d1  _ZN3CCDC2Ev                                                      
+000047f3  _ZN3IMUC2Ev                                                      
+00004815  _ZN7Encoder7HandlerEv                                            
+00004935  _ZN3IMU7HandlerEv                                                
+00004a51  TIMG12_IRQHandler                                                
+00004aa3  _ZN7EncoderC1EPl                                                 
+00004aa3  _ZN7EncoderC2EPl                                                 
+00004c9d  SYSCFG_DL_DMA_CH0_init                                           
+00004ded  _ZN9N20_Motor7HandlerEv                                          
+00004e35  main                                                             
+00004efd  __TI_zero_init_nomemset                                          
+00004f13  DL_Common_delayCycles                                            
+00004fb5  _Z5atan2B6v15007ff                                               
+00005041  _ZN5MotorC2Ev                                                    
+00005055  _ZN6Remote7HandlerEv                                             
+000050cb  _ZN6Buzzer4stopEv                                                
+000050dd  _ZN6Buzzer5startEv                                               
+000050ef  _ZN9N20_Motor4initEv                                             
+00005101  TI_memcpy_small                                                  
+00005113  __TI_decompress_none                                             
+00005155  SYSCFG_DL_SYSTICK_init                                           
+00005165  _ZN6BuzzerC1EP12GPTIMER_Regs                                     
+00005165  _ZN6BuzzerC2EP12GPTIMER_Regs                                     
+000051a1  SYSCFG_DL_DMA_init                                               
+000051a9  __aeabi_errno_addr                                               
+000051b1  __aeabi_memcpy                                                   
+000051b1  __aeabi_memcpy4                                                  
+000051b1  __aeabi_memcpy8                                                  
+000051e5  Reset_Handler                                                    
+000051f9  _system_pre_init                                                 
+000051fc  C$$EXIT                                                          
+000051fd  abort                                                            
+00007200  sinTable_f32                                                     
+00007ae0  SHT$$INIT_ARRAY$$Base                                            
+00007ae4  SHT$$INIT_ARRAY$$Limit                                           
+00007cf4  __TI_Handler_Table_Base                                          
+00007d00  __TI_Handler_Table_Limit                                         
+00007d08  __TI_CINIT_Base                                                  
+00007d18  __TI_CINIT_Limit                                                 
+00007d18  __TI_CINIT_Warm                                                  
 20200000  __start___llvm_prf_bits                                          
 20200000  __start___llvm_prf_cnts                                          
 20200000  __stop___llvm_prf_bits                                           
@@ -1045,40 +1049,41 @@ address   name
 202008ec  ls7366r                                                          
 20200910  left_encoder                                                     
 20200924  right_encoder                                                    
-20200958  imu660ra_transition_factor                                       
-20200960  ADC_VIN_cnt                                                      
-20200964  ADC_cnt                                                          
-20200968  CCD_cnt                                                          
-2020096c  DMA_EN_cnt                                                       
-2020097c  __aeabi_errno                                                    
-20200980  buzzer                                                           
-20200984  crc_err                                                          
-20200988  imu660ra_state                                                   
-2020098c  remote_cnt                                                       
-20200990  uart1_cnt                                                        
-20200994  uart1_state                                                      
-20200998  utick                                                            
-2020099c  vin                                                              
-202009a0  crc1                                                             
-202009a2  end_flag                                                         
-202009a4  imu660ra_acc_x                                                   
-202009a6  imu660ra_acc_y                                                   
-202009a8  imu660ra_acc_z                                                   
-202009aa  imu660ra_gyro_x                                                  
-202009ac  imu660ra_gyro_y                                                  
-202009ae  imu660ra_gyro_z                                                  
-202009b0  power_vin                                                        
-202009b2  start_flag                                                       
-202009b4  uart1_rx_len                                                     
-202009b7  gCheckADC                                                        
-202009b8  init_flag                                                        
-202009b9  signal_en_flag                                                   
-202009bc  gPWM_MOTOR0Backup                                                
-20200a78  gPWM_MOTOR1Backup                                                
-20200b34  uart1_rx_buf                                                     
-20200b98  gSPI_ENCODERBackup                                               
-20200bc0  gSPI_IMUBackup                                                   
-20200be8  crc                                                              
+20200938  imu660ra_transition_factor                                       
+20200940  ADC_VIN_cnt                                                      
+20200944  ADC_cnt                                                          
+20200948  CCD_cnt                                                          
+2020094c  DMA_EN_cnt                                                       
+20200954  __aeabi_errno                                                    
+20200958  buzzer                                                           
+2020095c  crc_err                                                          
+20200960  imu660ra_state                                                   
+20200964  remote_cnt                                                       
+20200968  uart1_cnt                                                        
+2020096c  uart1_state                                                      
+20200970  utick                                                            
+20200974  vin                                                              
+20200978  crc1                                                             
+2020097a  end_flag                                                         
+2020097c  imu660ra_acc_x                                                   
+2020097e  imu660ra_acc_y                                                   
+20200980  imu660ra_acc_z                                                   
+20200982  imu660ra_gyro_x                                                  
+20200984  imu660ra_gyro_y                                                  
+20200986  imu660ra_gyro_z                                                  
+20200988  power_vin                                                        
+2020098a  start_flag                                                       
+2020098c  uart1_rx_len                                                     
+2020098f  gCheckADC                                                        
+20200990  init_flag                                                        
+20200991  signal_en_flag                                                   
+20200994  gPWM_MOTOR0Backup                                                
+20200a50  gPWM_MOTOR1Backup                                                
+20200b0c  gTIMER_VBackup                                                   
+20200b84  uart1_rx_buf                                                     
+20200be8  gSPI_ENCODERBackup                                               
+20200c10  gSPI_IMUBackup                                                   
+20200c38  crc                                                              
 20207e00  __stack                                                          
 20208000  __STACK_END                                                      
 ffffffff  __TI_pprof_out_hndl                                              
@@ -1089,4 +1094,4 @@ ffffffff  binit
 UNDEFED   __mpu_init                                                       
 UNDEFED   _system_post_cinit                                               
 
-[267 symbols]
+[270 symbols]

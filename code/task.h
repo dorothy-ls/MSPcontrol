@@ -24,6 +24,8 @@ void GROUP1_IRQHandler(void);
 
 void ADC_VIN_INST_IRQHandler(void);
 
+void TIMER_V_INST_IRQHandler (void);
+
 #ifdef __cplusplus
 }
 #endif

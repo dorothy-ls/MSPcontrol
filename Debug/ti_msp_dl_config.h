@@ -146,6 +146,14 @@ extern "C" {
 
 
 
+/* Defines for TIMER_V */
+#define TIMER_V_INST                                                     (TIMG6)
+#define TIMER_V_INST_IRQHandler                                 TIMG6_IRQHandler
+#define TIMER_V_INST_INT_IRQN                                   (TIMG6_INT_IRQn)
+#define TIMER_V_INST_LOAD_VALUE                                          (9999U)
+
+
+
 /* Defines for UART_0 */
 #define UART_0_INST                                                        UART0
 #define UART_0_INST_IRQHandler                                  UART0_IRQHandler
@@ -243,6 +251,12 @@ extern "C" {
 /* Defines for PIN_SPI_CS: GPIOB.18 with pinCMx 44 on package pin 15 */
 #define GPIO_SPI_PIN_SPI_CS_PIN                                 (DL_GPIO_PIN_18)
 #define GPIO_SPI_PIN_SPI_CS_IOMUX                                (IOMUX_PINCM44)
+/* Port definition for Pin Group GPIO_SYS */
+#define GPIO_SYS_PORT                                                    (GPIOB)
+
+/* Defines for PIN_SYS: GPIOB.2 with pinCMx 15 on package pin 50 */
+#define GPIO_SYS_PIN_SYS_PIN                                     (DL_GPIO_PIN_2)
+#define GPIO_SYS_PIN_SYS_IOMUX                                   (IOMUX_PINCM15)
 /* Port definition for Pin Group GPIO_LEDS */
 #define GPIO_LEDS_PORT                                                   (GPIOB)
 
@@ -277,6 +291,7 @@ void SYSCFG_DL_PWM_MOTOR0_init(void);
 void SYSCFG_DL_TIM_CCD_init(void);
 void SYSCFG_DL_PWM_MOTOR1_init(void);
 void SYSCFG_DL_PWM_BUZZER_init(void);
+void SYSCFG_DL_TIMER_V_init(void);
 void SYSCFG_DL_UART_0_init(void);
 void SYSCFG_DL_SPI_IMU_init(void);
 void SYSCFG_DL_SPI_ENCODER_init(void);
