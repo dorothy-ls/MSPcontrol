@@ -13,6 +13,7 @@
 "./code/PID_Controller.o"
 "./code/QEI.o"
 "./code/Remote.o"
+"./code/Tracking.o"
 "./code/hal.o"
 "./code/imu660.o"
 "./code/imu963ra.o"

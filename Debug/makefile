@@ -25,6 +25,7 @@ ORDERED_OBJS += \
 "./code/PID_Controller.o" \
 "./code/QEI.o" \
 "./code/Remote.o" \
+"./code/Tracking.o" \
 "./code/hal.o" \
 "./code/imu660.o" \
 "./code/imu963ra.o" \
@@ -162,9 +163,9 @@ control.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(GEN_MISC_FILES__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "control.o" "ti_msp_dl_config.o" "startup_mspm0g350x_ticlang.o" "code\Buzzer.o" "code\CCD.o" "code\Chassis.o" "code\Controller.o" "code\Encoder.o" "code\IMU.o" "code\LS7366R.o" "code\N20_Motor.o" "code\PID.o" "code\PID_Controller.o" "code\QEI.o" "code\Remote.o" "code\hal.o" "code\imu660.o" "code\imu963ra.o" "code\it.o" "code\task.o" 
+	-$(RM) "control.o" "ti_msp_dl_config.o" "startup_mspm0g350x_ticlang.o" "code\Buzzer.o" "code\CCD.o" "code\Chassis.o" "code\Controller.o" "code\Encoder.o" "code\IMU.o" "code\LS7366R.o" "code\N20_Motor.o" "code\PID.o" "code\PID_Controller.o" "code\QEI.o" "code\Remote.o" "code\Tracking.o" "code\hal.o" "code\imu660.o" "code\imu963ra.o" "code\it.o" "code\task.o" 
 	-$(RM) "control.d" "ti_msp_dl_config.d" "startup_mspm0g350x_ticlang.d" 
-	-$(RM) "code\Buzzer.d" "code\CCD.d" "code\Chassis.d" "code\Controller.d" "code\Encoder.d" "code\IMU.d" "code\LS7366R.d" "code\N20_Motor.d" "code\PID.d" "code\PID_Controller.d" "code\QEI.d" "code\Remote.d" "code\hal.d" "code\imu660.d" "code\imu963ra.d" "code\it.d" "code\task.d" 
+	-$(RM) "code\Buzzer.d" "code\CCD.d" "code\Chassis.d" "code\Controller.d" "code\Encoder.d" "code\IMU.d" "code\LS7366R.d" "code\N20_Motor.d" "code\PID.d" "code\PID_Controller.d" "code\QEI.d" "code\Remote.d" "code\Tracking.d" "code\hal.d" "code\imu660.d" "code\imu963ra.d" "code\it.d" "code\task.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

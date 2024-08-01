@@ -18,6 +18,7 @@ CPP_SRCS += \
 ../code/PID_Controller.cpp \
 ../code/QEI.cpp \
 ../code/Remote.cpp \
+../code/Tracking.cpp \
 ../code/hal.cpp \
 ../code/imu660.cpp \
 ../code/imu963ra.cpp \
@@ -37,6 +38,7 @@ OBJS += \
 ./code/PID_Controller.o \
 ./code/QEI.o \
 ./code/Remote.o \
+./code/Tracking.o \
 ./code/hal.o \
 ./code/imu660.o \
 ./code/imu963ra.o \
@@ -56,6 +58,7 @@ CPP_DEPS += \
 ./code/PID_Controller.d \
 ./code/QEI.d \
 ./code/Remote.d \
+./code/Tracking.d \
 ./code/hal.d \
 ./code/imu660.d \
 ./code/imu963ra.d \
@@ -75,6 +78,7 @@ OBJS__QUOTED += \
 "code\PID_Controller.o" \
 "code\QEI.o" \
 "code\Remote.o" \
+"code\Tracking.o" \
 "code\hal.o" \
 "code\imu660.o" \
 "code\imu963ra.o" \
@@ -94,6 +98,7 @@ CPP_DEPS__QUOTED += \
 "code\PID_Controller.d" \
 "code\QEI.d" \
 "code\Remote.d" \
+"code\Tracking.d" \
 "code\hal.d" \
 "code\imu660.d" \
 "code\imu963ra.d" \
@@ -113,6 +118,7 @@ CPP_SRCS__QUOTED += \
 "../code/PID_Controller.cpp" \
 "../code/QEI.cpp" \
 "../code/Remote.cpp" \
+"../code/Tracking.cpp" \
 "../code/hal.cpp" \
 "../code/imu660.cpp" \
 "../code/imu963ra.cpp" \

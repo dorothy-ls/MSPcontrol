@@ -16,7 +16,7 @@ void Chassis::process()
     // Get the threshold
     float min_data = 3000;
     float max_data = 0;
-    for(i = 0; i < 128; ++i)
+    for(i = 14; i < 127; ++i)
     {
         if(data_norm[i] > max_data)
         {
@@ -35,7 +35,7 @@ void Chassis::process()
     else threshold = 0;
 
     // Binarization
-    for(i = 0; i < 128; ++i)
+    for(i = 14; i < 128; ++i)
     {
         if(data_norm[i] > threshold)
         {
@@ -46,6 +46,11 @@ void Chassis::process()
             bin_ccd[i] = 0;
         }
     }
+    for(i = 0; i < 14; ++i)
+    {
+        bin_ccd[i] = 1;
+    }
+    bin_ccd[127] = 1;
 
 
     //TODO ÂË²¨
@@ -68,8 +73,8 @@ void Chassis::process()
     if(inrange) {
         float temp_cos = 0, temp_sin = 0;
         arm_sin_cos_f32(ang, &temp_sin, &temp_cos);
-        x_line = x + D * temp_cos + mid_point * dl * temp_sin;
-        y_line = y + D * temp_sin - mid_point * dl * temp_cos;
+        x_line = x_prev[0] + D * temp_cos + mid_point * dl * temp_sin;
+        y_line = y_prev[0] + D * temp_sin - mid_point * dl * temp_cos;
     }
 
 
@@ -144,8 +149,21 @@ void Chassis::Handler() {
             this->motorR->state = MOTOR_STOP;
             ang = 0; ang1 = 0; ang2 = 0;
             x = 0; y = 0;
+            cnt = 0;
         }  break;
         case CHASSIS_RUN:{
+            if(cnt < 5){
+                x_prev[cnt] = x;
+                y_prev[cnt] = y;
+                cnt++;
+            }else{
+                for(int i = 0; i < 5; i++){
+                    x_prev[i] = x_prev[i + 1];
+                    y_prev[i] = y_prev[i + 1];
+                }
+                x_prev[5 - 1] = x;
+                y_prev[5 - 1] = y;
+            }
             float output1 = (v_set - w_set) * 14686.8;
             float output2 = (v_set + w_set) * 14686.8;
             float thresh = 101;

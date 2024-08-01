@@ -13,13 +13,13 @@ public:
     float *feedback;
     float err = 0;
 
-    float kp = 0;
+    float kp = 0.005;
     float kv = 0.1375;
     float dir = -1;
 
-    float v_set = 0.1;
+    float v_set = 0.2;
 
-    float w_out_max = 0.1;
+    float w_out_max = 0.2;
     float w_out;
 
     PID_Controller(Chassis* chassis);

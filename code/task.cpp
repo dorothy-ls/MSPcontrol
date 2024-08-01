@@ -5,6 +5,7 @@
 #include "it.h"
 #include "hal.h"
 #include "device.h"
+#include "Tracking.h"
 
 #define TEST
 //#define TEST_MOTOR
@@ -120,7 +121,7 @@ void TIM_CCD_INST_IRQHandler(void)
 //测试部分业务逻辑
 #ifdef TEST
 
-#define USE_REMOTE
+//#define USE_REMOTE
 
 #define UART1_BUF_LEN 100
 #define v_th 9
@@ -167,6 +168,7 @@ Buzzer buzzer(PWM_BUZZER_INST);
 Chassis chassis(&left_motor, &right_motor, &imu, &ccd, 112.5 / 1000);
 Controller controller(&chassis); //位置控制器
 PID_Controller pid_controller(&chassis); //循迹控制器
+Tracking tracking(&chassis, &controller, &pid_controller);
 
 //对象声明
 uint8_t start_flag[] = {0xfe, 0xfe};
@@ -225,6 +227,7 @@ void setup()
 //    UART_Transmit(UART_0_INST,temp_rx,128);
     //UART_Transmit(UART_0_INST, (uint8_t *)ccd.data, 128 * 2);
     init_flag = 1;
+    //tracking.state = 1;
 }
 
 void loop()
@@ -287,25 +290,32 @@ void task_handler()
 
     chassis.Handler();
 
+    tracking.Handler();
 
     controller.Handler();
     pid_controller.Handler();
 
+//    pid_controller.state = 1;
+//    pid_controller.dir = 1;
 
-    //controller.state = 1;
-//                const float l = 0.3;
-//                static float x_array[] = {0, l, l, 0};
-//                static float y_array[] = {0, 0, -l, -l};
-//                static int array_len = 4, index = 0;
-//
-//              if(controller.reached == true){
-//                  if(++index >= array_len) index = 0;
-//                  controller.x_set = x_array[index];
-//                  controller.y_set = y_array[index];
-//                  controller.reached = false;
-//              }
-//                controller.state = 1;
-//                chassis.state = CHASSIS_RUN;
+
+//    chassis.state = CHASSIS_RUN;
+//    controller.state = 1;
+//    controller.x_set = 1.0;
+
+                /*const float l = 0.3;
+                static float x_array[] = {0, l, l, 0};
+                static float y_array[] = {0, 0, -l, -l};
+                static int array_len = 4, index = 0;
+
+              if(controller.reached == true){
+                  if(++index >= array_len) index = 0;
+                  controller.x_set = x_array[index];
+                  controller.y_set = y_array[index];
+                  controller.reached = false;
+              }
+                controller.state = 1;
+                chassis.state = CHASSIS_RUN;*/
 
 #ifdef USE_REMOTE //遥控器
     switch (remote.mode) {

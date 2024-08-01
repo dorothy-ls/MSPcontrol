@@ -14,14 +14,14 @@ public:
     float dist, ang_err;
     float x_err, y_err;
 
-    float dist_th = 0.01, ang_th = 3;
+    float dist_th = 0.02, ang_th = 2;
 
     float kp1 = 3, kp2 = 0.13;
 
     float v_out = 0, w_out = 0;
     float v_out_max = 0.2, w_out_max = 0.2;
 
-    bool reached = true;
+    bool reached = false;
 
     Controller(Chassis* chassis);
 

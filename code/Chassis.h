@@ -32,6 +32,9 @@ public:
     float ang1 = 0, ang2 = 0;
 
     float x = 0, y = 0;
+    float x_prev[5] = {0.0};
+    float y_prev[5] = {0.0};
+    int cnt = 0;
 
     float v_set = 0, w_set = 0; //0-10000
 
