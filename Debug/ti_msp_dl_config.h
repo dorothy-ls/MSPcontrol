@@ -243,6 +243,12 @@ extern "C" {
 /* Defines for PIN_SPI_CS: GPIOB.18 with pinCMx 44 on package pin 15 */
 #define GPIO_SPI_PIN_SPI_CS_PIN                                 (DL_GPIO_PIN_18)
 #define GPIO_SPI_PIN_SPI_CS_IOMUX                                (IOMUX_PINCM44)
+/* Port definition for Pin Group GPIO_BUTTON */
+#define GPIO_BUTTON_PORT                                                 (GPIOB)
+
+/* Defines for PIN_BUTTON: GPIOB.2 with pinCMx 15 on package pin 50 */
+#define GPIO_BUTTON_PIN_BUTTON_PIN                               (DL_GPIO_PIN_2)
+#define GPIO_BUTTON_PIN_BUTTON_IOMUX                             (IOMUX_PINCM15)
 /* Port definition for Pin Group GPIO_LEDS */
 #define GPIO_LEDS_PORT                                                   (GPIOB)
 

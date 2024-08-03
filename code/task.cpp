@@ -135,6 +135,10 @@ volatile float vin = 12;
 volatile bool gCheckADC = false;
 volatile uint8_t signal_en_flag = 0;
 uint8_t init_flag = 0;
+uint32_t curr_button_state = DL_GPIO_readPins(GPIO_BUTTON_PORT,GPIO_BUTTON_PIN_BUTTON_PIN);
+uint32_t pre_button_state = DL_GPIO_readPins(GPIO_BUTTON_PORT,GPIO_BUTTON_PIN_BUTTON_PIN);
+uint8_t question_state = 1;
+uint8_t question_stop = 1;
 
 LS7366R ls7366r(SPI_ENCODER_INST,GPIO_ENCODER_PORT,GPIO_ENCODER_SI_L_PIN,GPIO_ENCODER_SI_R_PIN);
 Encoder left_encoder(&(ls7366r.leftValue));
@@ -145,6 +149,7 @@ void test_power();
 
 void signal_start();
 void signal_Handler();
+void Button_Handler();
 
 void UART_Transmit(UART_Regs *uart,uint8_t *data, uint16_t len);
 
@@ -273,6 +278,7 @@ void loop()
 
 void task_handler()
 {
+
     if(init_flag && imu.state == IMU_RUN)
     {
     ///if(utick % 10 == 0){
@@ -367,6 +373,7 @@ void task_handler()
         right_motor.Handler();
 
     }
+    Button_Handler();
 
 }
 
@@ -572,6 +579,24 @@ void UART_Transmit(UART_Regs *uart,uint8_t *data, uint16_t len)
         while( DL_UART_isBusy(uart) == true );
         DL_UART_transmitData(uart,data[i]);
     }
+}
+
+uint32_t wait_tick = 0;
+void Button_Handler()
+{
+    curr_button_state = DL_GPIO_readPins(GPIO_BUTTON_PORT,GPIO_BUTTON_PIN_BUTTON_PIN);
+    if(pre_button_state == 0 && curr_button_state != 0 && utick - wait_tick > 3000)
+    {
+//        question_state ++;
+//        if(question_state == 5)
+//            question_state = 0;
+        question_stop = !question_stop;
+        if(question_stop) question_state++;
+        if(question_state == 5)
+            question_state = 1;
+        wait_tick = utick;
+    }
+    pre_button_state = curr_button_state;
 }
 
 #endif

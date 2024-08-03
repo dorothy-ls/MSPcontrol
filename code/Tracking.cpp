@@ -14,8 +14,13 @@
 
 #include "Tracking.h"
 
-//#define QUESTION_2
-#define QUESTION_3
+
+extern uint8_t question_state, question_stop;
+extern uint8_t signal_en_flag;
+
+uint8_t prev_question_state = 0;
+uint32_t tick_start = 0;
+uint32_t start_tick = 0, end_tick = 800;
 
 Tracking::Tracking(Chassis *chassis, Controller *controller, PID_Controller *pid_controller) {
     this->chassis = chassis;
@@ -24,12 +29,62 @@ Tracking::Tracking(Chassis *chassis, Controller *controller, PID_Controller *pid
 }
 
 void Tracking::Handler() {
-#ifdef QUESTION_2
+
+if(question_stop){
+    chassis->state = CHASSIS_STOP;
+    chassis->v_set = 0;
+    chassis->w_set = 0;
+    state = 0;
+    tick_start = 0;
+}else if(question_state == 1){
+    switch (state) {
+           case 0:{
+               chassis->state = CHASSIS_STOP;
+               chassis->v_set = 0;
+               chassis->w_set = 0;
+               r1_set = false;
+               r2_set = false;
+               if(tick_start++ > 1000) state = 1;
+           } break;
+           case 1:{ //A->B->C
+               chassis->state = CHASSIS_RUN;
+               controller->x_set = 1;
+               controller->y_set = 0;
+               controller->state = 1;
+
+               if((chassis->inrange && controller->x_set - chassis->x < 0.2) || controller->reached){
+                   controller->state = 0;
+                   controller->reached = 0;
+                   pid_controller->dir = -1;
+                   pid_controller->state = 1;
+                   pid_controller->self_turn = true;
+                   start_tick = 0;
+                   state++;
+               }
+           } break;
+           case 2:{
+               if(start_tick++ >= end_tick && chassis->inrange){
+                   state++;
+                   pid_controller->state = 0;
+                   chassis->v_set = 0;
+                   chassis->w_set = 0;
+                   signal_en_flag = 1;
+               }
+
+           } break;
+
+    }
+}
+else if(question_state == 2){
     switch (state) {
         case 0:{
             chassis->state = CHASSIS_STOP;
             chassis->v_set = 0;
             chassis->w_set = 0;
+            controller->reached = false;
+            r1_set = false;
+            r2_set = false;
+            if(tick_start++ > 1000) state = 1;
         } break;
         case 1:{ //A->B->C
             chassis->state = CHASSIS_RUN;
@@ -38,6 +93,7 @@ void Tracking::Handler() {
             controller->state = 1;
             if(chassis->inrange){
                 if(!r1_set && 1 - chassis->x < 0.2){ //看到第一个点
+                    signal_en_flag = 1;
                     r1_set = true;
                     r1.x = chassis->x_line;
                     r1.y = chassis->y_line;
@@ -45,44 +101,58 @@ void Tracking::Handler() {
                     controller->state = 0;
                     pid_controller->dir = -1;
                     pid_controller->state = 1;
+                    pid_controller->self_turn = true;
                 }else{
                     r2.x = chassis->x_line;
                     r2.y = chassis->y_line;
                 }
             } else{
-                if(r1_set){ //看不到第二个点
-                    r2_set = true;
-                    pid_controller->state = 0;
-                    chassis->v_set = 0;
-                    chassis->w_set = 0;
-                    calibrate_pos2(r1, r2, POINT_B, POINT_C);
+                if(r1_set && chassis->y < -0.3){ //看不到第二个点
                     state++;
+                    r2_set = true;
+                    start_tick = 0;
+                    pid_controller->self_turn = false;
+                    calibrate_pos2(r1, r2, POINT_B, POINT_C);
                 }
             }
         } break;
-        case 2:{ //C->D
+        case 2:{
+            if(start_tick++ >= end_tick){
+                signal_en_flag = 1;
+                pid_controller->state = 0;
+                chassis->v_set = 0;
+                chassis->w_set = 0;
+                state++;
+            }
+
+        } break;
+        case 3:{ //C->D
             controller->y_set = -0.8;
             controller->x_set = -0.0;
             controller->state = 1;
-            if((chassis->inrange && ABS(chassis->x - controller->x_set) < 0.1) || controller->reached){
+            if((chassis->inrange && chassis->x - controller->x_set < 0.1) || controller->reached){
+                signal_en_flag = 1;
                 controller->state = 0;
                 chassis->v_set = 0;
                 chassis->w_set = 0;
                 state++;
             }
         } break;
-        case 3:{
+        case 4:{
             if(!chassis->inrange){
-                chassis->w_set = -0.1;
+                pid_controller->state = 1;
+                pid_controller->self_turn = true;
+
             }else{
                 chassis->w_set = 0;
                 r1_set = false;
                 r2_set = false;
                 pid_controller->state = 1;
+                pid_controller->self_turn = false;
                 state++;
             }
         } break;
-        case 4:{
+        case 5:{
             if(!chassis->inrange){
                 pid_controller->state = 0;
                 chassis->w_set = 0;
@@ -90,15 +160,42 @@ void Tracking::Handler() {
                 state++;
             }
         } break;
+        case 6:{
+            controller->y_set = 0;
+            controller->x_set = 0;
+            controller->state = 1;
+            if(-chassis->x + controller->x_set < 0.02 || controller->reached){
+                start_tick = 0;
+                state++;
+            }
+
+        } break;
+        case 7:{
+            if(start_tick++ >= end_tick){
+                state++;
+                pid_controller->state = 0;
+                chassis->v_set = 0;
+                chassis->w_set = 0;
+                signal_en_flag = 1;
+            }
+
+        } break;
+
+
     }
 
-#endif
-#ifdef QUESTION_3
+}
+else if(question_state == 3){
     switch (state) {
         case 0:{
             chassis->state = CHASSIS_STOP;
             chassis->v_set = 0;
             chassis->w_set = 0;
+            r1_set = false;
+            r2_set = false;
+            controller->reached = false;
+            chassis->inrange = false;
+            if(tick_start++ > 1000) state = 1;
         } break;
         case 1:{ // A->C->B
             chassis->state = CHASSIS_RUN;
@@ -112,7 +209,8 @@ void Tracking::Handler() {
             controller->state = 1;
 
             if(chassis->inrange){
-                if(!r1_set){ //鐪嬪埌绗竴涓偣
+                if(!r1_set && chassis->y < -0.6){ //C
+                    signal_en_flag = 1;
                     r1_set = true;
                     r1.x = chassis->x_line;
                     r1.y = chassis->y_line;
@@ -127,74 +225,249 @@ void Tracking::Handler() {
                     r2.y = chassis->y_line;
                 }
             } else{
-                if(r1_set && chassis->y > -0.2){ //鐪嬩笉鍒扮浜屼釜鐐�
+                if(r1_set && chassis->y > -0.2){ //B
                     r2_set = true;
-                    pid_controller->state = 0;
-                    chassis->v_set = 0;
-                    chassis->w_set = 0;
+                    pid_controller->self_turn = false;
                     calibrate_pos2(r1, r2, POINT_C, POINT_B);
+                    start_tick = 0;
                     state++;
-                }else if(controller->reached && !r1_set){
-                    pid_controller->state = 0;
+                }else if(controller->reached && !r1_set && 1 - chassis->x < 0.2){
+                    pid_controller->state = 1;
+                    pid_controller->dir = 1;
+                    pid_controller->self_turn = true;
                     controller->state = 0;
                     controller->reached = 0;
-                    chassis->w_set = w_set;
+                    //chassis->w_set = w_set;
                 }
             }
         } break;
-        case 2:{ // B->D
+        case 2:{
+            if(start_tick++ >= end_tick){//B
+                state++;
+                pid_controller->state = 0;
+                chassis->v_set = 0;
+                chassis->w_set = 0;
+                signal_en_flag = 1;
+            }
+
+        } break;
+        case 3:{ // B->D
             controller->y_set = -0.8;
             controller->x_set = 0.0;
             controller->state = 1;
             if((chassis->inrange && chassis->x - controller->x_set < 0.2) || controller->reached){
+                if(chassis->inrange){
+                    r1_set = true;
+                    r1.x = chassis->x_line;
+                    r1.y = chassis->y_line;
+                }
                 controller->state = 0;
                 controller->reached = 0;
                 chassis->v_set = 0;
                 chassis->w_set = 0;
-                state++;
-            }
-        } break;
-        case 3: {
-            if(!chassis->inrange){
-                chassis->w_set = -w_set;
-            }else{
-                chassis->w_set = 0;
-                r1_set = true;
-                r2_set = false;
-                r1.x = chassis->x_line;
-                r1.y = chassis->y_line;
-                pid_controller->dir = -1;
                 pid_controller->state = 1;
+                pid_controller->dir = -1;
+                pid_controller->self_turn = true;
+                start_tick = 0;
                 state++;
             }
         } break;
-        case 4:{ //D->A
+        case 4:{ //D
+            if(!r1_set){
+                if(chassis->inrange){
+                    r1_set = true;
+                    r1.x = chassis->x_line;
+                    r1.y = chassis->y_line;
+                }
+            }
+            if(start_tick++ >= end_tick && r1_set){//D
+                state++;
+                signal_en_flag = 1;
+                start_tick = 0;
+            }
+
+        } break;
+        case 5:{ //D->A
             if(!chassis->inrange && chassis->y > -0.2){
                 r2_set = true;
-                pid_controller->state = 0;
-                chassis->v_set = 0;
-                chassis->w_set = 0;
+                pid_controller->self_turn = false;
                 calibrate_pos2(r1, r2, POINT_D, POINT_A);
                 r1_set = false;
                 r2_set = false;
-                state = 1;
+                state++;
             }else{
                 if(chassis->inrange){
                     pid_controller->state = 1;
                     r2.x = chassis->x_line;
                     r2.y = chassis->y_line;
-                }else{
-                    pid_controller->state = 0;
-                    chassis->v_set = 0;
-                    chassis->w_set = -w_set;
                 }
+//                }else{
+//                    pid_controller->state = 0;
+//                    chassis->v_set = 0;
+//                    chassis->w_set = -w_set;
+//                }
 
+            }
+
+        } break;
+        case 6:{ //A
+
+            if(start_tick++ >= end_tick){//D
+                state++;
+                pid_controller->state = 0;
+                chassis->v_set = 0;
+                chassis->w_set = 0;
+                signal_en_flag = 1;
+                start_tick = 0;
             }
 
         } break;
         default: break;
     }
-#endif
+}else if(question_state == 4){
+    switch (state) {
+        case 0:{
+            chassis->state = CHASSIS_STOP;
+            chassis->v_set = 0;
+            chassis->w_set = 0;
+            r1_set = false;
+            r2_set = false;
+            controller->reached = false;
+            chassis->inrange = false;
+            if(tick_start++ > 1000) state = 1;
+        } break;
+        case 1:{ // A->C->B
+            chassis->state = CHASSIS_RUN;
+            if(!init_pos){
+                //chassis->x = init_x;
+                //chassis->y = init_y;
+                init_pos = 1;
+            }
+            controller->x_set = 1;
+            controller->y_set = -0.8;
+            controller->state = 1;
+
+            if(chassis->inrange){
+                if(!r1_set && chassis->y < -0.6){ //C
+                    signal_en_flag = 1;
+                    r1_set = true;
+                    r1.x = chassis->x_line;
+                    r1.y = chassis->y_line;
+
+                    controller->state = 0;
+                    controller->reached = 0;
+                    pid_controller->dir = 1;
+                    pid_controller->state = 1;
+                }else{
+                    pid_controller->state = 1;
+                    r2.x = chassis->x_line;
+                    r2.y = chassis->y_line;
+                }
+            } else{
+                if(r1_set && chassis->y > -0.2){ //B
+                    r2_set = true;
+                    pid_controller->self_turn = false;
+                    calibrate_pos2(r1, r2, POINT_C, POINT_B);
+                    start_tick = 0;
+                    state++;
+                }else if(controller->reached && !r1_set && 1 - chassis->x < 0.2){
+                    pid_controller->state = 1;
+                    pid_controller->dir = 1;
+                    pid_controller->self_turn = true;
+                    controller->state = 0;
+                    controller->reached = 0;
+                    //chassis->w_set = w_set;
+                }
+            }
+        } break;
+        case 2:{
+            if(start_tick++ >= end_tick){//B
+                state++;
+                pid_controller->state = 0;
+                chassis->v_set = 0;
+                chassis->w_set = 0;
+                signal_en_flag = 1;
+            }
+
+        } break;
+        case 3:{ // B->D
+            controller->y_set = -0.8;
+            controller->x_set = 0.0;
+            controller->state = 1;
+            if((chassis->inrange && chassis->x - controller->x_set < 0.2) || controller->reached){
+                if(chassis->inrange){
+                    r1_set = true;
+                    r1.x = chassis->x_line;
+                    r1.y = chassis->y_line;
+                }
+                controller->state = 0;
+                controller->reached = 0;
+                chassis->v_set = 0;
+                chassis->w_set = 0;
+                pid_controller->state = 1;
+                pid_controller->dir = -1;
+                pid_controller->self_turn = true;
+                start_tick = 0;
+                state++;
+            }
+        } break;
+        case 4:{ //D
+            if(!r1_set){
+                if(chassis->inrange){
+                    r1_set = true;
+                    r1.x = chassis->x_line;
+                    r1.y = chassis->y_line;
+                }
+            }
+            if(start_tick++ >= end_tick && r1_set){//D
+                state++;
+                signal_en_flag = 1;
+                start_tick = 0;
+            }
+
+        } break;
+        case 5:{ //D->A
+            if(!chassis->inrange && chassis->y > -0.2){
+                r2_set = true;
+                pid_controller->self_turn = false;
+                calibrate_pos2(r1, r2, POINT_D, POINT_A);
+                r1_set = false;
+                r2_set = false;
+                state++;
+            }else{
+                if(chassis->inrange){
+                    pid_controller->state = 1;
+                    r2.x = chassis->x_line;
+                    r2.y = chassis->y_line;
+                }
+//                }else{
+//                    pid_controller->state = 0;
+//                    chassis->v_set = 0;
+//                    chassis->w_set = -w_set;
+//                }
+
+            }
+
+        } break;
+        case 6:{ //A
+
+            if(start_tick++ >= end_tick){//D
+                state = 1;
+                r1_set = false;
+                r2_set = false;
+                controller->reached = false;
+                chassis->inrange = false;
+                pid_controller->state = 0;
+                chassis->v_set = 0;
+                chassis->w_set = 0;
+                signal_en_flag = 1;
+                start_tick = 0;
+            }
+
+        } break;
+        default: break;
+    }
+}
 }
 
 void Tracking::calibrate_pos(Point r1, Point r2, ref_point_e ref_r) {

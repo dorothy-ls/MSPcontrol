@@ -39,8 +39,8 @@ public:
     float v_set = 0, w_set = 0; //0-10000
 
     //视野参数
-    float D = 9.8 / 100;
-    float dl = 8.0 / 100 / 95;
+    float D = 9.6 / 100;
+    float dl = 8.0 / 100 / 99;
 
     //轨道识别信息
     bool inrange = false;

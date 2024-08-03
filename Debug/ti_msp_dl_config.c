@@ -176,6 +176,8 @@ SYSCONFIG_WEAK void SYSCFG_DL_GPIO_init(void)
 
     DL_GPIO_initDigitalOutput(GPIO_SPI_PIN_SPI_CS_IOMUX);
 
+    DL_GPIO_initDigitalInput(GPIO_BUTTON_PIN_BUTTON_IOMUX);
+
     DL_GPIO_initDigitalOutput(GPIO_LEDS_USER_LED_1_IOMUX);
 
     DL_GPIO_initDigitalOutput(GPIO_LEDS_USER_LED_2_IOMUX);

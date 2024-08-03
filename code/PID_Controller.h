@@ -22,6 +22,8 @@ public:
     float w_out_max = 0.2;
     float w_out;
 
+    bool self_turn = false;
+
     PID_Controller(Chassis* chassis);
     void Handler();
 
